@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "type_traits": "c",
+        "*.cuh": "c",
+        "vector": "c",
+        "array": "c",
+        "chrono": "c",
+        "functional": "c",
+        "istream": "c",
+        "ostream": "c",
+        "tuple": "c",
+        "utility": "c",
+        "random": "c"
+    }
+}

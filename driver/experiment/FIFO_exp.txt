@@ -1,0 +1,2825 @@
+Baseline
+
+--- Underflow (1500500)
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 467
+(Leo) TX interrupt queue 0 hw queue len 1, TSF 301408
+(Leo) TX interrupt queue Underflow!!!
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 474
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 446
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 460
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 476
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 435
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 783
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 477
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 485
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 470
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 782
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 503
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 480
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 431
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 435
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 746
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 498
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 469
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 784
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 507
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 482
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 475
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 749
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 476
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 477
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 471
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 420
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 812
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 492
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 450
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 468
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 434
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 465
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 475
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 798
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 512
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 855
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 500
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 922
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 465
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 477
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 438
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 446
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 788
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 479
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 481
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 440
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 468
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 443
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 447
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 675
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 482
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 446
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 441
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 469
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 444
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 737
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 489
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 450
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 428
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 783
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 460
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 434
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 443
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 582
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 484
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 439
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 433
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 446
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 991
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 620
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 508
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 470
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 450
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 942
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 471
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 439
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 581
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 503
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 477
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 455
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 485
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 463
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 724
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 479
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 462
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 444
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 450
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 436
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 807
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 479
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 430
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 468
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 450
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 952
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 548
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 468
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 465
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 813
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 486
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 441
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 462
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 430
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 830
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 460
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 441
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 491
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 462
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 508
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 447
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 627
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 483
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 441
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 716
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 484
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 438
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 435
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 442
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 712
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 523
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 473
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 446
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 471
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 625
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 513
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 462
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 424
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 839
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 489
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 467
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 835
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 1332
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 1365
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 1640
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 13473
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 949
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 715
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 981
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 660
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 950
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 1061
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 1591
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 815
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 806
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 980
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 751
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 974
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 916
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 665
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 829
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 752
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 1629
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 1210
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 730
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 1126
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 669
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 936
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 656
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 474
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 460
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 762
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 473
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 439
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 820
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 488
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 445
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 445
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 447
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 640
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 518
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 476
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 510
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 455
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 444
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 671
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 483
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 443
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 426
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 432
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 799
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 485
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 515
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 442
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 465
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 443
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 567
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 435
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 447
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 420
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 439
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 585
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 476
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 476
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 433
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 473
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 750
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 481
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 477
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 446
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 435
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 439
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 664
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 506
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 443
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 585
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 512
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 471
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 440
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 467
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 622
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 478
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 462
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 508
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 465
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 429
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 478
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 597
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 478
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 435
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 467
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 441
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 433
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 579
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 505
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 440
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 548
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 479
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 441
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 450
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 455
+(Leo) TX interrupt queue 0 hw queue len 1, TSF 300775
+(Leo) TX interrupt queue Underflow!!!
+(Leo) TX interrupt queue 0 hw queue len 1, TSF 724
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 489
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 463
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 443
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 810
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 513
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 427
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 446
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 825
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 455
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 499
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 418
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 814
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 507
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 468
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 438
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 476
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 433
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 469
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 836
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 496
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 471
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 460
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 773
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 509
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 462
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 1930
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 734
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 503
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 971
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 468
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 450
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 443
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 867
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 496
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 473
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 484
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 871
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 542
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 455
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 477
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 940
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 498
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 445
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 443
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 765
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 518
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 441
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 443
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 462
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 757
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 504
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 444
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 450
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 469
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 475
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 926
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 501
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 504
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 443
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 439
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 604
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 476
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 447
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 425
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 768
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 490
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 511
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 447
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 479
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 829
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 529
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 498
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 494
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 455
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 603
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 523
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 484
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 469
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 467
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 791
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 493
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 478
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 437
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 434
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 420
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 831
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 482
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 467
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 442
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 441
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 565
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 495
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 446
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 492
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 804
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 512
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 455
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 480
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 440
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 788
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 493
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 467
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 488
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 606
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 473
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 438
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 434
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 434
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 469
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 710
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 496
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 484
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 463
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 455
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 443
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 764
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 487
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 478
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 445
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 462
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 575
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 516
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 479
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 1535
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 1152
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 1792
+(Leo) TX interrupt queue 0 hw queue len 0, TSF 991
+
+--- Overflow (1499950)
+(Leo) TX interrupt queue 0 hw queue len 8, TSF 482
+(Leo) TX interrupt queue 0 hw queue len 8, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 8, TSF 490
+(Leo) TX interrupt queue 0 hw queue len 8, TSF 798
+(Leo) TX interrupt queue 0 hw queue len 8, TSF 501
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 470
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 465
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 431
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 547
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 471
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 437
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 436
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 437
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 590
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 469
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 465
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 434
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 473
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 542
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 483
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 444
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 450
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 436
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 437
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 610
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 485
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 490
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 446
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 426
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 439
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 557
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 455
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 547
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 536
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 490
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 445
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 434
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 543
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 462
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 455
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 468
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 431
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 599
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 480
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 475
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 561
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 462
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 477
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 440
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 447
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 436
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 586
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 467
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 467
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 475
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 443
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 592
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 472
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 465
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 463
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 592
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 438
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 442
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 440
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 429
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 422
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 557
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 463
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 551
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 504
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 478
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 807
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 506
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 441
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 439
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 574
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 478
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 471
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 441
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 594
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 483
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 467
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 447
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 463
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 782
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 498
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 469
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 572
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 509
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 465
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 427
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 445
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 442
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 556
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 468
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 1205
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 515
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 503
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 977
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 499
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 477
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 434
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 471
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 470
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 574
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 500
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 470
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 476
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 428
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 446
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 605
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 493
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 463
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 430
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 455
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 863
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 490
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 469
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 444
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 626
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 440
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 424
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 543
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 486
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 438
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 433
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 483
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 416
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 827
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 495
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 467
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 474
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 440
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 718
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 518
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 480
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 468
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 473
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 496
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 467
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 618
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 468
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 497
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 436
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 429
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 779
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 490
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 447
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 442
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 426
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 783
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 471
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 439
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 475
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 430
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 430
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 575
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 481
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 486
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 455
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 766
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 438
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 430
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 442
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 851
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 443
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 434
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 602
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 500
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 468
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 443
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 850
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 499
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 435
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 442
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 471
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 763
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 440
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 463
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 456
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 984
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 475
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 496
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 476
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 859
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 546
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 455
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 497
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 434
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 462
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 831
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 1081
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 862
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 527
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 498
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 496
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 968
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 538
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 507
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 467
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 482
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 439
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 901
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 481
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 499
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 470
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 796
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 486
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 482
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 484
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 460
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 444
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 854
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 485
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 445
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 470
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 417
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 776
+(Leo) TX interrupt queue 0 hw queue len 9, TSF 479
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 493
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 442
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 444
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 471
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 433
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 673
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 463
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 492
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 491
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 480
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 440
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 608
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 481
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 471
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 450
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 484
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 581
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 445
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 435
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 580
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 470
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 422
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 444
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 424
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 472
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 646
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 477
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 499
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 463
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 450
+beacon TX interrupt  T_JIT 262930 T_MAC 299999 Delta_T 185 Buffered packet 10 
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 440
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 584
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 486
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 468
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 460
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 463
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 441
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 578
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 481
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 435
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 444
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 426
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 605
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 467
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 490
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 470
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 442
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 447
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 571
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 478
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 474
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 462
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 424
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 581
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 496
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 445
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 475
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 441
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 480
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 422
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 579
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 458
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 438
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 468
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 683
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 472
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 443
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 440
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 565
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 499
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 439
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 483
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 442
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 621
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 483
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 454
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 462
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 447
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 816
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 442
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 479
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 474
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 474
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 604
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 450
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 440
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 453
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 437
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 621
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 473
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 472
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 443
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 439
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 803
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 481
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 475
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 451
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 436
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 481
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 424
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 592
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 496
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 445
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 449
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 440
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 469
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 584
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 508
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 510
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 452
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 444
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 778
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 447
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 493
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 469
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 442
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 427
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 554
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 461
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 468
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 437
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 466
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 434
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 550
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 474
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 506
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 438
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 439
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 802
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 481
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 459
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 444
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 435
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 455
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 463
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 621
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 448
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 457
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 464
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 440
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 1837
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 1333
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 1660
+(Leo) TX interrupt queue 0 hw queue len 10, TSF 1146
+
+
+JIT sytem (RTT  target: 50us )
+
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000520143: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000521724: 
+RX interrupt: AP Detects lp at 58259 decodes SIG at 59995 Receives Response Message at 83185 
+receive the response 0.000522180: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000521550: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000525024: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000522522: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000521559: 
+RX interrupt: AP Detects lp at 58249 decodes SIG at 59985 Receives Response Message at 83175 
+receive the response 0.000521586: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60045 Receives Response Message at 83235 
+receive the response 0.000520896: 
+RX interrupt: AP Detects lp at 58249 decodes SIG at 59975 Receives Response Message at 83165 
+receive the response 0.000524301: 
+RX interrupt: AP Detects lp at 58319 decodes SIG at 60045 Receives Response Message at 83235 
+receive the response 0.000523005: 
+RX interrupt: AP Detects lp at 58249 decodes SIG at 59985 Receives Response Message at 83175 
+receive the response 0.000521595: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60055 Receives Response Message at 83245 
+receive the response 0.000521532: 
+RX interrupt: AP Detects lp at 58249 decodes SIG at 59985 Receives Response Message at 83175 
+receive the response 0.000520920: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000524967: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000523053: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000521556: 
+RX interrupt: AP Detects lp at 58319 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000522531: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000519442: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 59995 Receives Response Message at 83185 
+receive the response 0.000520671: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000522222: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000519882: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000521328: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000525225: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000523092: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000521004: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000521550: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000521187: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000525954: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000523038: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000521202: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 59985 Receives Response Message at 83175 
+receive the response 0.000521460: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60045 Receives Response Message at 83235 
+receive the response 0.000521460: 
+RX interrupt: AP Detects lp at 58259 decodes SIG at 59985 Receives Response Message at 83175 
+receive the response 0.000524757: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000522471: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000521652: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000522594: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000519570: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000521925: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000522525: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000519858: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000522891: 
+RX interrupt: AP Detects lp at 58329 decodes SIG at 60055 Receives Response Message at 83245 
+receive the response 0.000522963: 
+RX interrupt: AP Detects lp at 58259 decodes SIG at 59975 Receives Response Message at 83165 
+receive the response 0.000522699: 
+RX interrupt: AP Detects lp at 58329 decodes SIG at 60055 Receives Response Message at 83245 
+receive the response 0.000521676: 
+RX interrupt: AP Detects lp at 58249 decodes SIG at 59985 Receives Response Message at 83175 
+receive the response 0.000521319: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000524658: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 59995 Receives Response Message at 83185 
+receive the response 0.000522450: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000521256: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000521229: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000521253: 
+RX interrupt: AP Detects lp at 58319 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000526353: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000523416: 
+RX interrupt: AP Detects lp at 58319 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000521703: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000517869: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000521226: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000522795: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000522675: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000519312: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 59995 Receives Response Message at 83185 
+receive the response 0.000521325: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000522348: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000522327: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000521391: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000521751: 
+RX interrupt: AP Detects lp at 58249 decodes SIG at 59985 Receives Response Message at 83175 
+receive the response 0.000521457: 
+RX interrupt: AP Detects lp at 58359 decodes SIG at 60095 Receives Response Message at 83285 
+receive the response 0.000521733: 
+RX interrupt: AP Detects lp at 58229 decodes SIG at 59965 Receives Response Message at 83155 
+receive the response 0.000521418: 
+RX interrupt: AP Detects lp at 58389 decodes SIG at 60125 Receives Response Message at 83315 
+receive the response 0.000521532: 
+RX interrupt: AP Detects lp at 58219 decodes SIG at 59945 Receives Response Message at 83135 
+receive the response 0.000520860: 
+RX interrupt: AP Detects lp at 58449 decodes SIG at 60175 Receives Response Message at 83365 
+receive the response 0.000522780: 
+RX interrupt: AP Detects lp at 58199 decodes SIG at 59945 Receives Response Message at 83135 
+receive the response 0.000522213: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000518757: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000520881: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 59995 Receives Response Message at 83185 
+receive the response 0.000522123: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000521715: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000522498: 
+RX interrupt: AP Detects lp at 58339 decodes SIG at 60065 Receives Response Message at 83255 
+receive the response 0.000522201: 
+RX interrupt: AP Detects lp at 58229 decodes SIG at 59975 Receives Response Message at 83165 
+receive the response 0.000521601: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60045 Receives Response Message at 83235 
+receive the response 0.000521745: 
+RX interrupt: AP Detects lp at 58259 decodes SIG at 59975 Receives Response Message at 83165 
+receive the response 0.000523014: 
+RX interrupt: AP Detects lp at 58319 decodes SIG at 60045 Receives Response Message at 83235 
+receive the response 0.000520617: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000522579: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000522345: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000521706: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000521466: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000525142: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000522480: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000521034: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000522171: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000521292: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000525909: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 59985 Receives Response Message at 83175 
+receive the response 0.000522381: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000521796: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000522876: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000521721: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000524790: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 59995 Receives Response Message at 83185 
+receive the response 0.000520353: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000521082: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000522531: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000521856: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000522870: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000522616: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000519678: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000521397: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000521892: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000523149: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000520971: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000534984: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000552363: 
+RX interrupt: AP Detects lp at 58259 decodes SIG at 59995 Receives Response Message at 83185 
+receive the response 0.000540444: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000526170: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000522285: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000521655: 
+RX interrupt: AP Detects lp at 58259 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000526566: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000524082: 
+RX interrupt: AP Detects lp at 58259 decodes SIG at 59995 Receives Response Message at 83185 
+receive the response 0.000521481: 
+RX interrupt: AP Detects lp at 58319 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000522465: 
+RX interrupt: AP Detects lp at 58249 decodes SIG at 59985 Receives Response Message at 83175 
+receive the response 0.000525627: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000523845: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000521076: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000522270: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000520872: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000525672: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000520140: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000521238: 
+RX interrupt: AP Detects lp at 58259 decodes SIG at 59995 Receives Response Message at 83185 
+receive the response 0.000522054: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000521433: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000522981: 
+RX interrupt: AP Detects lp at 58259 decodes SIG at 59995 Receives Response Message at 83185 
+receive the response 0.000521736: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000520851: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000521550: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000521874: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000522960: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000522894: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000519225: 
+RX interrupt: AP Detects lp at 58259 decodes SIG at 59995 Receives Response Message at 83185 
+receive the response 0.000521910: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000525483: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000525990: 
+RX interrupt: AP Detects lp at 58319 decodes SIG at 60055 Receives Response Message at 83245 
+receive the response 0.000522645: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 59985 Receives Response Message at 83175 
+receive the response 0.000524268: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000534300: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 59995 Receives Response Message at 83185 
+receive the response 0.000525348: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000522180: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000524103: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 59995 Receives Response Message at 83185 
+receive the response 0.000521757: 
+RX interrupt: AP Detects lp at 58319 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000523248: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 59995 Receives Response Message at 83185 
+receive the response 0.000521802: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000519072: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000521085: 
+RX interrupt: AP Detects lp at 58259 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000521874: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000522912: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 59995 Receives Response Message at 83185 
+receive the response 0.000524715: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000520887: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000522564: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 59995 Receives Response Message at 83185 
+receive the response 0.000526785: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000520623: 
+RX interrupt: AP Detects lp at 58259 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000521943: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000522951: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000521613: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000523215: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000522048: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000521757: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000521739: 
+RX interrupt: AP Detects lp at 58269 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000525783: 
+RX interrupt: AP Detects lp at 58309 decodes SIG at 60045 Receives Response Message at 83235 
+receive the response 0.000522678: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000522417: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000519498: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000520866: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000521670: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60035 Receives Response Message at 83225 
+receive the response 0.000521694: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000522372: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000519309: 
+RX interrupt: AP Detects lp at 58299 decodes SIG at 60025 Receives Response Message at 83215 
+receive the response 0.000521532: 
+RX interrupt: AP Detects lp at 58279 decodes SIG at 60005 Receives Response Message at 83195 
+receive the response 0.000522561: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60015 Receives Response Message at 83205 
+receive the response 0.000519990: 
+RX interrupt: AP Detects lp at 58289 decodes SIG at 60025 Receives Response Message at 83215 
+
+
+Baseline sytem (RTT  target: 50us ) with only offset
+
+RX interrupt: AP Detects lp at 58257 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000742026: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740172: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000741873: 
+beacon TX interrupt  T_JIT 245973 T_MAC 299999 Delta_T 270 Buffered packet 0 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000738816: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000740445: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000741918: 
+RX interrupt: AP Detects lp at 58257 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000739140: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000740742: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000741552: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000739902: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000740736: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000742284: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000743418: 
+RX interrupt: AP Detects lp at 58317 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000742600: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000739773: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000741123: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000743046: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000739317: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740367: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000741531: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000739461: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740947: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000741195: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000740829: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000742356: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000739149: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740835: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000741024: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000740514: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000742566: 
+RX interrupt: AP Detects lp at 58257 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000739317: 
+RX interrupt: AP Detects lp at 58317 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000740592: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000740703: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740181: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000742110: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000739035: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740097: 
+RX interrupt: AP Detects lp at 58257 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000741306: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000740352: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000742731: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000741354: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000740535: 
+RX interrupt: AP Detects lp at 58257 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000744888: 
+RX interrupt: AP Detects lp at 58327 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000748467: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740850: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000743580: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000744957: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740523: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000740829: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000742764: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000739554: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740817: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000741321: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000740319: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000742959: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000738792: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000740778: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000742476: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000739611: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000740463: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000741996: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000740199: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000742560: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000739167: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740709: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000741648: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740796: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000741957: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000741129: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000743088: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740856: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000739437: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000741048: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000742137: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000739668: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000741084: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000741120: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740334: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740937: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000743133: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740751: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000741141: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740868: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000741999: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000742332: 
+RX interrupt: AP Detects lp at 58317 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000740520: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000740862: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000742206: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000742557: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740916: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740943: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000740682: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000741855: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000742083: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740928: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740745: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000740820: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000742332: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000742197: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740373: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000741135: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000740373: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000742236: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000739503: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740910: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000742464: 
+RX interrupt: AP Detects lp at 58257 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000741633: 
+RX interrupt: AP Detects lp at 58327 decodes SIG at 60043 Receives Response Message at 83233 
+receive the response 0.000740658: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000741660: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000741453: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740835: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000741930: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60043 Receives Response Message at 83233 
+receive the response 0.000741822: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000741390: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740946: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000741378: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000739671: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740586: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000741408: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000743277: 
+RX interrupt: AP Detects lp at 58257 decodes SIG at 59983 Receives Response Message at 83173 
+receive the response 0.000740091: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000740877: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000741822: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000743538: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740754: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000739719: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000740214: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000742284: 
+RX interrupt: AP Detects lp at 58257 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000741312: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740418: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000741873: 
+RX interrupt: AP Detects lp at 58257 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000738876: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000740517: 
+RX interrupt: AP Detects lp at 58257 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000741807: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000741054: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000741993: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000741612: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000744189: 
+RX interrupt: AP Detects lp at 58257 decodes SIG at 59983 Receives Response Message at 83173 
+receive the response 0.000746058: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60043 Receives Response Message at 83233 
+receive the response 0.000741414: 
+RX interrupt: AP Detects lp at 58227 decodes SIG at 59953 Receives Response Message at 83143 
+receive the response 0.000742911: 
+RX interrupt: AP Detects lp at 58317 decodes SIG at 60053 Receives Response Message at 83243 
+receive the response 0.000740772: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000742197: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000739302: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740973: 
+RX interrupt: AP Detects lp at 58257 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000741612: 
+RX interrupt: AP Detects lp at 58317 decodes SIG at 60043 Receives Response Message at 83233 
+receive the response 0.000741063: 
+RX interrupt: AP Detects lp at 58247 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000742818: 
+RX interrupt: AP Detects lp at 58347 decodes SIG at 60073 Receives Response Message at 83263 
+receive the response 0.000742680: 
+RX interrupt: AP Detects lp at 58237 decodes SIG at 59963 Receives Response Message at 83153 
+receive the response 0.000741504: 
+RX interrupt: AP Detects lp at 58327 decodes SIG at 60053 Receives Response Message at 83243 
+receive the response 0.000742722: 
+RX interrupt: AP Detects lp at 58247 decodes SIG at 59983 Receives Response Message at 83173 
+receive the response 0.000740376: 
+RX interrupt: AP Detects lp at 58317 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000742125: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000743415: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000741930: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000740475: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000742464: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000739602: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740697: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000741729: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000741087: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000743073: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000741243: 
+RX interrupt: AP Detects lp at 58257 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000740703: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000741948: 
+RX interrupt: AP Detects lp at 58257 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000739404: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000740496: 
+RX interrupt: AP Detects lp at 58257 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000742101: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000739779: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740769: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000742446: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000739080: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000740862: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000741775: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740499: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000742332: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000739104: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000741267: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000741645: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000739308: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000740262: 
+RX interrupt: AP Detects lp at 58257 decodes SIG at 59983 Receives Response Message at 83173 
+receive the response 0.000742416: 
+RX interrupt: AP Detects lp at 58317 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000741705: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000739965: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740232: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000741588: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740475: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000741681: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740832: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740481: 
+RX interrupt: AP Detects lp at 58277 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000741525: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000742218: 
+RX interrupt: AP Detects lp at 58267 decodes SIG at 59993 Receives Response Message at 83183 
+receive the response 0.000740676: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60033 Receives Response Message at 83223 
+receive the response 0.000741579: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60003 Receives Response Message at 83193 
+receive the response 0.000744681: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740679: 
+RX interrupt: AP Detects lp at 58307 decodes SIG at 60023 Receives Response Message at 83213 
+receive the response 0.000740241: 
+RX interrupt: AP Detects lp at 58287 decodes SIG at 60013 Receives Response Message at 83203 
+receive the response 0.000740223: 
+RX interrupt: AP Detects lp at 58297 decodes SIG at 60023 Receives Response Message at 83213 
+
+Baseline
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001457571: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.001439427: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.001420087: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.001399455: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001381569: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001355886: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001339284: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.001315329: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001292085: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001274340: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001250727: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.001221555: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001203885: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.001208112: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001174137: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.001146552: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.001124955: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.001106046: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60047 Receives Response Message at 83237 
+receive the response 0.001089075: 
+RX interrupt: AP Detects lp at 58261 decodes SIG at 59987 Receives Response Message at 83177 
+receive the response 0.001067961: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60037 Receives Response Message at 83227 
+receive the response 0.001046760: 
+RX interrupt: AP Detects lp at 58261 decodes SIG at 59987 Receives Response Message at 83177 
+receive the response 0.001022037: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60037 Receives Response Message at 83227 
+receive the response 0.001000521: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000978306: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000956496: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000934239: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000916596: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.000891489: 
+RX interrupt: AP Detects lp at 58331 decodes SIG at 60067 Receives Response Message at 83257 
+receive the response 0.000855519: 
+RX interrupt: AP Detects lp at 58251 decodes SIG at 59977 Receives Response Message at 83167 
+receive the response 0.000833769: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000815820: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000791247: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000773838: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000754734: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.000733662: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000711624: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000685407: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000655920: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000634119: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000611340: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000570630: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000550434: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000526461: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000509052: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000490440: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000465639: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000444501: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000420480: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000399315: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000381879: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000356733: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000339399: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000320091: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000291486: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000274149: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000255378: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000226536: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000209436: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000190323: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000169668: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000150822: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000126411: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000104319: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60037 Receives Response Message at 83227 
+receive the response 0.000085827: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.000059919: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000039303: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000024294: 
+sdr,sdr openwifi_tx: WARNING status!=DMA_COMPLETE
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.001490985: 
+sdr,sdr openwifi_tx: WARNING status!=DMA_COMPLETE
+RX interrupt: AP Detects lp at 58281 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.001472520: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.001455423: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.001435740: 
+RX interrupt: AP Detects lp at 58321 decodes SIG at 60037 Receives Response Message at 83227 
+receive the response 0.001414858: 
+RX interrupt: AP Detects lp at 58261 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.001390476: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60037 Receives Response Message at 83227 
+receive the response 0.001374390: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.001355934: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001336146: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001314018: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001291566: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001271166: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.001249378: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.001225161: 
+RX interrupt: AP Detects lp at 58251 decodes SIG at 59987 Receives Response Message at 83177 
+receive the response 0.001180839: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.001159791: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001139184: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.001120317: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001096185: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001079475: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.001055796: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001039710: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001014228: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000993903: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000974172: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000955647: 
+beacon TX interrupt  T_JIT 204080 T_MAC 299999 Delta_T 479 Buffered packet 0 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000931470: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000908830: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000895503: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.000874011: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60037 Receives Response Message at 83227 
+receive the response 0.000855858: 
+RX interrupt: AP Detects lp at 58261 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.000837000: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60037 Receives Response Message at 83227 
+receive the response 0.000814410: 
+RX interrupt: AP Detects lp at 58261 decodes SIG at 59987 Receives Response Message at 83177 
+receive the response 0.000794325: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000774054: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000755547: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000731757: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000714003: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000694890: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000674430: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.000645771: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000625782: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000604353: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000586002: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000560988: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000544122: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000525447: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000496545: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000478923: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60037 Receives Response Message at 83227 
+receive the response 0.000455922: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.000430515: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000415143: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000394953: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000374442: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000355686: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60037 Receives Response Message at 83227 
+receive the response 0.000331560: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.000313710: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000294525: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000274074: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000259338: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60037 Receives Response Message at 83227 
+receive the response 0.000231366: 
+RX interrupt: AP Detects lp at 58251 decodes SIG at 59987 Receives Response Message at 83177 
+receive the response 0.000204624: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000183390: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000158055: 
+RX interrupt: AP Detects lp at 58381 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000130656: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60037 Receives Response Message at 83227 
+receive the response 0.000091119: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 59987 Receives Response Message at 83177 
+receive the response 0.000066417: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60037 Receives Response Message at 83227 
+receive the response 0.000049296: 
+RX interrupt: AP Detects lp at 58261 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.000030450: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000004671: 
+sdr,sdr openwifi_tx: WARNING status!=DMA_COMPLETE
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.001490070: 
+sdr,sdr openwifi_tx: WARNING status!=DMA_COMPLETE
+RX interrupt: AP Detects lp at 58391 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001465065: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001444323: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001426056: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001403466: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001365651: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.001344381: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.001326228: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.001298790: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.001278798: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.001260987: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.001242081: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.001219866: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.001196766: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.001175892: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.001154886: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60037 Receives Response Message at 83227 
+receive the response 0.001131372: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.001114092: 
+RX interrupt: AP Detects lp at 58311 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001094625: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.001076247: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.001053804: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.001031598: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.000995631: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000976227: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000953883: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000931365: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000914193: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000895884: 
+RX interrupt: AP Detects lp at 58391 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000875982: 
+RX interrupt: AP Detects lp at 58261 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.000853491: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60037 Receives Response Message at 83227 
+receive the response 0.000831726: 
+RX interrupt: AP Detects lp at 58261 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.000814434: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60037 Receives Response Message at 83227 
+receive the response 0.000795909: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 59997 Receives Response Message at 83187 
+receive the response 0.000772542: 
+RX interrupt: AP Detects lp at 58291 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000758580: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000731535: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60017 Receives Response Message at 83207 
+receive the response 0.000709335: 
+RX interrupt: AP Detects lp at 58271 decodes SIG at 60007 Receives Response Message at 83197 
+receive the response 0.000686433: 
+RX interrupt: AP Detects lp at 58301 decodes SIG at 60027 Receives Response Message at 83217 
+receive the response 0.000665160: 
+RX interrupt: AP Detects lp at 58281 decodes SIG at 60007 Receives Response Message at 83197 
+
+
+
+JIT system FIFO Delta_T
+
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170172: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000173073: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170238: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171045: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170175: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170946: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170181: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171090: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170127: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171765: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000169992: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000170934: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170424: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170781: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171081: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170802: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170025: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171066: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000169926: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171972: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170964: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170676: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170049: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000172098: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170067: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171207: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171171: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172011: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000169992: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000172683: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000169848: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171933: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170169: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170961: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170037: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000172794: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170052: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000170907: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170163: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172182: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171231: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000172194: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000171141: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172278: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170301: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170871: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170982: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171612: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170019: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000172071: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171255: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000172848: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000169971: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171117: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170133: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000173196: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000169908: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000172902: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170025: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172914: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000171186: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170970: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000169935: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171771: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170874: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171012: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000169845: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000173097: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000171003: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171840: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000169824: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000172215: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171096: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000173127: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000187206: 
+Delta_T 46 -step -3000 Buff_Len 0
+sdr,sdr recv set cmd reg cat 9 addr 00000000 val 00000001 idx 0
+sdr,sdr recv set cmd reg cat 7 addr 0000001c val 00000002 idx 7
+send out the request 0.000187797: 
+Delta_T 58 step 6000 Buff_Len 0
+send out the request 0.000170490: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000175059: 
+Delta_T 55 step 4000 Buff_Len 0
+send out the request 0.000170940: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171714: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170886: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171579: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171210: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170925: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170100: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171912: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170112: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171012: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171210: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171828: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171234: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170964: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170037: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000173019: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000171288: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171849: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170112: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171741: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170133: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172113: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000171219: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000172743: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170109: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000174873: 
+Delta_T 55 step 4000 Buff_Len 0
+send out the request 0.000171057: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171927: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171162: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170964: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171138: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172929: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000169980: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000173364: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171180: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171921: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170982: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171126: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171030: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172044: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171021: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172212: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170913: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172815: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000171132: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171933: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170037: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171930: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171084: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172125: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000169992: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000178839: 
+Delta_T 56 step 4000 Buff_Len 0
+send out the request 0.000168420: 
+Delta_T 47 -step -2000 Buff_Len 0
+send out the request 0.000173754: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170109: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171933: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170142: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000174568: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000178248: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000174723: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000170895: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000173973: 
+Delta_T 54 step 3000 Buff_Len 0
+send out the request 0.000171315: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170955: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170949: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171609: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170076: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000170727: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170190: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000167880: 
+Delta_T 45 -step -4000 Buff_Len 0
+send out the request 0.000170796: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000173961: 
+Delta_T 54 step 3000 Buff_Len 0
+send out the request 0.000169899: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172656: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170988: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171672: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171138: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171840: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170121: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171063: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171135: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000173013: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000171198: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000172158: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000169782: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000172989: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170175: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170751: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170772: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172227: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000171231: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170976: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171210: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171870: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171159: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171225: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171252: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171891: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170337: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172767: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000171069: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171888: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000169959: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171099: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170328: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171738: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171075: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171123: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000169971: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171978: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170103: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171123: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000168054: 
+Delta_T 42 -step -6000 Buff_Len 0
+send out the request 0.000172797: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000169734: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171072: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171057: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171660: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171243: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171288: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170352: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171663: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170202: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000173898: 
+Delta_T 54 step 3000 Buff_Len 0
+send out the request 0.000171225: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000172008: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171366: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000172893: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170070: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171885: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171105: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171930: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171360: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000172965: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170913: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171003: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171189: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000172119: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000169887: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170919: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000169899: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000172101: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171372: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171096: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170031: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171978: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170274: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172380: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000171177: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171825: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170244: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170877: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171012: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171513: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171096: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000315057: 
+Delta_T 69 step 15000 Buff_Len 0
+send out the request 0.000173388: 
+Delta_T 48 -step -1000 Buff_Len 0
+send out the request 0.000175215: 
+Delta_T 49 -step 0 Buff_Len 0
+send out the request 0.000170856: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171837: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171057: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171654: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170910: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171813: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170277: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171015: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000169632: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171882: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170034: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000170889: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171144: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171612: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170649: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000173031: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000171033: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171873: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170076: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171126: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170136: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000173001: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000169902: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000172269: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000171030: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172977: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000169146: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000170871: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170190: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172755: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170172: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170739: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170013: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000174042: 
+Delta_T 54 step 3000 Buff_Len 0
+send out the request 0.000170148: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171318: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171225: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000172653: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170232: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171156: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170331: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172773: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170157: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170877: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170280: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172620: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000169839: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171066: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170214: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172002: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170049: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172917: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170076: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171615: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170184: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172059: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170961: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172083: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170091: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171192: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000169851: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171768: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170238: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170916: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170325: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172488: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170052: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171336: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170916: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171864: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000169992: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171180: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171072: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171924: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170838: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170997: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000170241: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171738: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170391: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000172617: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000169209: 
+Delta_T 48 -step -1000 Buff_Len 0
+send out the request 0.000172962: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170991: 
+Delta_T 51 step 0 Buff_Len 0
+send out the request 0.000171162: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000169998: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171807: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170154: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000171321: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171384: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000172185: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000171120: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000172206: 
+Delta_T 53 step 2000 Buff_Len 0
+send out the request 0.000170061: 
+Delta_T 50 step 0 Buff_Len 0
+send out the request 0.000172119: 
+Delta_T 52 step 1000 Buff_Len 0
+send out the request 0.000170151: 
+Delta_T 51 step 0 Buff_Len 0
+
+
+
+baseline (>) 1500500
+beacon TX interrupt  T_JIT 211501 T_MAC 299999 Delta_T 442 Buffered packet 0 
+beacon TX interrupt  T_JIT 11650 T_MAC 299999 Delta_T 1441 Buffered packet 1 
+beacon TX interrupt  T_JIT 111511 T_MAC 299999 Delta_T 942 Buffered packet 0 
+beacon TX interrupt  T_JIT 211498 T_MAC 299999 Delta_T 442 Buffered packet 0 
+beacon TX interrupt  T_JIT 11534 T_MAC 299999 Delta_T 1442 Buffered packet 1 
+beacon TX interrupt  T_JIT 111465 T_MAC 299999 Delta_T 942 Buffered packet 0 
+beacon TX interrupt  T_JIT 211444 T_MAC 299999 Delta_T 442 Buffered packet 0 
+beacon TX interrupt  T_JIT 11584 T_MAC 299999 Delta_T 1442 Buffered packet 1 
+beacon TX interrupt  T_JIT 111459 T_MAC 299999 Delta_T 942 Buffered packet 0 
+beacon TX interrupt  T_JIT 211444 T_MAC 299999 Delta_T 442 Buffered packet 0 
+beacon TX interrupt  T_JIT 12329 T_MAC 299999 Delta_T 1438 Buffered packet 1 
+beacon TX interrupt  T_JIT 111460 T_MAC 299999 Delta_T 942 Buffered packet 0 
+beacon TX interrupt  T_JIT 211422 T_MAC 299999 Delta_T 442 Buffered packet 0 
+beacon TX interrupt  T_JIT 11614 T_MAC 299999 Delta_T 1441 Buffered packet 1 
+beacon TX interrupt  T_JIT 111815 T_MAC 299999 Delta_T 940 Buffered packet 0 
+beacon TX interrupt  T_JIT 211808 T_MAC 299999 Delta_T 440 Buffered packet 0 
+beacon TX interrupt  T_JIT 13132 T_MAC 299999 Delta_T 1434 Buffered packet 1 
+beacon TX interrupt  T_JIT 111544 T_MAC 299999 Delta_T 942 Buffered packet 0 
+beacon TX interrupt  T_JIT 211511 T_MAC 299999 Delta_T 442 Buffered packet 0 
+beacon TX interrupt  T_JIT 11515 T_MAC 299999 Delta_T 1442 Buffered packet 1 
+beacon TX interrupt  T_JIT 111368 T_MAC 299999 Delta_T 943 Buffered packet 0 
+beacon TX interrupt  T_JIT 211400 T_MAC 299999 Delta_T 442 Buffered packet 0 
+beacon TX interrupt  T_JIT 11443 T_MAC 299999 Delta_T 1442 Buffered packet 1 
+beacon TX interrupt  T_JIT 111349 T_MAC 299999 Delta_T 943 Buffered packet 0 
+beacon TX interrupt  T_JIT 211303 T_MAC 299999 Delta_T 443 Buffered packet 0 
+beacon TX interrupt  T_JIT 11455 T_MAC 299999 Delta_T 1442 Buffered packet 1 
+beacon TX interrupt  T_JIT 111386 T_MAC 299999 Delta_T 943 Buffered packet 0 
+beacon TX interrupt  T_JIT 211301 T_MAC 299999 Delta_T 443 Buffered packet 0 
+beacon TX interrupt  T_JIT 11461 T_MAC 299999 Delta_T 1442 Buffered packet 1 
+beacon TX interrupt  T_JIT 111228 T_MAC 299999 Delta_T 943 Buffered packet 0 
+beacon TX interrupt  T_JIT 211301 T_MAC 299999 Delta_T 443 Buffered packet 0 
+beacon TX interrupt  T_JIT 11691 T_MAC 299999 Delta_T 1441 Buffered packet 1 
+beacon TX interrupt  T_JIT 111317 T_MAC 299999 Delta_T 943 Buffered packet 0 
+beacon TX interrupt  T_JIT 211640 T_MAC 299999 Delta_T 441 Buffered packet 0 
+beacon TX interrupt  T_JIT 11747 T_MAC 299999 Delta_T 1441 Buffered packet 1 
+beacon TX interrupt  T_JIT 111721 T_MAC 299999 Delta_T 941 Buffered packet 0 
+beacon TX interrupt  T_JIT 211467 T_MAC 299999 Delta_T 442 Buffered packet 0 
+beacon TX interrupt  T_JIT 11445 T_MAC 299999 Delta_T 1442 Buffered packet 1 
+beacon TX interrupt  T_JIT 111453 T_MAC 299999 Delta_T 942 Buffered packet 0 
+beacon TX interrupt  T_JIT 211395 T_MAC 299999 Delta_T 443 Buffered packet 0 
+beacon TX interrupt  T_JIT 11457 T_MAC 299999 Delta_T 1442 Buffered packet 1 
+beacon TX interrupt  T_JIT 111277 T_MAC 299999 Delta_T 943 Buffered packet 0 
+beacon TX interrupt  T_JIT 211290 T_MAC 299999 Delta_T 443 Buffered packet 0 
+beacon TX interrupt  T_JIT 11428 T_MAC 299999 Delta_T 1442 Buffered packet 1 
+beacon TX interrupt  T_JIT 111248 T_MAC 299999 Delta_T 943 Buffered packet 0 
+beacon TX interrupt  T_JIT 211200 T_MAC 299999 Delta_T 443 Buffered packet 0 
+beacon TX interrupt  T_JIT 11399 T_MAC 299999 Delta_T 1443 Buffered packet 1 
+beacon TX interrupt  T_JIT 111255 T_MAC 299999 Delta_T 943 Buffered packet 0 
+beacon TX interrupt  T_JIT 211154 T_MAC 299999 Delta_T 444 Buffered packet 0 
+beacon TX interrupt  T_JIT 11291 T_MAC 299999 Delta_T 1443 Buffered packet 1 
+beacon TX interrupt  T_JIT 111175 T_MAC 299999 Delta_T 944 Buffered packet 0 
+beacon TX interrupt  T_JIT 211164 T_MAC 299999 Delta_T 444 Buffered packet 0 
+beacon TX interrupt  T_JIT 11557 T_MAC 299999 Delta_T 1442 Buffered packet 1 
+beacon TX interrupt  T_JIT 111570 T_MAC 299999 Delta_T 942 Buffered packet 0 
+beacon TX interrupt  T_JIT 211463 T_MAC 299999 Delta_T 442 Buffered packet 0 
+beacon TX interrupt  T_JIT 11358 T_MAC 299999 Delta_T 1443 Buffered packet 1 
+beacon TX interrupt  T_JIT 111514 T_MAC 299999 Delta_T 942 Buffered packet 0 
+beacon TX interrupt  T_JIT 211299 T_MAC 299999 Delta_T 443 Buffered packet 0 
+beacon TX interrupt  T_JIT 11273 T_MAC 299999 Delta_T 1443 Buffered packet 1 
+beacon TX interrupt  T_JIT 111168 T_MAC 299999 Delta_T 944 Buffered packet 0 
+beacon TX interrupt  T_JIT 211165 T_MAC 299999 Delta_T 444 Buffered packet 0 
+beacon TX interrupt  T_JIT 11216 T_MAC 299999 Delta_T 1443 Buffered packet 1 
+beacon TX interrupt  T_JIT 111113 T_MAC 299999 Delta_T 944 Buffered packet 0 
+beacon TX interrupt  T_JIT 211046 T_MAC 299999 Delta_T 444 Buffered packet 0 
+beacon TX interrupt  T_JIT 11207 T_MAC 299999 Delta_T 1443 Buffered packet 1 
+beacon TX interrupt  T_JIT 111108 T_MAC 299999 Delta_T 944 Buffered packet 0 
+beacon TX interrupt  T_JIT 211118 T_MAC 299999 Delta_T 444 Buffered packet 0 
+beacon TX interrupt  T_JIT 11199 T_MAC 299999 Delta_T 1444 Buffered packet 1 
+beacon TX interrupt  T_JIT 111083 T_MAC 299999 Delta_T 944 Buffered packet 0 
+beacon TX interrupt  T_JIT 211005 T_MAC 299999 Delta_T 444 Buffered packet 0

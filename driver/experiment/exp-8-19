@@ -1,0 +1,991 @@
+Baseline System 3
+send out the request 0.009559305: 
+beacon TX interrupt  T_JIT 32193 T_MAC 1919999 T_CYC 1919999 Delta_T 9439 Buffered packet 0 
+send out the request 0.000443871: 
+beacon TX interrupt  T_JIT 1855208 T_MAC 1919999 T_CYC 1919999 Delta_T 323 Buffered packet 1 
+sdr,sdr recv set cmd reg cat 9 addr 00000000 val 00000001 idx 0
+sdr,sdr recv set cmd reg cat 7 addr 0000001c val 00000002 idx 7
+send out the request 0.000924072: 
+beacon TX interrupt  T_JIT 1759157 T_MAC 1919999 T_CYC 1919999 Delta_T 804 Buffered packet 1 
+send out the request 0.001404162: 
+beacon TX interrupt  T_JIT 1663176 T_MAC 1919999 T_CYC 1919999 Delta_T 1284 Buffered packet 1 
+send out the request 0.001882653: 
+beacon TX interrupt  T_JIT 1567573 T_MAC 1919999 T_CYC 1919999 Delta_T 1762 Buffered packet 1 
+send out the request 0.002362710: 
+beacon TX interrupt  T_JIT 1471482 T_MAC 1919999 T_CYC 1919999 Delta_T 2242 Buffered packet 1 
+send out the request 0.002842272: 
+beacon TX interrupt  T_JIT 1375660 T_MAC 1919999 T_CYC 1919999 Delta_T 2721 Buffered packet 1 
+send out the request 0.003324045: 
+beacon TX interrupt  T_JIT 1279191 T_MAC 1919999 T_CYC 1919999 Delta_T 3204 Buffered packet 1 
+send out the request 0.003804078: 
+beacon TX interrupt  T_JIT 1183125 T_MAC 1919999 T_CYC 1919999 Delta_T 3684 Buffered packet 1 
+send out the request 0.004284024: 
+beacon TX interrupt  T_JIT 1087176 T_MAC 1919999 T_CYC 1919999 Delta_T 4164 Buffered packet 1 
+send out the request 0.004764042: 
+beacon TX interrupt  T_JIT 991283 T_MAC 1919999 T_CYC 1919999 Delta_T 4643 Buffered packet 1 
+send out the request 0.005243856: 
+beacon TX interrupt  T_JIT 895160 T_MAC 1919999 T_CYC 1919999 Delta_T 5124 Buffered packet 1 
+send out the request 0.005723913: 
+beacon TX interrupt  T_JIT 799186 T_MAC 1919999 T_CYC 1919999 Delta_T 5604 Buffered packet 1 
+send out the request 0.006199788: 
+beacon TX interrupt  T_JIT 703989 T_MAC 1919999 T_CYC 1919999 Delta_T 6080 Buffered packet 1 
+send out the request 0.006683892: 
+beacon TX interrupt  T_JIT 607168 T_MAC 1919999 T_CYC 1919999 Delta_T 6564 Buffered packet 1 
+send out the request 0.007163962: 
+beacon TX interrupt  T_JIT 511267 T_MAC 1919999 T_CYC 1919999 Delta_T 7043 Buffered packet 1 
+send out the request 0.007644172: 
+beacon TX interrupt  T_JIT 415195 T_MAC 1919999 T_CYC 1919999 Delta_T 7524 Buffered packet 1 
+send out the request 0.008124144: 
+beacon TX interrupt  T_JIT 319122 T_MAC 1919999 T_CYC 1919999 Delta_T 8004 Buffered packet 1 
+send out the request 0.008604633: 
+beacon TX interrupt  T_JIT 222984 T_MAC 1919999 T_CYC 1919999 Delta_T 8485 Buffered packet 1 
+send out the request 0.009084369: 
+beacon TX interrupt  T_JIT 127100 T_MAC 1919999 T_CYC 1919999 Delta_T 8964 Buffered packet 1 
+send out the request 0.009564162: 
+beacon TX interrupt  T_JIT 31184 T_MAC 1919999 T_CYC 1919999 Delta_T 9444 Buffered packet 1 
+send out the request 0.000448563: 
+beacon TX interrupt  T_JIT 1854300 T_MAC 1919999 T_CYC 1919999 Delta_T 328 Buffered packet 2 
+send out the request 0.000927456: 
+beacon TX interrupt  T_JIT 1758498 T_MAC 1919999 T_CYC 1919999 Delta_T 807 Buffered packet 2 
+send out the request 0.001408956: 
+beacon TX interrupt  T_JIT 1662185 T_MAC 1919999 T_CYC 1919999 Delta_T 1289 Buffered packet 2 
+send out the request 0.001889253: 
+beacon TX interrupt  T_JIT 1566125 T_MAC 1919999 T_CYC 1919999 Delta_T 1769 Buffered packet 2 
+send out the request 0.002369013: 
+beacon TX interrupt  T_JIT 1470127 T_MAC 1919999 T_CYC 1919999 Delta_T 2249 Buffered packet 2 
+send out the request 0.002849178: 
+beacon TX interrupt  T_JIT 1374114 T_MAC 1919999 T_CYC 1919999 Delta_T 2729 Buffered packet 2 
+send out the request 0.003329418: 
+beacon TX interrupt  T_JIT 1278088 T_MAC 1919999 T_CYC 1919999 Delta_T 3209 Buffered packet 2 
+send out the request 0.003809286: 
+beacon TX interrupt  T_JIT 1182152 T_MAC 1919999 T_CYC 1919999 Delta_T 3689 Buffered packet 2 
+send out the request 0.004289302: 
+beacon TX interrupt  T_JIT 1086113 T_MAC 1919999 T_CYC 1919999 Delta_T 4169 Buffered packet 2 
+send out the request 0.004769460: 
+beacon TX interrupt  T_JIT 990087 T_MAC 1919999 T_CYC 1919999 Delta_T 4649 Buffered packet 2 
+send out the request 0.005249229: 
+beacon TX interrupt  T_JIT 894136 T_MAC 1919999 T_CYC 1919999 Delta_T 5129 Buffered packet 2 
+send out the request 0.005728965: 
+beacon TX interrupt  T_JIT 798139 T_MAC 1919999 T_CYC 1919999 Delta_T 5609 Buffered packet 2 
+send out the request 0.006209121: 
+beacon TX interrupt  T_JIT 702133 T_MAC 1919999 T_CYC 1919999 Delta_T 6089 Buffered packet 2 
+send out the request 0.006688806: 
+beacon TX interrupt  T_JIT 606245 T_MAC 1919999 T_CYC 1919999 Delta_T 6568 Buffered packet 2 
+send out the request 0.007169211: 
+beacon TX interrupt  T_JIT 510111 T_MAC 1919999 T_CYC 1919999 Delta_T 7049 Buffered packet 2 
+send out the request 0.007649544: 
+beacon TX interrupt  T_JIT 414026 T_MAC 1919999 T_CYC 1919999 Delta_T 7529 Buffered packet 2 
+send out the request 0.008129202: 
+beacon TX interrupt  T_JIT 318062 T_MAC 1919999 T_CYC 1919999 Delta_T 8009 Buffered packet 2 
+send out the request 0.008609760: 
+beacon TX interrupt  T_JIT 221978 T_MAC 1919999 T_CYC 1919999 Delta_T 8490 Buffered packet 2 
+send out the request 0.009086730: 
+beacon TX interrupt  T_JIT 126637 T_MAC 1919999 T_CYC 1919999 Delta_T 8966 Buffered packet 2 
+send out the request 0.009569334: 
+beacon TX interrupt  T_JIT 30151 T_MAC 1919999 T_CYC 1919999 Delta_T 9449 Buffered packet 2 
+send out the request 0.000454527: 
+beacon TX interrupt  T_JIT 1853061 T_MAC 1919999 T_CYC 1919999 Delta_T 334 Buffered packet 3 
+send out the request 0.000932602: 
+beacon TX interrupt  T_JIT 1757612 T_MAC 1919999 T_CYC 1919999 Delta_T 811 Buffered packet 3 
+send out the request 0.001414293: 
+beacon TX interrupt  T_JIT 1661109 T_MAC 1919999 T_CYC 1919999 Delta_T 1294 Buffered packet 3 
+send out the request 0.001894110: 
+beacon TX interrupt  T_JIT 1565140 T_MAC 1919999 T_CYC 1919999 Delta_T 1774 Buffered packet 3 
+send out the request 0.002372661: 
+beacon TX interrupt  T_JIT 1469547 T_MAC 1919999 T_CYC 1919999 Delta_T 2252 Buffered packet 3 
+send out the request 0.002854221: 
+beacon TX interrupt  T_JIT 1373144 T_MAC 1919999 T_CYC 1919999 Delta_T 2734 Buffered packet 3 
+send out the request 0.003334611: 
+beacon TX interrupt  T_JIT 1277072 T_MAC 1919999 T_CYC 1919999 Delta_T 3214 Buffered packet 3 
+send out the request 0.003813765: 
+beacon TX interrupt  T_JIT 1181298 T_MAC 1919999 T_CYC 1919999 Delta_T 3693 Buffered packet 3 
+send out the request 0.004294617: 
+beacon TX interrupt  T_JIT 1084999 T_MAC 1919999 T_CYC 1919999 Delta_T 4175 Buffered packet 3 
+send out the request 0.004774518: 
+beacon TX interrupt  T_JIT 989063 T_MAC 1919999 T_CYC 1919999 Delta_T 4654 Buffered packet 3 
+send out the request 0.005254476: 
+beacon TX interrupt  T_JIT 893052 T_MAC 1919999 T_CYC 1919999 Delta_T 5134 Buffered packet 3 
+send out the request 0.005734797: 
+beacon TX interrupt  T_JIT 797026 T_MAC 1919999 T_CYC 1919999 Delta_T 5614 Buffered packet 3 
+send out the request 0.006214470: 
+beacon TX interrupt  T_JIT 701107 T_MAC 1919999 T_CYC 1919999 Delta_T 6094 Buffered packet 3 
+send out the request 0.006693276: 
+beacon TX interrupt  T_JIT 605227 T_MAC 1919999 T_CYC 1919999 Delta_T 6573 Buffered packet 3 
+send out the request 0.007174380: 
+beacon TX interrupt  T_JIT 509103 T_MAC 1919999 T_CYC 1919999 Delta_T 7054 Buffered packet 3 
+send out the request 0.007654669: 
+beacon TX interrupt  T_JIT 412989 T_MAC 1919999 T_CYC 1919999 Delta_T 7535 Buffered packet 3 
+send out the request 0.008132527: 
+beacon TX interrupt  T_JIT 317615 T_MAC 1919999 T_CYC 1919999 Delta_T 8011 Buffered packet 3 
+send out the request 0.008615043: 
+beacon TX interrupt  T_JIT 220880 T_MAC 1919999 T_CYC 1919999 Delta_T 8495 Buffered packet 3 
+send out the request 0.009094980: 
+beacon TX interrupt  T_JIT 125009 T_MAC 1919999 T_CYC 1919999 Delta_T 8974 Buffered packet 3 
+send out the request 0.009573294: 
+beacon TX interrupt  T_JIT 29436 T_MAC 1919999 T_CYC 1919999 Delta_T 9452 Buffered packet 3 
+send out the request 0.000459246: 
+beacon TX interrupt  T_JIT 1852098 T_MAC 1919999 T_CYC 1919999 Delta_T 339 Buffered packet 4 
+send out the request 0.000939387: 
+beacon TX interrupt  T_JIT 1756097 T_MAC 1919999 T_CYC 1919999 Delta_T 819 Buffered packet 4 
+send out the request 0.001419309: 
+beacon TX interrupt  T_JIT 1660161 T_MAC 1919999 T_CYC 1919999 Delta_T 1299 Buffered packet 4 
+send out the request 0.001898823: 
+beacon TX interrupt  T_JIT 1564152 T_MAC 1919999 T_CYC 1919999 Delta_T 1779 Buffered packet 4 
+send out the request 0.002377911: 
+beacon TX interrupt  T_JIT 1468561 T_MAC 1919999 T_CYC 1919999 Delta_T 2257 Buffered packet 4 
+send out the request 0.002859123: 
+beacon TX interrupt  T_JIT 1372127 T_MAC 1919999 T_CYC 1919999 Delta_T 2739 Buffered packet 4 
+send out the request 0.003339360: 
+beacon TX interrupt  T_JIT 1276108 T_MAC 1919999 T_CYC 1919999 Delta_T 3219 Buffered packet 4 
+send out the request 0.003819648: 
+beacon TX interrupt  T_JIT 1180065 T_MAC 1919999 T_CYC 1919999 Delta_T 3699 Buffered packet 4 
+send out the request 0.004299537: 
+beacon TX interrupt  T_JIT 1083973 T_MAC 1919999 T_CYC 1919999 Delta_T 4180 Buffered packet 4 
+send out the request 0.004778344: 
+beacon TX interrupt  T_JIT 988175 T_MAC 1919999 T_CYC 1919999 Delta_T 4659 Buffered packet 4 
+send out the request 0.005259771: 
+beacon TX interrupt  T_JIT 891994 T_MAC 1919999 T_CYC 1919999 Delta_T 5140 Buffered packet 4 
+send out the request 0.005739636: 
+beacon TX interrupt  T_JIT 796005 T_MAC 1919999 T_CYC 1919999 Delta_T 5619 Buffered packet 4 
+send out the request 0.006219423: 
+beacon TX interrupt  T_JIT 700073 T_MAC 1919999 T_CYC 1919999 Delta_T 6099 Buffered packet 4 
+send out the request 0.006699669: 
+beacon TX interrupt  T_JIT 604092 T_MAC 1919999 T_CYC 1919999 Delta_T 6579 Buffered packet 4 
+send out the request 0.007179825: 
+beacon TX interrupt  T_JIT 507961 T_MAC 1919999 T_CYC 1919999 Delta_T 7060 Buffered packet 4 
+send out the request 0.007659906: 
+beacon TX interrupt  T_JIT 411956 T_MAC 1919999 T_CYC 1919999 Delta_T 7540 Buffered packet 4 
+send out the request 0.008137776: 
+beacon TX interrupt  T_JIT 316577 T_MAC 1919999 T_CYC 1919999 Delta_T 8017 Buffered packet 4 
+send out the request 0.008620395: 
+beacon TX interrupt  T_JIT 219839 T_MAC 1919999 T_CYC 1919999 Delta_T 8500 Buffered packet 4 
+send out the request 0.009100251: 
+beacon TX interrupt  T_JIT 123924 T_MAC 1919999 T_CYC 1919999 Delta_T 8980 Buffered packet 4 
+send out the request 0.009578856: 
+beacon TX interrupt  T_JIT 28416 T_MAC 1919999 T_CYC 1919999 Delta_T 9457 Buffered packet 4 
+send out the request 0.000464703: 
+beacon TX interrupt  T_JIT 1851010 T_MAC 1919999 T_CYC 1919999 Delta_T 344 Buffered packet 5 
+send out the request 0.000944982: 
+beacon TX interrupt  T_JIT 1754964 T_MAC 1919999 T_CYC 1919999 Delta_T 825 Buffered packet 5 
+send out the request 0.001424566: 
+beacon TX interrupt  T_JIT 1659053 T_MAC 1919999 T_CYC 1919999 Delta_T 1304 Buffered packet 5 
+send out the request 0.001904757: 
+beacon TX interrupt  T_JIT 1562956 T_MAC 1919999 T_CYC 1919999 Delta_T 1785 Buffered packet 5 
+send out the request 0.002385000: 
+beacon TX interrupt  T_JIT 1466970 T_MAC 1919999 T_CYC 1919999 Delta_T 2265 Buffered packet 5 
+send out the request 0.002864601: 
+beacon TX interrupt  T_JIT 1371093 T_MAC 1919999 T_CYC 1919999 Delta_T 2744 Buffered packet 5 
+send out the request 0.003344562: 
+beacon TX interrupt  T_JIT 1275056 T_MAC 1919999 T_CYC 1919999 Delta_T 3224 Buffered packet 5 
+send out the request 0.003825036: 
+beacon TX interrupt  T_JIT 1178929 T_MAC 1919999 T_CYC 1919999 Delta_T 3705 Buffered packet 5 
+send out the request 0.004305081: 
+beacon TX interrupt  T_JIT 1082965 T_MAC 1919999 T_CYC 1919999 Delta_T 4185 Buffered packet 5 
+send out the request 0.004784760: 
+beacon TX interrupt  T_JIT 986985 T_MAC 1919999 T_CYC 1919999 Delta_T 4665 Buffered packet 5 
+send out the request 0.005265213: 
+beacon TX interrupt  T_JIT 890988 T_MAC 1919999 T_CYC 1919999 Delta_T 5145 Buffered packet 5 
+send out the request 0.005744361: 
+beacon TX interrupt  T_JIT 795096 T_MAC 1919999 T_CYC 1919999 Delta_T 5624 Buffered packet 5 
+send out the request 0.006224532: 
+beacon TX interrupt  T_JIT 699075 T_MAC 1919999 T_CYC 1919999 Delta_T 6104 Buffered packet 5 
+send out the request 0.006704925: 
+beacon TX interrupt  T_JIT 602919 T_MAC 1919999 T_CYC 1919999 Delta_T 6585 Buffered packet 5 
+send out the request 0.007184667: 
+beacon TX interrupt  T_JIT 507032 T_MAC 1919999 T_CYC 1919999 Delta_T 7064 Buffered packet 5 
+send out the request 0.007664832: 
+beacon TX interrupt  T_JIT 410988 T_MAC 1919999 T_CYC 1919999 Delta_T 7545 Buffered packet 5 
+send out the request 0.008145238: 
+beacon TX interrupt  T_JIT 314949 T_MAC 1919999 T_CYC 1919999 Delta_T 8025 Buffered packet 5 
+send out the request 0.008625463: 
+beacon TX interrupt  T_JIT 218802 T_MAC 1919999 T_CYC 1919999 Delta_T 8505 Buffered packet 5 
+send out the request 0.009105513: 
+beacon TX interrupt  T_JIT 122908 T_MAC 1919999 T_CYC 1919999 Delta_T 8985 Buffered packet 5 
+send out the request 0.009584859: 
+beacon TX interrupt  T_JIT 27079 T_MAC 1919999 T_CYC 1919999 Delta_T 9464 Buffered packet 5 
+send out the request 0.000469332: 
+beacon TX interrupt  T_JIT 1850095 T_MAC 1919999 T_CYC 1919999 Delta_T 349 Buffered packet 6 
+send out the request 0.000949995: 
+beacon TX interrupt  T_JIT 1753934 T_MAC 1919999 T_CYC 1919999 Delta_T 830 Buffered packet 6 
+send out the request 0.001429773: 
+beacon TX interrupt  T_JIT 1658066 T_MAC 1919999 T_CYC 1919999 Delta_T 1309 Buffered packet 6 
+send out the request 0.001909734: 
+beacon TX interrupt  T_JIT 1562018 T_MAC 1919999 T_CYC 1919999 Delta_T 1789 Buffered packet 6 
+send out the request 0.002389914: 
+beacon TX interrupt  T_JIT 1465941 T_MAC 1919999 T_CYC 1919999 Delta_T 2270 Buffered packet 6 
+send out the request 0.002870064: 
+beacon TX interrupt  T_JIT 1369951 T_MAC 1919999 T_CYC 1919999 Delta_T 2750 Buffered packet 6 
+send out the request 0.003350019: 
+beacon TX interrupt  T_JIT 1273911 T_MAC 1919999 T_CYC 1919999 Delta_T 3230 Buffered packet 6 
+send out the request 0.003829677: 
+beacon TX interrupt  T_JIT 1178029 T_MAC 1919999 T_CYC 1919999 Delta_T 3709 Buffered packet 6 
+send out the request 0.004310112: 
+beacon TX interrupt  T_JIT 1081926 T_MAC 1919999 T_CYC 1919999 Delta_T 4190 Buffered packet 6 
+send out the request 0.004790116: 
+beacon TX interrupt  T_JIT 985987 T_MAC 1919999 T_CYC 1919999 Delta_T 4670 Buffered packet 6 
+send out the request 0.005269948: 
+beacon TX interrupt  T_JIT 889943 T_MAC 1919999 T_CYC 1919999 Delta_T 5150 Buffered packet 6 
+send out the request 0.005749932: 
+beacon TX interrupt  T_JIT 793964 T_MAC 1919999 T_CYC 1919999 Delta_T 5630 Buffered packet 6 
+send out the request 0.006228219: 
+beacon TX interrupt  T_JIT 698516 T_MAC 1919999 T_CYC 1919999 Delta_T 6107 Buffered packet 6 
+send out the request 0.006710406: 
+beacon TX interrupt  T_JIT 601865 T_MAC 1919999 T_CYC 1919999 Delta_T 6590 Buffered packet 6 
+send out the request 0.007190115: 
+beacon TX interrupt  T_JIT 505994 T_MAC 1919999 T_CYC 1919999 Delta_T 7070 Buffered packet 6 
+send out the request 0.007668105: 
+beacon TX interrupt  T_JIT 410494 T_MAC 1919999 T_CYC 1919999 Delta_T 7547 Buffered packet 6 
+send out the request 0.008149869: 
+beacon TX interrupt  T_JIT 313989 T_MAC 1919999 T_CYC 1919999 Delta_T 8030 Buffered packet 6 
+send out the request 0.008630790: 
+beacon TX interrupt  T_JIT 217728 T_MAC 1919999 T_CYC 1919999 Delta_T 8511 Buffered packet 6 
+send out the request 0.009108693: 
+beacon TX interrupt  T_JIT 122438 T_MAC 1919999 T_CYC 1919999 Delta_T 8987 Buffered packet 6 
+send out the request 0.009590430: 
+beacon TX interrupt  T_JIT 25919 T_MAC 1919999 T_CYC 1919999 Delta_T 9470 Buffered packet 6 
+send out the request 0.000474603: 
+beacon TX interrupt  T_JIT 1849062 T_MAC 1919999 T_CYC 1919999 Delta_T 354 Buffered packet 7 
+send out the request 0.000955089: 
+beacon TX interrupt  T_JIT 1752975 T_MAC 1919999 T_CYC 1919999 Delta_T 835 Buffered packet 7 
+send out the request 0.001435278: 
+beacon TX interrupt  T_JIT 1656892 T_MAC 1919999 T_CYC 1919999 Delta_T 1315 Buffered packet 7 
+send out the request 0.001915617: 
+beacon TX interrupt  T_JIT 1560902 T_MAC 1919999 T_CYC 1919999 Delta_T 1795 Buffered packet 7 
+send out the request 0.002395059: 
+beacon TX interrupt  T_JIT 1464984 T_MAC 1919999 T_CYC 1919999 Delta_T 2275 Buffered packet 7 
+send out the request 0.002874921: 
+beacon TX interrupt  T_JIT 1369070 T_MAC 1919999 T_CYC 1919999 Delta_T 2754 Buffered packet 7 
+send out the request 0.003355293: 
+beacon TX interrupt  T_JIT 1272927 T_MAC 1919999 T_CYC 1919999 Delta_T 3235 Buffered packet 7 
+send out the request 0.003834630: 
+beacon TX interrupt  T_JIT 1177012 T_MAC 1919999 T_CYC 1919999 Delta_T 3714 Buffered packet 7 
+send out the request 0.004315026: 
+beacon TX interrupt  T_JIT 1080979 T_MAC 1919999 T_CYC 1919999 Delta_T 4195 Buffered packet 7 
+send out the request 0.004795407: 
+beacon TX interrupt  T_JIT 984859 T_MAC 1919999 T_CYC 1919999 Delta_T 4675 Buffered packet 7 
+send out the request 0.005274720: 
+beacon TX interrupt  T_JIT 889077 T_MAC 1919999 T_CYC 1919999 Delta_T 5154 Buffered packet 7 
+send out the request 0.005755260: 
+beacon TX interrupt  T_JIT 792888 T_MAC 1919999 T_CYC 1919999 Delta_T 5635 Buffered packet 7 
+send out the request 0.006235581: 
+beacon TX interrupt  T_JIT 696823 T_MAC 1919999 T_CYC 1919999 Delta_T 6115 Buffered packet 7 
+send out the request 0.006713628: 
+beacon TX interrupt  T_JIT 601338 T_MAC 1919999 T_CYC 1919999 Delta_T 6593 Buffered packet 7 
+send out the request 0.007195011: 
+beacon TX interrupt  T_JIT 504951 T_MAC 1919999 T_CYC 1919999 Delta_T 7075 Buffered packet 7 
+send out the request 0.007675233: 
+beacon TX interrupt  T_JIT 408898 T_MAC 1919999 T_CYC 1919999 Delta_T 7555 Buffered packet 7 
+send out the request 0.008153562: 
+beacon TX interrupt  T_JIT 313404 T_MAC 1919999 T_CYC 1919999 Delta_T 8032 Buffered packet 7 
+send out the request 0.008635492: 
+beacon TX interrupt  T_JIT 216845 T_MAC 1919999 T_CYC 1919999 Delta_T 8515 Buffered packet 7 
+send out the request 0.009114997: 
+beacon TX interrupt  T_JIT 121091 T_MAC 1919999 T_CYC 1919999 Delta_T 8994 Buffered packet 7 
+send out the request 0.000000420: 
+beacon TX interrupt  T_JIT 25062 T_MAC 1919999 T_CYC 1919999 Delta_T 9474 Buffered packet 7 
+send out the request 0.000480012: 
+beacon TX interrupt  T_JIT 1848019 T_MAC 1919999 T_CYC 1919999 Delta_T 359 Buffered packet 8 
+send out the request 0.000959619: 
+beacon TX interrupt  T_JIT 1752043 T_MAC 1919999 T_CYC 1919999 Delta_T 839 Buffered packet 8 
+send out the request 0.001440042: 
+beacon TX interrupt  T_JIT 1655915 T_MAC 1919999 T_CYC 1919999 Delta_T 1320 Buffered packet 8 
+send out the request 0.001917276: 
+beacon TX interrupt  T_JIT 1560547 T_MAC 1919999 T_CYC 1919999 Delta_T 1797 Buffered packet 8 
+send out the request 0.002400279: 
+beacon TX interrupt  T_JIT 1463869 T_MAC 1919999 T_CYC 1919999 Delta_T 2280 Buffered packet 8 
+send out the request 0.002879835: 
+beacon TX interrupt  T_JIT 1368022 T_MAC 1919999 T_CYC 1919999 Delta_T 2759 Buffered packet 8 
+send out the request 0.003360324: 
+beacon TX interrupt  T_JIT 1271906 T_MAC 1919999 T_CYC 1919999 Delta_T 3240 Buffered packet 8 
+send out the request 0.003840552: 
+beacon TX interrupt  T_JIT 1175824 T_MAC 1919999 T_CYC 1919999 Delta_T 3720 Buffered packet 8 
+send out the request 0.004320108: 
+beacon TX interrupt  T_JIT 1079943 T_MAC 1919999 T_CYC 1919999 Delta_T 4200 Buffered packet 8 
+send out the request 0.004800285: 
+beacon TX interrupt  T_JIT 983910 T_MAC 1919999 T_CYC 1919999 Delta_T 4680 Buffered packet 8 
+send out the request 0.005280745: 
+beacon TX interrupt  T_JIT 887787 T_MAC 1919999 T_CYC 1919999 Delta_T 5161 Buffered packet 8 
+send out the request 0.005760427: 
+beacon TX interrupt  T_JIT 791875 T_MAC 1919999 T_CYC 1919999 Delta_T 5640 Buffered packet 8 
+
+
+
+
+
+Baseline System 2
+beacon TX interrupt  T_JIT 1425808 T_MAC 1919999 T_CYC 1919999 Delta_T 2470 Buffered packet 0 
+beacon TX interrupt  T_JIT 1522033 T_MAC 1919999 T_CYC 1919999 Delta_T 1989 Buffered packet 0 
+beacon TX interrupt  T_JIT 1617919 T_MAC 1919999 T_CYC 1919999 Delta_T 1510 Buffered packet 0 
+beacon TX interrupt  T_JIT 1713907 T_MAC 1919999 T_CYC 1919999 Delta_T 1030 Buffered packet 0 
+beacon TX interrupt  T_JIT 1809894 T_MAC 1919999 T_CYC 1919999 Delta_T 550 Buffered packet 0 
+beacon TX interrupt  T_JIT 1905979 T_MAC 1919999 T_CYC 1919999 Delta_T 70 Buffered packet 0 
+beacon TX interrupt  T_JIT 81894 T_MAC 1919999 T_CYC 1919999 Delta_T 9190 Buffered packet 0 
+beacon TX interrupt  T_JIT 177991 T_MAC 1919999 T_CYC 1919999 Delta_T 8710 Buffered packet 0 
+beacon TX interrupt  T_JIT 273953 T_MAC 1919999 T_CYC 1919999 Delta_T 8230 Buffered packet 0 
+beacon TX interrupt  T_JIT 369908 T_MAC 1919999 T_CYC 1919999 Delta_T 7750 Buffered packet 0 
+beacon TX interrupt  T_JIT 465951 T_MAC 1919999 T_CYC 1919999 Delta_T 7270 Buffered packet 0 
+beacon TX interrupt  T_JIT 561937 T_MAC 1919999 T_CYC 1919999 Delta_T 6790 Buffered packet 0 
+beacon TX interrupt  T_JIT 657860 T_MAC 1919999 T_CYC 1919999 Delta_T 6310 Buffered packet 0 
+beacon TX interrupt  T_JIT 753866 T_MAC 1919999 T_CYC 1919999 Delta_T 5830 Buffered packet 0 
+beacon TX interrupt  T_JIT 849978 T_MAC 1919999 T_CYC 1919999 Delta_T 5350 Buffered packet 0 
+beacon TX interrupt  T_JIT 945889 T_MAC 1919999 T_CYC 1919999 Delta_T 4870 Buffered packet 0 
+beacon TX interrupt  T_JIT 1041938 T_MAC 1919999 T_CYC 1919999 Delta_T 4390 Buffered packet 0 
+beacon TX interrupt  T_JIT 1137862 T_MAC 1919999 T_CYC 1919999 Delta_T 3910 Buffered packet 0 
+beacon TX interrupt  T_JIT 1233924 T_MAC 1919999 T_CYC 1919999 Delta_T 3430 Buffered packet 0 
+beacon TX interrupt  T_JIT 1329847 T_MAC 1919999 T_CYC 1919999 Delta_T 2950 Buffered packet 0 
+beacon TX interrupt  T_JIT 1425843 T_MAC 1919999 T_CYC 1919999 Delta_T 2470 Buffered packet 0 
+beacon TX interrupt  T_JIT 1521595 T_MAC 1919999 T_CYC 1919999 Delta_T 1992 Buffered packet 0 
+beacon TX interrupt  T_JIT 1617856 T_MAC 1919999 T_CYC 1919999 Delta_T 1510 Buffered packet 0 
+beacon TX interrupt  T_JIT 1713951 T_MAC 1919999 T_CYC 1919999 Delta_T 1030 Buffered packet 0 
+beacon TX interrupt  T_JIT 1809884 T_MAC 1919999 T_CYC 1919999 Delta_T 550 Buffered packet 0 
+beacon TX interrupt  T_JIT 1905909 T_MAC 1919999 T_CYC 1919999 Delta_T 70 Buffered packet 0 
+beacon TX interrupt  T_JIT 81822 T_MAC 1919999 T_CYC 1919999 Delta_T 9190 Buffered packet 0 
+beacon TX interrupt  T_JIT 177839 T_MAC 1919999 T_CYC 1919999 Delta_T 8710 Buffered packet 0 
+beacon TX interrupt  T_JIT 273836 T_MAC 1919999 T_CYC 1919999 Delta_T 8230 Buffered packet 0 
+beacon TX interrupt  T_JIT 369858 T_MAC 1919999 T_CYC 1919999 Delta_T 7750 Buffered packet 0 
+beacon TX interrupt  T_JIT 465828 T_MAC 1919999 T_CYC 1919999 Delta_T 7270 Buffered packet 0 
+beacon TX interrupt  T_JIT 561785 T_MAC 1919999 T_CYC 1919999 Delta_T 6791 Buffered packet 0 
+beacon TX interrupt  T_JIT 657750 T_MAC 1919999 T_CYC 1919999 Delta_T 6311 Buffered packet 0 
+beacon TX interrupt  T_JIT 753817 T_MAC 1919999 T_CYC 1919999 Delta_T 5830 Buffered packet 0 
+beacon TX interrupt  T_JIT 849838 T_MAC 1919999 T_CYC 1919999 Delta_T 5350 Buffered packet 0 
+beacon TX interrupt  T_JIT 945853 T_MAC 1919999 T_CYC 1919999 Delta_T 4870 Buffered packet 0 
+beacon TX interrupt  T_JIT 1041813 T_MAC 1919999 T_CYC 1919999 Delta_T 4390 Buffered packet 0 
+beacon TX interrupt  T_JIT 1137746 T_MAC 1919999 T_CYC 1919999 Delta_T 3911 Buffered packet 0 
+beacon TX interrupt  T_JIT 1233833 T_MAC 1919999 T_CYC 1919999 Delta_T 3430 Buffered packet 0 
+beacon TX interrupt  T_JIT 1329816 T_MAC 1919999 T_CYC 1919999 Delta_T 2950 Buffered packet 0 
+beacon TX interrupt  T_JIT 1425838 T_MAC 1919999 T_CYC 1919999 Delta_T 2470 Buffered packet 0 
+beacon TX interrupt  T_JIT 1521767 T_MAC 1919999 T_CYC 1919999 Delta_T 1991 Buffered packet 0 
+beacon TX interrupt  T_JIT 1617639 T_MAC 1919999 T_CYC 1919999 Delta_T 1511 Buffered packet 0 
+beacon TX interrupt  T_JIT 1713806 T_MAC 1919999 T_CYC 1919999 Delta_T 1030 Buffered packet 0 
+beacon TX interrupt  T_JIT 1812245 T_MAC 1919999 T_CYC 1919999 Delta_T 538 Buffered packet 0 
+beacon TX interrupt  T_JIT 1905756 T_MAC 1919999 T_CYC 1919999 Delta_T 71 Buffered packet 0 
+beacon TX interrupt  T_JIT 81856 T_MAC 1919999 T_CYC 1919999 Delta_T 9190 Buffered packet 0 
+beacon TX interrupt  T_JIT 177761 T_MAC 1919999 T_CYC 1919999 Delta_T 8711 Buffered packet 0 
+beacon TX interrupt  T_JIT 273673 T_MAC 1919999 T_CYC 1919999 Delta_T 8231 Buffered packet 0 
+beacon TX interrupt  T_JIT 369720 T_MAC 1919999 T_CYC 1919999 Delta_T 7751 Buffered packet 0 
+beacon TX interrupt  T_JIT 465668 T_MAC 1919999 T_CYC 1919999 Delta_T 7271 Buffered packet 0 
+beacon TX interrupt  T_JIT 561752 T_MAC 1919999 T_CYC 1919999 Delta_T 6791 Buffered packet 0 
+beacon TX interrupt  T_JIT 657704 T_MAC 1919999 T_CYC 1919999 Delta_T 6311 Buffered packet 0 
+beacon TX interrupt  T_JIT 753739 T_MAC 1919999 T_CYC 1919999 Delta_T 5831 Buffered packet 0 
+beacon TX interrupt  T_JIT 849702 T_MAC 1919999 T_CYC 1919999 Delta_T 5351 Buffered packet 0 
+beacon TX interrupt  T_JIT 945737 T_MAC 1919999 T_CYC 1919999 Delta_T 4871 Buffered packet 0 
+beacon TX interrupt  T_JIT 1041718 T_MAC 1919999 T_CYC 1919999 Delta_T 4391 Buffered packet 0 
+beacon TX interrupt  T_JIT 1137798 T_MAC 1919999 T_CYC 1919999 Delta_T 3911 Buffered packet 0 
+beacon TX interrupt  T_JIT 1233722 T_MAC 1919999 T_CYC 1919999 Delta_T 3431 Buffered packet 0 
+beacon TX interrupt  T_JIT 1329709 T_MAC 1919999 T_CYC 1919999 Delta_T 2951 Buffered packet 0 
+beacon TX interrupt  T_JIT 1425784 T_MAC 1919999 T_CYC 1919999 Delta_T 2471 Buffered packet 0 
+beacon TX interrupt  T_JIT 1521745 T_MAC 1919999 T_CYC 1919999 Delta_T 1991 Buffered packet 0 
+beacon TX interrupt  T_JIT 1617713 T_MAC 1919999 T_CYC 1919999 Delta_T 1511 Buffered packet 0 
+beacon TX interrupt  T_JIT 1713486 T_MAC 1919999 T_CYC 1919999 Delta_T 1032 Buffered packet 0 
+beacon TX interrupt  T_JIT 1809660 T_MAC 1919999 T_CYC 1919999 Delta_T 551 Buffered packet 0 
+beacon TX interrupt  T_JIT 1905743 T_MAC 1919999 T_CYC 1919999 Delta_T 71 Buffered packet 0 
+beacon TX interrupt  T_JIT 81671 T_MAC 1919999 T_CYC 1919999 Delta_T 9191 Buffered packet 0 
+beacon TX interrupt  T_JIT 177669 T_MAC 1919999 T_CYC 1919999 Delta_T 8711 Buffered packet 0 
+beacon TX interrupt  T_JIT 273681 T_MAC 1919999 T_CYC 1919999 Delta_T 8231 Buffered packet 0 
+beacon TX interrupt  T_JIT 369750 T_MAC 1919999 T_CYC 1919999 Delta_T 7751 Buffered packet 0 
+beacon TX interrupt  T_JIT 465710 T_MAC 1919999 T_CYC 1919999 Delta_T 7271 Buffered packet 0 
+beacon TX interrupt  T_JIT 561683 T_MAC 1919999 T_CYC 1919999 Delta_T 6791 Buffered packet 0 
+beacon TX interrupt  T_JIT 657636 T_MAC 1919999 T_CYC 1919999 Delta_T 6311 Buffered packet 0 
+beacon TX interrupt  T_JIT 753628 T_MAC 1919999 T_CYC 1919999 Delta_T 5831 Buffered packet 0 
+beacon TX interrupt  T_JIT 849645 T_MAC 1919999 T_CYC 1919999 Delta_T 5351 Buffered packet 0 
+beacon TX interrupt  T_JIT 945705 T_MAC 1919999 T_CYC 1919999 Delta_T 4871 Buffered packet 0 
+beacon TX interrupt  T_JIT 1042044 T_MAC 1919999 T_CYC 1919999 Delta_T 4389 Buffered packet 0 
+beacon TX interrupt  T_JIT 1137649 T_MAC 1919999 T_CYC 1919999 Delta_T 3911 Buffered packet 0 
+beacon TX interrupt  T_JIT 1233617 T_MAC 1919999 T_CYC 1919999 Delta_T 3431 Buffered packet 0 
+beacon TX interrupt  T_JIT 1329617 T_MAC 1919999 T_CYC 1919999 Delta_T 2951 Buffered packet 0 
+beacon TX interrupt  T_JIT 1425644 T_MAC 1919999 T_CYC 1919999 Delta_T 2471 Buffered packet 0 
+beacon TX interrupt  T_JIT 1521737 T_MAC 1919999 T_CYC 1919999 Delta_T 1991 Buffered packet 0 
+beacon TX interrupt  T_JIT 1617615 T_MAC 1919999 T_CYC 1919999 Delta_T 1511 Buffered packet 0 
+beacon TX interrupt  T_JIT 1713599 T_MAC 1919999 T_CYC 1919999 Delta_T 1032 Buffered packet 0 
+beacon TX interrupt  T_JIT 1809403 T_MAC 1919999 T_CYC 1919999 Delta_T 552 Buffered packet 0 
+beacon TX interrupt  T_JIT 1905629 T_MAC 1919999 T_CYC 1919999 Delta_T 71 Buffered packet 0 
+beacon TX interrupt  T_JIT 81619 T_MAC 1919999 T_CYC 1919999 Delta_T 9191 Buffered packet 0 
+beacon TX interrupt  T_JIT 177608 T_MAC 1919999 T_CYC 1919999 Delta_T 8711 Buffered packet 0 
+beacon TX interrupt  T_JIT 273626 T_MAC 1919999 T_CYC 1919999 Delta_T 8231 Buffered packet 0 
+beacon TX interrupt  T_JIT 370272 T_MAC 1919999 T_CYC 1919999 Delta_T 7748 Buffered packet 0 
+beacon TX interrupt  T_JIT 465633 T_MAC 1919999 T_CYC 1919999 Delta_T 7271 Buffered packet 0 
+beacon TX interrupt  T_JIT 561586 T_MAC 1919999 T_CYC 1919999 Delta_T 6792 Buffered packet 0 
+beacon TX interrupt  T_JIT 657614 T_MAC 1919999 T_CYC 1919999 Delta_T 6311 Buffered packet 0 
+beacon TX interrupt  T_JIT 753577 T_MAC 1919999 T_CYC 1919999 Delta_T 5832 Buffered packet 0 
+beacon TX interrupt  T_JIT 849559 T_MAC 1919999 T_CYC 1919999 Delta_T 5352 Buffered packet 0 
+beacon TX interrupt  T_JIT 945979 T_MAC 1919999 T_CYC 1919999 Delta_T 4870 Buffered packet 0 
+beacon TX interrupt  T_JIT 1041573 T_MAC 1919999 T_CYC 1919999 Delta_T 4392 Buffered packet 0 
+beacon TX interrupt  T_JIT 1137596 T_MAC 1919999 T_CYC 1919999 Delta_T 3912 Buffered packet 0 
+beacon TX interrupt  T_JIT 1233576 T_MAC 1919999 T_CYC 1919999 Delta_T 3432 Buffered packet 0 
+beacon TX interrupt  T_JIT 1329604 T_MAC 1919999 T_CYC 1919999 Delta_T 2951 Buffered packet 0 
+beacon TX interrupt  T_JIT 1425602 T_MAC 1919999 T_CYC 1919999 Delta_T 2471 Buffered packet 0 
+beacon TX interrupt  T_JIT 1521529 T_MAC 1919999 T_CYC 1919999 Delta_T 1992 Buffered packet 0 
+beacon TX interrupt  T_JIT 1617538 T_MAC 1919999 T_CYC 1919999 Delta_T 1512 Buffered packet 0 
+beacon TX interrupt  T_JIT 1713497 T_MAC 1919999 T_CYC 1919999 Delta_T 1032 Buffered packet 0 
+beacon TX interrupt  T_JIT 1809817 T_MAC 1919999 T_CYC 1919999 Delta_T 550 Buffered packet 0 
+beacon TX interrupt  T_JIT 1905573 T_MAC 1919999 T_CYC 1919999 Delta_T 72 Buffered packet 0 
+beacon TX interrupt  T_JIT 81543 T_MAC 1919999 T_CYC 1919999 Delta_T 9192 Buffered packet 0 
+beacon TX interrupt  T_JIT 177573 T_MAC 1919999 T_CYC 1919999 Delta_T 8712 Buffered packet 0 
+beacon TX interrupt  T_JIT 273532 T_MAC 1919999 T_CYC 1919999 Delta_T 8232 Buffered packet 0 
+beacon TX interrupt  T_JIT 369527 T_MAC 1919999 T_CYC 1919999 Delta_T 7752 Buffered packet 0 
+beacon TX interrupt  T_JIT 465536 T_MAC 1919999 T_CYC 1919999 Delta_T 7272 Buffered packet 0 
+beacon TX interrupt  T_JIT 561843 T_MAC 1919999 T_CYC 1919999 Delta_T 6790 Buffered packet 0 
+beacon TX interrupt  T_JIT 657430 T_MAC 1919999 T_CYC 1919999 Delta_T 6312 Buffered packet 0 
+beacon TX interrupt  T_JIT 753499 T_MAC 1919999 T_CYC 1919999 Delta_T 5832 Buffered packet 0 
+beacon TX interrupt  T_JIT 849498 T_MAC 1919999 T_CYC 1919999 Delta_T 5352 Buffered packet 0 
+beacon TX interrupt  T_JIT 945511 T_MAC 1919999 T_CYC 1919999 Delta_T 4872 Buffered packet 0 
+beacon TX interrupt  T_JIT 1041495 T_MAC 1919999 T_CYC 1919999 Delta_T 4392 Buffered packet 0 
+beacon TX interrupt  T_JIT 1137525 T_MAC 1919999 T_CYC 1919999 Delta_T 3912 Buffered packet 0 
+beacon TX interrupt  T_JIT 1233412 T_MAC 1919999 T_CYC 1919999 Delta_T 3432 Buffered packet 0 
+beacon TX interrupt  T_JIT 1329478 T_MAC 1919999 T_CYC 1919999 Delta_T 2952 Buffered packet 0 
+beacon TX interrupt  T_JIT 1426220 T_MAC 1919999 T_CYC 1919999 Delta_T 2468 Buffered packet 0 
+beacon TX interrupt  T_JIT 1521514 T_MAC 1919999 T_CYC 1919999 Delta_T 1992 Buffered packet 0 
+beacon TX interrupt  T_JIT 1617485 T_MAC 1919999 T_CYC 1919999 Delta_T 1512 Buffered packet 0 
+beacon TX interrupt  T_JIT 1713428 T_MAC 1919999 T_CYC 1919999 Delta_T 1032 Buffered packet 0 
+beacon TX interrupt  T_JIT 1809451 T_MAC 1919999 T_CYC 1919999 Delta_T 552 Buffered packet 0 
+beacon TX interrupt  T_JIT 1905311 T_MAC 1919999 T_CYC 1919999 Delta_T 73 Buffered packet 0 
+beacon TX interrupt  T_JIT 81396 T_MAC 1919999 T_CYC 1919999 Delta_T 9193 Buffered packet 0 
+beacon TX interrupt  T_JIT 178072 T_MAC 1919999 T_CYC 1919999 Delta_T 8709 Buffered packet 0 
+beacon TX interrupt  T_JIT 273945 T_MAC 1919999 T_CYC 1919999 Delta_T 8230 Buffered packet 0 
+beacon TX interrupt  T_JIT 369438 T_MAC 1919999 T_CYC 1919999 Delta_T 7752 Buffered packet 0 
+beacon TX interrupt  T_JIT 465410 T_MAC 1919999 T_CYC 1919999 Delta_T 7272 Buffered packet 0 
+beacon TX interrupt  T_JIT 561459 T_MAC 1919999 T_CYC 1919999 Delta_T 6792 Buffered packet 0 
+beacon TX interrupt  T_JIT 657525 T_MAC 1919999 T_CYC 1919999 Delta_T 6312 Buffered packet 0 
+beacon TX interrupt  T_JIT 753411 T_MAC 1919999 T_CYC 1919999 Delta_T 5832 Buffered packet 0 
+beacon TX interrupt  T_JIT 849441 T_MAC 1919999 T_CYC 1919999 Delta_T 5352 Buffered packet 0 
+beacon TX interrupt  T_JIT 945394 T_MAC 1919999 T_CYC 1919999 Delta_T 4873 Buffered packet 0 
+beacon TX interrupt  T_JIT 1041439 T_MAC 1919999 T_CYC 1919999 Delta_T 4392 Buffered packet 0 
+beacon TX interrupt  T_JIT 1137343 T_MAC 1919999 T_CYC 1919999 Delta_T 3913 Buffered packet 0 
+beacon TX interrupt  T_JIT 1233421 T_MAC 1919999 T_CYC 1919999 Delta_T 3432 Buffered packet 0 
+beacon TX interrupt  T_JIT 1329405 T_MAC 1919999 T_CYC 1919999 Delta_T 2952 Buffered packet 0 
+beacon TX interrupt  T_JIT 1425377 T_MAC 1919999 T_CYC 1919999 Delta_T 2473 Buffered packet 0 
+beacon TX interrupt  T_JIT 1521403 T_MAC 1919999 T_CYC 1919999 Delta_T 1992 Buffered packet 0 
+beacon TX interrupt  T_JIT 1617397 T_MAC 1919999 T_CYC 1919999 Delta_T 1513 Buffered packet 0 
+beacon TX interrupt  T_JIT 1713515 T_MAC 1919999 T_CYC 1919999 Delta_T 1032 Buffered packet 0 
+beacon TX interrupt  T_JIT 1809350 T_MAC 1919999 T_CYC 1919999 Delta_T 553 Buffered packet 0 
+beacon TX interrupt  T_JIT 1905417 T_MAC 1919999 T_CYC 1919999 Delta_T 72 Buffered packet 0 
+beacon TX interrupt  T_JIT 81161 T_MAC 1919999 T_CYC 1919999 Delta_T 9194 Buffered packet 0 
+beacon TX interrupt  T_JIT 177342 T_MAC 1919999 T_CYC 1919999 Delta_T 8713 Buffered packet 0 
+beacon TX interrupt  T_JIT 273346 T_MAC 1919999 T_CYC 1919999 Delta_T 8233 Buffered packet 0 
+beacon TX interrupt  T_JIT 369354 T_MAC 1919999 T_CYC 1919999 Delta_T 7753 Buffered packet 0 
+beacon TX interrupt  T_JIT 465402 T_MAC 1919999 T_CYC 1919999 Delta_T 7272 Buffered packet 0 
+beacon TX interrupt  T_JIT 561326 T_MAC 1919999 T_CYC 1919999 Delta_T 6793 Buffered packet 0 
+beacon TX interrupt  T_JIT 657522 T_MAC 1919999 T_CYC 1919999 Delta_T 6312 Buffered packet 0 
+beacon TX interrupt  T_JIT 753498 T_MAC 1919999 T_CYC 1919999 Delta_T 5832 Buffered packet 0 
+beacon TX interrupt  T_JIT 849447 T_MAC 1919999 T_CYC 1919999 Delta_T 5352 Buffered packet 0 
+beacon TX interrupt  T_JIT 945397 T_MAC 1919999 T_CYC 1919999 Delta_T 4873 Buffered packet 0 
+beacon TX interrupt  T_JIT 1041393 T_MAC 1919999 T_CYC 1919999 Delta_T 4393 Buffered packet 0 
+beacon TX interrupt  T_JIT 1137364 T_MAC 1919999 T_CYC 1919999 Delta_T 3913 Buffered packet 0 
+beacon TX interrupt  T_JIT 1233281 T_MAC 1919999 T_CYC 1919999 Delta_T 3433 Buffered packet 0 
+beacon TX interrupt  T_JIT 1329302 T_MAC 1919999 T_CYC 1919999 Delta_T 2953 Buffered packet 0 
+beacon TX interrupt  T_JIT 1425299 T_MAC 1919999 T_CYC 1919999 Delta_T 2473 Buffered packet 0 
+beacon TX interrupt  T_JIT 1521308 T_MAC 1919999 T_CYC 1919999 Delta_T 1993 Buffered packet 0 
+beacon TX interrupt  T_JIT 1617353 T_MAC 1919999 T_CYC 1919999 Delta_T 1513 Buffered packet 0 
+beacon TX interrupt  T_JIT 1713331 T_MAC 1919999 T_CYC 1919999 Delta_T 1033 Buffered packet 0 
+beacon TX interrupt  T_JIT 1809339 T_MAC 1919999 T_CYC 1919999 Delta_T 553 Buffered packet 0 
+beacon TX interrupt  T_JIT 1905327 T_MAC 1919999 T_CYC 1919999 Delta_T 73 Buffered packet 0 
+beacon TX interrupt  T_JIT 81268 T_MAC 1919999 T_CYC 1919999 Delta_T 9193 Buffered packet 0 
+beacon TX interrupt  T_JIT 177043 T_MAC 1919999 T_CYC 1919999 Delta_T 8714 Buffered packet 0 
+beacon TX interrupt  T_JIT 273353 T_MAC 1919999 T_CYC 1919999 Delta_T 8233 Buffered packet 0 
+beacon TX interrupt  T_JIT 369353 T_MAC 1919999 T_CYC 1919999 Delta_T 7753 Buffered packet 0 
+beacon TX interrupt  T_JIT 465278 T_MAC 1919999 T_CYC 1919999 Delta_T 7273 Buffered packet 0 
+beacon TX interrupt  T_JIT 561311 T_MAC 1919999 T_CYC 1919999 Delta_T 6793 Buffered packet 0 
+beacon TX interrupt  T_JIT 657287 T_MAC 1919999 T_CYC 1919999 Delta_T 6313 Buffered packet 0 
+beacon TX interrupt  T_JIT 753248 T_MAC 1919999 T_CYC 1919999 Delta_T 5833 Buffered packet 0 
+beacon TX interrupt  T_JIT 849317 T_MAC 1919999 T_CYC 1919999 Delta_T 5353 Buffered packet 0 
+beacon TX interrupt  T_JIT 945295 T_MAC 1919999 T_CYC 1919999 Delta_T 4873 Buffered packet 0 
+beacon TX interrupt  T_JIT 1041231 T_MAC 1919999 T_CYC 1919999 Delta_T 4393 Buffered packet 0 
+beacon TX interrupt  T_JIT 1137311 T_MAC 1919999 T_CYC 1919999 Delta_T 3913 Buffered packet 0 
+beacon TX interrupt  T_JIT 1233214 T_MAC 1919999 T_CYC 1919999 Delta_T 3433 Buffered packet 0 
+beacon TX interrupt  T_JIT 1329176 T_MAC 1919999 T_CYC 1919999 Delta_T 2954 Buffered packet 0 
+beacon TX interrupt  T_JIT 1425264 T_MAC 1919999 T_CYC 1919999 Delta_T 2473 Buffered packet 0 
+beacon TX interrupt  T_JIT 1521232 T_MAC 1919999 T_CYC 1919999 Delta_T 1993 Buffered packet 0 
+beacon TX interrupt  T_JIT 1617282 T_MAC 1919999 T_CYC 1919999 Delta_T 1513 Buffered packet 0 
+beacon TX interrupt  T_JIT 1713325 T_MAC 1919999 T_CYC 1919999 Delta_T 1033 Buffered packet 0 
+beacon TX interrupt  T_JIT 1809228 T_MAC 1919999 T_CYC 1919999 Delta_T 553 Buffered packet 0 
+beacon TX interrupt  T_JIT 1905277 T_MAC 1919999 T_CYC 1919999 Delta_T 73 Buffered packet 0 
+beacon TX interrupt  T_JIT 81279 T_MAC 1919999 T_CYC 1919999 Delta_T 9193 Buffered packet 0 
+beacon TX interrupt  T_JIT 177211 T_MAC 1919999 T_CYC 1919999 Delta_T 8713 Buffered packet 0 
+beacon TX interrupt  T_JIT 273064 T_MAC 1919999 T_CYC 1919999 Delta_T 8234 Buffered packet 0 
+beacon TX interrupt  T_JIT 369195 T_MAC 1919999 T_CYC 1919999 Delta_T 7754 Buffered packet 0 
+beacon TX interrupt  T_JIT 465153 T_MAC 1919999 T_CYC 1919999 Delta_T 7274 Buffered packet 0 
+beacon TX interrupt  T_JIT 561235 T_MAC 1919999 T_CYC 1919999 Delta_T 6793 Buffered packet 0 
+beacon TX interrupt  T_JIT 657230 T_MAC 1919999 T_CYC 1919999 Delta_T 6313 Buffered packet 0 
+beacon TX interrupt  T_JIT 753277 T_MAC 1919999 T_CYC 1919999 Delta_T 5833 Buffered packet 0 
+beacon TX interrupt  T_JIT 849205 T_MAC 1919999 T_CYC 1919999 Delta_T 5353 Buffered packet 0 
+beacon TX interrupt  T_JIT 945225 T_MAC 1919999 T_CYC 1919999 Delta_T 4873 Buffered packet 0 
+beacon TX interrupt  T_JIT 1041214 T_MAC 1919999 T_CYC 1919999 Delta_T 4393 Buffered packet 0 
+beacon TX interrupt  T_JIT 1137270 T_MAC 1919999 T_CYC 1919999 Delta_T 3913 Buffered packet 0 
+beacon TX interrupt  T_JIT 1233135 T_MAC 1919999 T_CYC 1919999 Delta_T 3434 Buffered packet 0 
+beacon TX interrupt  T_JIT 1329180 T_MAC 1919999 T_CYC 1919999 Delta_T 2954 Buffered packet 0 
+beacon TX interrupt  T_JIT 1425170 T_MAC 1919999 T_CYC 1919999 Delta_T 2474 Buffered packet 0 
+beacon TX interrupt  T_JIT 1521219 T_MAC 1919999 T_CYC 1919999 Delta_T 1993 Buffered packet 0 
+beacon TX interrupt  T_JIT 1617232 T_MAC 1919999 T_CYC 1919999 Delta_T 1513 Buffered packet 0 
+beacon TX interrupt  T_JIT 1713191 T_MAC 1919999 T_CYC 1919999 Delta_T 1034 Buffered packet 0 
+beacon TX interrupt  T_JIT 1809127 T_MAC 1919999 T_CYC 1919999 Delta_T 554 Buffered packet 0 
+beacon TX interrupt  T_JIT 1905166 T_MAC 1919999 T_CYC 1919999 Delta_T 74 Buffered packet 0 
+beacon TX interrupt  T_JIT 81156 T_MAC 1919999 T_CYC 1919999 Delta_T 9194 Buffered packet 0 
+beacon TX interrupt  T_JIT 177215 T_MAC 1919999 T_CYC 1919999 Delta_T 8713 Buffered packet 0 
+beacon TX interrupt  T_JIT 273179 T_MAC 1919999 T_CYC 1919999 Delta_T 8234 Buffered packet 0 
+beacon TX interrupt  T_JIT 368953 T_MAC 1919999 T_CYC 1919999 Delta_T 7755 Buffered packet 0 
+beacon TX interrupt  T_JIT 465164 T_MAC 1919999 T_CYC 1919999 Delta_T 7274 Buffered packet 0 
+beacon TX interrupt  T_JIT 561073 T_MAC 1919999 T_CYC 1919999 Delta_T 6794 Buffered packet 0 
+beacon TX interrupt  T_JIT 657140 T_MAC 1919999 T_CYC 1919999 Delta_T 6314 Buffered packet 0 
+beacon TX interrupt  T_JIT 753117 T_MAC 1919999 T_CYC 1919999 Delta_T 5834 Buffered packet 0 
+beacon TX interrupt  T_JIT 849260 T_MAC 1919999 T_CYC 1919999 Delta_T 5353 Buffered packet 0 
+beacon TX interrupt  T_JIT 945099 T_MAC 1919999 T_CYC 1919999 Delta_T 4874 Buffered packet 0 
+beacon TX interrupt  T_JIT 1041159 T_MAC 1919999 T_CYC 1919999 Delta_T 4394 Buffered packet 0 
+beacon TX interrupt  T_JIT 1137151 T_MAC 1919999 T_CYC 1919999 Delta_T 3914 Buffered packet 0 
+beacon TX interrupt  T_JIT 1233115 T_MAC 1919999 T_CYC 1919999 Delta_T 3434 Buffered packet 0 
+beacon TX interrupt  T_JIT 1329104 T_MAC 1919999 T_CYC 1919999 Delta_T 2954 Buffered packet 0 
+beacon TX interrupt  T_JIT 1425096 T_MAC 1919999 T_CYC 1919999 Delta_T 2474 Buffered packet 0 
+beacon TX interrupt  T_JIT 1521113 T_MAC 1919999 T_CYC 1919999 Delta_T 1994 Buffered packet 0 
+beacon TX interrupt  T_JIT 1617144 T_MAC 1919999 T_CYC 1919999 Delta_T 1514 Buffered packet 0 
+beacon TX interrupt  T_JIT 1713088 T_MAC 1919999 T_CYC 1919999 Delta_T 1034 Buffered packet 0 
+beacon TX interrupt  T_JIT 1809348 T_MAC 1919999 T_CYC 1919999 Delta_T 553 Buffered packet 0 
+beacon TX interrupt  T_JIT 1905073 T_MAC 1919999 T_CYC 1919999 Delta_T 74 Buffered packet 0 
+beacon TX interrupt  T_JIT 81063 T_MAC 1919999 T_CYC 1919999 Delta_T 9194 Buffered packet 0 
+beacon TX interrupt  T_JIT 177040 T_MAC 1919999 T_CYC 1919999 Delta_T 8714 Buffered packet 0 
+beacon TX interrupt  T_JIT 273046 T_MAC 1919999 T_CYC 1919999 Delta_T 8234 Buffered packet 0 
+beacon TX interrupt  T_JIT 369056 T_MAC 1919999 T_CYC 1919999 Delta_T 7754 Buffered packet 0 
+beacon TX interrupt  T_JIT 465057 T_MAC 1919999 T_CYC 1919999 Delta_T 7274 Buffered packet 0 
+beacon TX interrupt  T_JIT 561064 T_MAC 1919999 T_CYC 1919999 Delta_T 6794 Buffered packet 0 
+beacon TX interrupt  T_JIT 656993 T_MAC 1919999 T_CYC 1919999 Delta_T 6315 Buffered packet 0 
+beacon TX interrupt  T_JIT 753059 T_MAC 1919999 T_CYC 1919999 Delta_T 5834 Buffered packet 0 
+beacon TX interrupt  T_JIT 849111 T_MAC 1919999 T_CYC 1919999 Delta_T 5354 Buffered packet 0 
+beacon TX interrupt  T_JIT 945020 T_MAC 1919999 T_CYC 1919999 Delta_T 4874 Buffered packet 0 
+beacon TX interrupt  T_JIT 1041056 T_MAC 1919999 T_CYC 1919999 Delta_T 4394 Buffered packet 0 
+beacon TX interrupt  T_JIT 1136997 T_MAC 1919999 T_CYC 1919999 Delta_T 3915 Buffered packet 0 
+beacon TX interrupt  T_JIT 1233017 T_MAC 1919999 T_CYC 1919999 Delta_T 3434 Buffered packet 0 
+beacon TX interrupt  T_JIT 1329078 T_MAC 1919999 T_CYC 1919999 Delta_T 2954 Buffered packet 0 
+beacon TX interrupt  T_JIT 1425325 T_MAC 1919999 T_CYC 1919999 Delta_T 2473 Buffered packet 0 
+beacon TX interrupt  T_JIT 1521055 T_MAC 1919999 T_CYC 1919999 Delta_T 1994 Buffered packet 0 
+beacon TX interrupt  T_JIT 1617019 T_MAC 1919999 T_CYC 1919999 Delta_T 1514 Buffered packet 0 
+beacon TX interrupt  T_JIT 1713064 T_MAC 1919999 T_CYC 1919999 Delta_T 1034 Buffered packet 0 
+beacon TX interrupt  T_JIT 1809034 T_MAC 1919999 T_CYC 1919999 Delta_T 554 Buffered packet 0 
+beacon TX interrupt  T_JIT 1905012 T_MAC 1919999 T_CYC 1919999 Delta_T 74 Buffered packet 0 
+beacon TX interrupt  T_JIT 80981 T_MAC 1919999 T_CYC 1919999 Delta_T 9195 Buffered packet 0 
+beacon TX interrupt  T_JIT 177012 T_MAC 1919999 T_CYC 1919999 Delta_T 8714 Buffered packet 0 
+beacon TX interrupt  T_JIT 273008 T_MAC 1919999 T_CYC 1919999 Delta_T 8234 Buffered packet 0 
+beacon TX interrupt  T_JIT 369019 T_MAC 1919999 T_CYC 1919999 Delta_T 7754 Buffered packet 0 
+beacon TX interrupt  T_JIT 464789 T_MAC 1919999 T_CYC 1919999 Delta_T 7276 Buffered packet 0 
+beacon TX interrupt  T_JIT 561017 T_MAC 1919999 T_CYC 1919999 Delta_T 6794 Buffered packet 0 
+beacon TX interrupt  T_JIT 657001 T_MAC 1919999 T_CYC 1919999 Delta_T 6314 Buffered packet 0 
+beacon TX interrupt  T_JIT 753088 T_MAC 1919999 T_CYC 1919999 Delta_T 5834 Buffered packet 0 
+beacon TX interrupt  T_JIT 848993 T_MAC 1919999 T_CYC 1919999 Delta_T 5355 Buffered packet 0 
+beacon TX interrupt  T_JIT 945027 T_MAC 1919999 T_CYC 1919999 Delta_T 4874 Buffered packet 0 
+beacon TX interrupt  T_JIT 1040989 T_MAC 1919999 T_CYC 1919999 Delta_T 4395 Buffered packet 0 
+beacon TX interrupt  T_JIT 1136939 T_MAC 1919999 T_CYC 1919999 Delta_T 3915 Buffered packet 0 
+beacon TX interrupt  T_JIT 1232929 T_MAC 1919999 T_CYC 1919999 Delta_T 3435 Buffered packet 0 
+beacon TX interrupt  T_JIT 1329031 T_MAC 1919999 T_CYC 1919999 Delta_T 2954 Buffered packet 0 
+beacon TX interrupt  T_JIT 1424909 T_MAC 1919999 T_CYC 1919999 Delta_T 2475 Buffered packet 0 
+beacon TX interrupt  T_JIT 1520874 T_MAC 1919999 T_CYC 1919999 Delta_T 1995 Buffered packet 0 
+beacon TX interrupt  T_JIT 1616962 T_MAC 1919999 T_CYC 1919999 Delta_T 1515 Buffered packet 0 
+beacon TX interrupt  T_JIT 1712966 T_MAC 1919999 T_CYC 1919999 Delta_T 1035 Buffered packet 0 
+beacon TX interrupt  T_JIT 1808903 T_MAC 1919999 T_CYC 1919999 Delta_T 555 Buffered packet 0 
+beacon TX interrupt  T_JIT 1904934 T_MAC 1919999 T_CYC 1919999 Delta_T 75 Buffered packet 0 
+beacon TX interrupt  T_JIT 80896 T_MAC 1919999 T_CYC 1919999 Delta_T 9195 Buffered packet 0 
+beacon TX interrupt  T_JIT 177101 T_MAC 1919999 T_CYC 1919999 Delta_T 8714 Buffered packet 0 
+beacon TX interrupt  T_JIT 272943 T_MAC 1919999 T_CYC 1919999 Delta_T 8235 Buffered packet 0 
+beacon TX interrupt  T_JIT 368863 T_MAC 1919999 T_CYC 1919999 Delta_T 7755 Buffered packet 0 
+beacon TX interrupt  T_JIT 464847 T_MAC 1919999 T_CYC 1919999 Delta_T 7275 Buffered packet 0 
+beacon TX interrupt  T_JIT 560733 T_MAC 1919999 T_CYC 1919999 Delta_T 6796 Buffered packet 0 
+beacon TX interrupt  T_JIT 656912 T_MAC 1919999 T_CYC 1919999 Delta_T 6315 Buffered packet 0 
+beacon TX interrupt  T_JIT 752940 T_MAC 1919999 T_CYC 1919999 Delta_T 5835 Buffered packet 0 
+beacon TX interrupt  T_JIT 848911 T_MAC 1919999 T_CYC 1919999 Delta_T 5355 Buffered packet 0 
+beacon TX interrupt  T_JIT 944897 T_MAC 1919999 T_CYC 1919999 Delta_T 4875 Buffered packet 0 
+beacon TX interrupt  T_JIT 1040888 T_MAC 1919999 T_CYC 1919999 Delta_T 4395 Buffered packet 0 
+beacon TX interrupt  T_JIT 1136836 T_MAC 1919999 T_CYC 1919999 Delta_T 3915 Buffered packet 0 
+beacon TX interrupt  T_JIT 1232894 T_MAC 1919999 T_CYC 1919999 Delta_T 3435 Buffered packet 0 
+beacon TX interrupt  T_JIT 1328916 T_MAC 1919999 T_CYC 1919999 Delta_T 2955 Buffered packet 0 
+beacon TX interrupt  T_JIT 1424876 T_MAC 1919999 T_CYC 1919999 Delta_T 2475 Buffered packet 0 
+beacon TX interrupt  T_JIT 1520844 T_MAC 1919999 T_CYC 1919999 Delta_T 1995 Buffered packet 0 
+beacon TX interrupt  T_JIT 1616845 T_MAC 1919999 T_CYC 1919999 Delta_T 1515 Buffered packet 0 
+beacon TX interrupt  T_JIT 1712837 T_MAC 1919999 T_CYC 1919999 Delta_T 1035 Buffered packet 0 
+beacon TX interrupt  T_JIT 1808872 T_MAC 1919999 T_CYC 1919999 Delta_T 555 Buffered packet 0 
+beacon TX interrupt  T_JIT 1904841 T_MAC 1919999 T_CYC 1919999 Delta_T 75 Buffered packet 0 
+beacon TX interrupt  T_JIT 80926 T_MAC 1919999 T_CYC 1919999 Delta_T 9195 Buffered packet 0 
+beacon TX interrupt  T_JIT 176909 T_MAC 1919999 T_CYC 1919999 Delta_T 8715 Buffered packet 0 
+beacon TX interrupt  T_JIT 272811 T_MAC 1919999 T_CYC 1919999 Delta_T 8235 Buffered packet 0 
+beacon TX interrupt  T_JIT 368857 T_MAC 1919999 T_CYC 1919999 Delta_T 7755 Buffered packet 0 
+beacon TX interrupt  T_JIT 464847 T_MAC 1919999 T_CYC 1919999 Delta_T 7275 Buffered packet 0 
+beacon TX interrupt  T_JIT 560804 T_MAC 1919999 T_CYC 1919999 Delta_T 6795 Buffered packet 0 
+beacon TX interrupt  T_JIT 659260 T_MAC 1919999 T_CYC 1919999 Delta_T 6303 Buffered packet 0 
+
+
+
+Baseline System 1
+beacon TX interrupt  T_JIT 1882121 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000309174: 
+beacon TX interrupt  T_JIT 1882126 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000307302: 
+beacon TX interrupt  T_JIT 1882642 T_MAC 1919999 T_CYC 1919999 Delta_T 186 Buffered packet 0 
+send out the request 0.000307791: 
+beacon TX interrupt  T_JIT 1882423 T_MAC 1919999 T_CYC 1919999 Delta_T 187 Buffered packet 0 
+send out the request 0.000309216: 
+beacon TX interrupt  T_JIT 1882049 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000307242: 
+beacon TX interrupt  T_JIT 1882642 T_MAC 1919999 T_CYC 1919999 Delta_T 186 Buffered packet 0 
+send out the request 0.000307974: 
+beacon TX interrupt  T_JIT 1882349 T_MAC 1919999 T_CYC 1919999 Delta_T 188 Buffered packet 0 
+send out the request 0.000309474: 
+beacon TX interrupt  T_JIT 1882073 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000309201: 
+beacon TX interrupt  T_JIT 1882073 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000307230: 
+beacon TX interrupt  T_JIT 1882499 T_MAC 1919999 T_CYC 1919999 Delta_T 187 Buffered packet 0 
+send out the request 0.000308622: 
+beacon TX interrupt  T_JIT 1882331 T_MAC 1919999 T_CYC 1919999 Delta_T 188 Buffered packet 0 
+send out the request 0.000308634: 
+beacon TX interrupt  T_JIT 1882325 T_MAC 1919999 T_CYC 1919999 Delta_T 188 Buffered packet 0 
+send out the request 0.000309327: 
+beacon TX interrupt  T_JIT 1882071 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000309333: 
+beacon TX interrupt  T_JIT 1882094 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000309762: 
+beacon TX interrupt  T_JIT 1881971 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000309429: 
+beacon TX interrupt  T_JIT 1882024 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000308421: 
+beacon TX interrupt  T_JIT 1882328 T_MAC 1919999 T_CYC 1919999 Delta_T 188 Buffered packet 0 
+send out the request 0.000309804: 
+beacon TX interrupt  T_JIT 1882009 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000309657: 
+beacon TX interrupt  T_JIT 1882071 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000309183: 
+beacon TX interrupt  T_JIT 1882219 T_MAC 1919999 T_CYC 1919999 Delta_T 188 Buffered packet 0 
+send out the request 0.000309669: 
+beacon TX interrupt  T_JIT 1881979 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000309705: 
+beacon TX interrupt  T_JIT 1882020 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000309591: 
+beacon TX interrupt  T_JIT 1881982 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000309624: 
+beacon TX interrupt  T_JIT 1882052 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000308070: 
+beacon TX interrupt  T_JIT 1882450 T_MAC 1919999 T_CYC 1919999 Delta_T 187 Buffered packet 0 
+send out the request 0.000309534: 
+beacon TX interrupt  T_JIT 1882005 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000309684: 
+beacon TX interrupt  T_JIT 1881972 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000307929: 
+beacon TX interrupt  T_JIT 1882466 T_MAC 1919999 T_CYC 1919999 Delta_T 187 Buffered packet 0 
+send out the request 0.000309573: 
+beacon TX interrupt  T_JIT 1882032 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000309528: 
+beacon TX interrupt  T_JIT 1882041 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000309666: 
+beacon TX interrupt  T_JIT 1882005 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000309978: 
+beacon TX interrupt  T_JIT 1881919 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000309879: 
+beacon TX interrupt  T_JIT 1881909 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310227: 
+beacon TX interrupt  T_JIT 1881902 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000309885: 
+beacon TX interrupt  T_JIT 1882009 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000309261: 
+beacon TX interrupt  T_JIT 1882177 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000309585: 
+beacon TX interrupt  T_JIT 1882020 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000309984: 
+beacon TX interrupt  T_JIT 1881897 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000308997: 
+beacon TX interrupt  T_JIT 1882232 T_MAC 1919999 T_CYC 1919999 Delta_T 188 Buffered packet 0 
+send out the request 0.000309732: 
+beacon TX interrupt  T_JIT 1881966 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310152: 
+beacon TX interrupt  T_JIT 1881934 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000309801: 
+beacon TX interrupt  T_JIT 1881951 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310044: 
+beacon TX interrupt  T_JIT 1881861 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000309927: 
+beacon TX interrupt  T_JIT 1881924 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000309927: 
+beacon TX interrupt  T_JIT 1881963 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310014: 
+beacon TX interrupt  T_JIT 1881911 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000305514: 
+beacon TX interrupt  T_JIT 1883196 T_MAC 1919999 T_CYC 1919999 Delta_T 184 Buffered packet 0 
+send out the request 0.000309987: 
+beacon TX interrupt  T_JIT 1881963 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310251: 
+beacon TX interrupt  T_JIT 1881900 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310026: 
+beacon TX interrupt  T_JIT 1881973 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000309375: 
+beacon TX interrupt  T_JIT 1882107 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000310146: 
+beacon TX interrupt  T_JIT 1881865 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310278: 
+beacon TX interrupt  T_JIT 1881878 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000308439: 
+beacon TX interrupt  T_JIT 1882392 T_MAC 1919999 T_CYC 1919999 Delta_T 188 Buffered packet 0 
+send out the request 0.000310191: 
+beacon TX interrupt  T_JIT 1881881 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310146: 
+beacon TX interrupt  T_JIT 1881929 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000309918: 
+beacon TX interrupt  T_JIT 1881991 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310464: 
+beacon TX interrupt  T_JIT 1881828 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310317: 
+beacon TX interrupt  T_JIT 1881929 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000309606: 
+beacon TX interrupt  T_JIT 1882032 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000310212: 
+beacon TX interrupt  T_JIT 1881837 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310242: 
+beacon TX interrupt  T_JIT 1881928 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000308715: 
+beacon TX interrupt  T_JIT 1882280 T_MAC 1919999 T_CYC 1919999 Delta_T 188 Buffered packet 0 
+send out the request 0.000310662: 
+beacon TX interrupt  T_JIT 1881817 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310488: 
+beacon TX interrupt  T_JIT 1881817 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000308916: 
+beacon TX interrupt  T_JIT 1882272 T_MAC 1919999 T_CYC 1919999 Delta_T 188 Buffered packet 0 
+send out the request 0.000310368: 
+beacon TX interrupt  T_JIT 1881873 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310368: 
+beacon TX interrupt  T_JIT 1881867 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310455: 
+beacon TX interrupt  T_JIT 1881852 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310353: 
+beacon TX interrupt  T_JIT 1881879 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310356: 
+beacon TX interrupt  T_JIT 1881838 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310398: 
+beacon TX interrupt  T_JIT 1881805 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310392: 
+beacon TX interrupt  T_JIT 1881890 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310587: 
+beacon TX interrupt  T_JIT 1881822 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310698: 
+beacon TX interrupt  T_JIT 1881755 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000310281: 
+beacon TX interrupt  T_JIT 1881883 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310623: 
+beacon TX interrupt  T_JIT 1881814 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310857: 
+beacon TX interrupt  T_JIT 1881787 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000310335: 
+beacon TX interrupt  T_JIT 1881900 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310614: 
+beacon TX interrupt  T_JIT 1881826 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310758: 
+beacon TX interrupt  T_JIT 1881767 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000310323: 
+beacon TX interrupt  T_JIT 1881900 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310815: 
+beacon TX interrupt  T_JIT 1881761 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000310668: 
+beacon TX interrupt  T_JIT 1881761 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000310053: 
+beacon TX interrupt  T_JIT 1881918 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310989: 
+beacon TX interrupt  T_JIT 1881737 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000310497: 
+beacon TX interrupt  T_JIT 1881849 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310317: 
+beacon TX interrupt  T_JIT 1881882 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310959: 
+beacon TX interrupt  T_JIT 1881731 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000310869: 
+beacon TX interrupt  T_JIT 1881762 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000310428: 
+beacon TX interrupt  T_JIT 1881829 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310851: 
+beacon TX interrupt  T_JIT 1881761 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000310899: 
+beacon TX interrupt  T_JIT 1881747 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000310404: 
+beacon TX interrupt  T_JIT 1881930 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000310851: 
+beacon TX interrupt  T_JIT 1881717 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311025: 
+beacon TX interrupt  T_JIT 1881726 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000309606: 
+beacon TX interrupt  T_JIT 1882150 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000311043: 
+beacon TX interrupt  T_JIT 1881747 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311049: 
+beacon TX interrupt  T_JIT 1881686 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000309324: 
+beacon TX interrupt  T_JIT 1882184 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000311097: 
+beacon TX interrupt  T_JIT 1881721 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311058: 
+beacon TX interrupt  T_JIT 1881719 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000309276: 
+beacon TX interrupt  T_JIT 1882239 T_MAC 1919999 T_CYC 1919999 Delta_T 188 Buffered packet 0 
+send out the request 0.000311148: 
+beacon TX interrupt  T_JIT 1881748 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311154: 
+beacon TX interrupt  T_JIT 1881755 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000309405: 
+beacon TX interrupt  T_JIT 1882175 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000311079: 
+beacon TX interrupt  T_JIT 1881720 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311172: 
+beacon TX interrupt  T_JIT 1881681 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311085: 
+beacon TX interrupt  T_JIT 1881840 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000311382: 
+beacon TX interrupt  T_JIT 1881659 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000310950: 
+beacon TX interrupt  T_JIT 1881730 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311118: 
+beacon TX interrupt  T_JIT 1881738 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311166: 
+beacon TX interrupt  T_JIT 1881657 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311127: 
+beacon TX interrupt  T_JIT 1881730 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311475: 
+beacon TX interrupt  T_JIT 1881675 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311283: 
+beacon TX interrupt  T_JIT 1881704 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311247: 
+beacon TX interrupt  T_JIT 1881650 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000310965: 
+beacon TX interrupt  T_JIT 1881718 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311451: 
+beacon TX interrupt  T_JIT 1881675 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000310221: 
+beacon TX interrupt  T_JIT 1881947 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000311388: 
+beacon TX interrupt  T_JIT 1881669 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311337: 
+beacon TX interrupt  T_JIT 1881648 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311457: 
+beacon TX interrupt  T_JIT 1881649 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311244: 
+beacon TX interrupt  T_JIT 1881715 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311352: 
+beacon TX interrupt  T_JIT 1881672 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311388: 
+beacon TX interrupt  T_JIT 1881649 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311673: 
+beacon TX interrupt  T_JIT 1881613 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311619: 
+beacon TX interrupt  T_JIT 1881625 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311754: 
+beacon TX interrupt  T_JIT 1881596 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311235: 
+beacon TX interrupt  T_JIT 1881792 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311442: 
+beacon TX interrupt  T_JIT 1881627 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311643: 
+beacon TX interrupt  T_JIT 1881557 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000310908: 
+beacon TX interrupt  T_JIT 1881790 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311667: 
+beacon TX interrupt  T_JIT 1881602 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311889: 
+beacon TX interrupt  T_JIT 1881557 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000310251: 
+beacon TX interrupt  T_JIT 1882045 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000303744: 
+beacon TX interrupt  T_JIT 1884217 T_MAC 1919999 T_CYC 1919999 Delta_T 178 Buffered packet 0 
+send out the request 0.000311817: 
+beacon TX interrupt  T_JIT 1881613 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000310260: 
+beacon TX interrupt  T_JIT 1882048 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000311571: 
+beacon TX interrupt  T_JIT 1881634 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000312087: 
+beacon TX interrupt  T_JIT 1881493 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000310416: 
+beacon TX interrupt  T_JIT 1882016 T_MAC 1919999 T_CYC 1919999 Delta_T 189 Buffered packet 0 
+send out the request 0.000311589: 
+beacon TX interrupt  T_JIT 1881634 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000312279: 
+beacon TX interrupt  T_JIT 1881489 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000312186: 
+beacon TX interrupt  T_JIT 1881499 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311625: 
+beacon TX interrupt  T_JIT 1881569 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311889: 
+beacon TX interrupt  T_JIT 1881538 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000312078: 
+beacon TX interrupt  T_JIT 1881510 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311892: 
+beacon TX interrupt  T_JIT 1881549 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311811: 
+beacon TX interrupt  T_JIT 1881588 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311655: 
+beacon TX interrupt  T_JIT 1881656 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000311802: 
+beacon TX interrupt  T_JIT 1881619 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000312045: 
+beacon TX interrupt  T_JIT 1881546 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000312153: 
+beacon TX interrupt  T_JIT 1881473 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311943: 
+beacon TX interrupt  T_JIT 1881559 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000310866: 
+beacon TX interrupt  T_JIT 1881733 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000312021: 
+beacon TX interrupt  T_JIT 1881526 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000312102: 
+beacon TX interrupt  T_JIT 1881491 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311190: 
+beacon TX interrupt  T_JIT 1881694 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000312120: 
+beacon TX interrupt  T_JIT 1881519 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311898: 
+beacon TX interrupt  T_JIT 1881581 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000310884: 
+beacon TX interrupt  T_JIT 1881744 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000312375: 
+beacon TX interrupt  T_JIT 1881423 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311895: 
+beacon TX interrupt  T_JIT 1881540 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311109: 
+beacon TX interrupt  T_JIT 1881749 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000312399: 
+beacon TX interrupt  T_JIT 1881468 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000312162: 
+beacon TX interrupt  T_JIT 1881504 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000310980: 
+beacon TX interrupt  T_JIT 1881729 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000312774: 
+beacon TX interrupt  T_JIT 1881363 T_MAC 1919999 T_CYC 1919999 Delta_T 193 Buffered packet 0 
+send out the request 0.000312168: 
+beacon TX interrupt  T_JIT 1881490 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311259: 
+beacon TX interrupt  T_JIT 1881747 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000312369: 
+beacon TX interrupt  T_JIT 1881447 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000312120: 
+beacon TX interrupt  T_JIT 1881578 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311352: 
+beacon TX interrupt  T_JIT 1881618 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000312810: 
+beacon TX interrupt  T_JIT 1881406 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000312486: 
+beacon TX interrupt  T_JIT 1881448 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311481: 
+beacon TX interrupt  T_JIT 1881660 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000312912: 
+beacon TX interrupt  T_JIT 1881355 T_MAC 1919999 T_CYC 1919999 Delta_T 193 Buffered packet 0 
+send out the request 0.000312765: 
+beacon TX interrupt  T_JIT 1881456 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311574: 
+beacon TX interrupt  T_JIT 1881659 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000312678: 
+beacon TX interrupt  T_JIT 1881396 T_MAC 1919999 T_CYC 1919999 Delta_T 193 Buffered packet 0 
+send out the request 0.000312285: 
+beacon TX interrupt  T_JIT 1881507 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311454: 
+beacon TX interrupt  T_JIT 1881696 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000310995: 
+beacon TX interrupt  T_JIT 1881883 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0 
+send out the request 0.000312636: 
+beacon TX interrupt  T_JIT 1881415 T_MAC 1919999 T_CYC 1919999 Delta_T 192 Buffered packet 0 
+send out the request 0.000311847: 
+beacon TX interrupt  T_JIT 1881652 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000312084: 
+beacon TX interrupt  T_JIT 1881638 T_MAC 1919999 T_CYC 1919999 Delta_T 191 Buffered packet 0 
+send out the request 0.000312684: 
+beacon TX interrupt  T_JIT 1881375 T_MAC 1919999 T_CYC 1919999 Delta_T 193 Buffered packet 0 
+send out the request 0.000312885: 
+beacon TX interrupt  T_JIT 1881394 T_MAC 1919999 T_CYC 1919999 Delta_T 193 Buffered packet 0 
+send out the request 0.000310848: 
+beacon TX interrupt  T_JIT 1881887 T_MAC 1919999 T_CYC 1919999 Delta_T 190 Buffered packet 0
