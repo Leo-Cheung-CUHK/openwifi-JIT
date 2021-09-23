@@ -1,4 +1,4 @@
-xpu.o: /home/leo/Documents/openwifi/driver/xpu/xpu.c \
+xpu.o: /home/leo/Documents/workarea/JIT/openwifi/driver/xpu/xpu.c \
  include/linux/kconfig.h include/generated/autoconf.h \
  include/linux/bitops.h arch/arm/include/uapi/asm/types.h \
  include/asm-generic/int-ll64.h include/uapi/asm-generic/int-ll64.h \
@@ -281,4 +281,4 @@ xpu.o: /home/leo/Documents/openwifi/driver/xpu/xpu.c \
  include/linux/win_minmax.h include/net/inet_connection_sock.h \
  include/net/inet_timewait_sock.h include/net/timewait_sock.h \
  include/uapi/linux/tcp.h include/linux/udp.h include/uapi/linux/udp.h \
- /home/leo/Documents/openwifi/driver/xpu/../hw_def.h
+ /home/leo/Documents/workarea/JIT/openwifi/driver/xpu/../hw_def.h

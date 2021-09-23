@@ -1,8 +1,8 @@
-cmd_/home/leo/Documents/openwifi/driver/openofdm_rx/openofdm_rx.o := arm-linux-gnueabihf-gcc -Wp,-MD,/home/leo/Documents/openwifi/driver/openofdm_rx/.openofdm_rx.o.d  -nostdinc -isystem /home/leo/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/include -I./arch/arm/include -I./arch/arm/include/generated  -I./include -I./arch/arm/include/uapi -I./arch/arm/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-PIE -fno-dwarf2-cfi-asm -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-int-in-bool-context -O2 --param=allow-store-data-races=0 -DCC_HAVE_ASM_GOTO -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -Wno-unused-const-variable -fomit-frame-pointer -fno-var-tracking-assignments -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init  -DMODULE  -DKBUILD_BASENAME='"openofdm_rx"'  -DKBUILD_MODNAME='"openofdm_rx"' -c -o /home/leo/Documents/openwifi/driver/openofdm_rx/.tmp_openofdm_rx.o /home/leo/Documents/openwifi/driver/openofdm_rx/openofdm_rx.c
+cmd_/home/leo/Documents/workarea/JIT/openwifi/driver/openofdm_rx/openofdm_rx.o := arm-linux-gnueabihf-gcc -Wp,-MD,/home/leo/Documents/workarea/JIT/openwifi/driver/openofdm_rx/.openofdm_rx.o.d  -nostdinc -isystem /home/leo/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/include -I./arch/arm/include -I./arch/arm/include/generated  -I./include -I./arch/arm/include/uapi -I./arch/arm/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-PIE -fno-dwarf2-cfi-asm -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-int-in-bool-context -O2 --param=allow-store-data-races=0 -DCC_HAVE_ASM_GOTO -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -Wno-unused-const-variable -fomit-frame-pointer -fno-var-tracking-assignments -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init  -DMODULE  -DKBUILD_BASENAME='"openofdm_rx"'  -DKBUILD_MODNAME='"openofdm_rx"' -c -o /home/leo/Documents/workarea/JIT/openwifi/driver/openofdm_rx/.tmp_openofdm_rx.o /home/leo/Documents/workarea/JIT/openwifi/driver/openofdm_rx/openofdm_rx.c
 
-source_/home/leo/Documents/openwifi/driver/openofdm_rx/openofdm_rx.o := /home/leo/Documents/openwifi/driver/openofdm_rx/openofdm_rx.c
+source_/home/leo/Documents/workarea/JIT/openwifi/driver/openofdm_rx/openofdm_rx.o := /home/leo/Documents/workarea/JIT/openwifi/driver/openofdm_rx/openofdm_rx.c
 
-deps_/home/leo/Documents/openwifi/driver/openofdm_rx/openofdm_rx.o := \
+deps_/home/leo/Documents/workarea/JIT/openwifi/driver/openofdm_rx/openofdm_rx.o := \
   include/linux/bitops.h \
   arch/arm/include/uapi/asm/types.h \
   include/asm-generic/int-ll64.h \
@@ -909,11 +909,11 @@ deps_/home/leo/Documents/openwifi/driver/openofdm_rx/openofdm_rx.o := \
     $(wildcard include/config/have/clk/prepare.h) \
     $(wildcard include/config/have/clk.h) \
   include/linux/io-64-nonatomic-lo-hi.h \
-  /home/leo/Documents/openwifi/driver/openofdm_rx/../hw_def.h \
+  /home/leo/Documents/workarea/JIT/openwifi/driver/openofdm_rx/../hw_def.h \
     $(wildcard include/config/addr.h) \
     $(wildcard include/config/read.h) \
     $(wildcard include/config/write.h) \
 
-/home/leo/Documents/openwifi/driver/openofdm_rx/openofdm_rx.o: $(deps_/home/leo/Documents/openwifi/driver/openofdm_rx/openofdm_rx.o)
+/home/leo/Documents/workarea/JIT/openwifi/driver/openofdm_rx/openofdm_rx.o: $(deps_/home/leo/Documents/workarea/JIT/openwifi/driver/openofdm_rx/openofdm_rx.o)
 
-$(deps_/home/leo/Documents/openwifi/driver/openofdm_rx/openofdm_rx.o):
+$(deps_/home/leo/Documents/workarea/JIT/openwifi/driver/openofdm_rx/openofdm_rx.o):

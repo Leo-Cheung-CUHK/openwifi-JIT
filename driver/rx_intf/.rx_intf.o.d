@@ -1,4 +1,5 @@
-rx_intf.o: /home/leo/Documents/openwifi/driver/rx_intf/rx_intf.c \
+rx_intf.o: \
+ /home/leo/Documents/workarea/JIT/openwifi/driver/rx_intf/rx_intf.c \
  include/linux/kconfig.h include/generated/autoconf.h \
  include/linux/bitops.h arch/arm/include/uapi/asm/types.h \
  include/asm-generic/int-ll64.h include/uapi/asm-generic/int-ll64.h \
@@ -195,4 +196,4 @@ rx_intf.o: /home/leo/Documents/openwifi/driver/rx_intf/rx_intf.c \
  include/linux/irqdesc.h arch/arm/include/asm/hw_irq.h \
  include/linux/irqdomain.h include/linux/clk.h \
  include/linux/io-64-nonatomic-lo-hi.h \
- /home/leo/Documents/openwifi/driver/rx_intf/../hw_def.h
+ /home/leo/Documents/workarea/JIT/openwifi/driver/rx_intf/../hw_def.h

@@ -25,3 +25,5 @@ __used
 __attribute__((section(".modinfo"))) =
 "depends=";
 
+MODULE_ALIAS("of:N*T*Csdr,sdr");
+MODULE_ALIAS("of:N*T*Csdr,sdrC*");

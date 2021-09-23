@@ -1623,7 +1623,6 @@ static enum hrtimer_restart openwifi_beacon_work(struct hrtimer *timer)
 		goto resched;
 
 	mgmt = (struct ieee80211_mgmt *)skb->data;
-	//mgmt->u.beacon.timestamp = cpu_to_le64(tdma_node.receive_response_tsf); 
 	mgmt->u.beacon.timestamp = cpu_to_le64(tdma_node.sig_stb_tsf); 
 
 	print_elapsed_time(true,0,false);
@@ -1638,7 +1637,6 @@ resched:
 	* schedule next beacon
 	* TODO: use hardware support for beacon timing
 	*/
-	//hrtimer_forward_now(timer, ktime_set(0,1199400 + tdma_node.step)); // 1200000 1199400 1200600 (0.00005)  1199964 1200036 (0.00003) 1199952 (0.00004) 
 	hrtimer_forward_now(timer, ktime_set(0,tdma_node.SW_CYC + tdma_node.step)); //   9600000 9552000 9648000
 
 	return HRTIMER_RESTART;  	

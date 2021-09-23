@@ -1,8 +1,8 @@
-cmd_/home/leo/Documents/openwifi/driver/sdr.o := arm-linux-gnueabihf-gcc -Wp,-MD,/home/leo/Documents/openwifi/driver/.sdr.o.d  -nostdinc -isystem /home/leo/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/include -I./arch/arm/include -I./arch/arm/include/generated  -I./include -I./arch/arm/include/uapi -I./arch/arm/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-PIE -fno-dwarf2-cfi-asm -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-int-in-bool-context -O2 --param=allow-store-data-races=0 -DCC_HAVE_ASM_GOTO -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -Wno-unused-const-variable -fomit-frame-pointer -fno-var-tracking-assignments -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init  -DMODULE  -DKBUILD_BASENAME='"sdr"'  -DKBUILD_MODNAME='"sdr"' -c -o /home/leo/Documents/openwifi/driver/.tmp_sdr.o /home/leo/Documents/openwifi/driver/sdr.c
+cmd_/home/leo/Documents/workarea/JIT/openwifi/driver/sdr.o := arm-linux-gnueabihf-gcc -Wp,-MD,/home/leo/Documents/workarea/JIT/openwifi/driver/.sdr.o.d  -nostdinc -isystem /home/leo/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/include -I./arch/arm/include -I./arch/arm/include/generated  -I./include -I./arch/arm/include/uapi -I./arch/arm/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-PIE -fno-dwarf2-cfi-asm -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-int-in-bool-context -O2 --param=allow-store-data-races=0 -DCC_HAVE_ASM_GOTO -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -Wno-unused-const-variable -fomit-frame-pointer -fno-var-tracking-assignments -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init  -DMODULE  -DKBUILD_BASENAME='"sdr"'  -DKBUILD_MODNAME='"sdr"' -c -o /home/leo/Documents/workarea/JIT/openwifi/driver/.tmp_sdr.o /home/leo/Documents/workarea/JIT/openwifi/driver/sdr.c
 
-source_/home/leo/Documents/openwifi/driver/sdr.o := /home/leo/Documents/openwifi/driver/sdr.c
+source_/home/leo/Documents/workarea/JIT/openwifi/driver/sdr.o := /home/leo/Documents/workarea/JIT/openwifi/driver/sdr.c
 
-deps_/home/leo/Documents/openwifi/driver/sdr.o := \
+deps_/home/leo/Documents/workarea/JIT/openwifi/driver/sdr.o := \
     $(wildcard include/config/write.h) \
   include/linux/bitops.h \
   arch/arm/include/uapi/asm/types.h \
@@ -1290,28 +1290,28 @@ deps_/home/leo/Documents/openwifi/driver/sdr.o := \
   include/linux/timerfd.h \
   include/uapi/linux/timerfd.h \
   include/uapi/linux/prctl.h \
-  /home/leo/Documents/openwifi/driver/ad9361/ad9361_regs.h \
+  /home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361_regs.h \
     $(wildcard include/config/1.h) \
     $(wildcard include/config/2.h) \
     $(wildcard include/config/3.h) \
     $(wildcard include/config/2/settling/delay.h) \
     $(wildcard include/config/word/num.h) \
     $(wildcard include/config/1/dflt.h) \
-  /home/leo/Documents/openwifi/driver/ad9361/ad9361.h \
+  /home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361.h \
     $(wildcard include/config/ad9361/ext/band/control.h) \
-  /home/leo/Documents/openwifi/driver/ad9361/ad9361_regs.h \
-  /home/leo/Documents/openwifi/driver/ad9361/ad9361_private.h \
-  /home/leo/Documents/openwifi/driver/ad9361/ad9361.h \
+  /home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361_regs.h \
+  /home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361_private.h \
+  /home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361.h \
   include/uapi/../../drivers/iio/frequency/cf_axi_dds.h \
   include/linux/clk/clkscale.h \
   include/linux/fpga/adi-axi-common.h \
-  /home/leo/Documents/openwifi/driver/../user_space/sdrctl_src/nl80211_testmode_def.h \
-  /home/leo/Documents/openwifi/driver/hw_def.h \
+  /home/leo/Documents/workarea/JIT/openwifi/driver/../user_space/sdrctl_src/nl80211_testmode_def.h \
+  /home/leo/Documents/workarea/JIT/openwifi/driver/hw_def.h \
     $(wildcard include/config/addr.h) \
     $(wildcard include/config/read.h) \
-  /home/leo/Documents/openwifi/driver/sdr.h \
-  /home/leo/Documents/openwifi/driver/tdma_struct.h \
+  /home/leo/Documents/workarea/JIT/openwifi/driver/sdr.h \
+  /home/leo/Documents/workarea/JIT/openwifi/driver/tdma_struct.h \
 
-/home/leo/Documents/openwifi/driver/sdr.o: $(deps_/home/leo/Documents/openwifi/driver/sdr.o)
+/home/leo/Documents/workarea/JIT/openwifi/driver/sdr.o: $(deps_/home/leo/Documents/workarea/JIT/openwifi/driver/sdr.o)
 
-$(deps_/home/leo/Documents/openwifi/driver/sdr.o):
+$(deps_/home/leo/Documents/workarea/JIT/openwifi/driver/sdr.o):

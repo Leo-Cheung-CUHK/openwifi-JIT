@@ -1,4 +1,5 @@
-ad9361.o: /home/leo/Documents/openwifi/driver/ad9361/ad9361.c \
+ad9361.o: \
+ /home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361.c \
  include/linux/kconfig.h include/generated/autoconf.h \
  include/linux/module.h include/linux/list.h include/linux/types.h \
  include/uapi/linux/types.h arch/arm/include/uapi/asm/types.h \
@@ -196,6 +197,6 @@ ad9361.o: /home/leo/Documents/openwifi/driver/ad9361/ad9361.c \
  include/linux/clk.h include/linux/clkdev.h \
  arch/arm/include/generated/asm/clkdev.h include/asm-generic/clkdev.h \
  include/linux/clk-provider.h \
- /home/leo/Documents/openwifi/driver/ad9361/ad9361.h \
- /home/leo/Documents/openwifi/driver/ad9361/ad9361_regs.h \
- /home/leo/Documents/openwifi/driver/ad9361/ad9361_private.h
+ /home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361.h \
+ /home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361_regs.h \
+ /home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361_private.h

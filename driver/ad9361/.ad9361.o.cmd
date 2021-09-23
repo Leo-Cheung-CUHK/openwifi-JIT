@@ -1,8 +1,8 @@
-cmd_/home/leo/Documents/openwifi/driver/ad9361/ad9361.o := arm-linux-gnueabihf-gcc -Wp,-MD,/home/leo/Documents/openwifi/driver/ad9361/.ad9361.o.d  -nostdinc -isystem /home/leo/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/include -I./arch/arm/include -I./arch/arm/include/generated  -I./include -I./arch/arm/include/uapi -I./arch/arm/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-PIE -fno-dwarf2-cfi-asm -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-int-in-bool-context -O2 --param=allow-store-data-races=0 -DCC_HAVE_ASM_GOTO -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -Wno-unused-const-variable -fomit-frame-pointer -fno-var-tracking-assignments -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init  -DMODULE  -DKBUILD_BASENAME='"ad9361"'  -DKBUILD_MODNAME='"ad9361_drv"' -c -o /home/leo/Documents/openwifi/driver/ad9361/.tmp_ad9361.o /home/leo/Documents/openwifi/driver/ad9361/ad9361.c
+cmd_/home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361.o := arm-linux-gnueabihf-gcc -Wp,-MD,/home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/.ad9361.o.d  -nostdinc -isystem /home/leo/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/include -I./arch/arm/include -I./arch/arm/include/generated  -I./include -I./arch/arm/include/uapi -I./arch/arm/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-PIE -fno-dwarf2-cfi-asm -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-int-in-bool-context -O2 --param=allow-store-data-races=0 -DCC_HAVE_ASM_GOTO -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -Wno-unused-const-variable -fomit-frame-pointer -fno-var-tracking-assignments -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init  -DMODULE  -DKBUILD_BASENAME='"ad9361"'  -DKBUILD_MODNAME='"ad9361_drv"' -c -o /home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/.tmp_ad9361.o /home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361.c
 
-source_/home/leo/Documents/openwifi/driver/ad9361/ad9361.o := /home/leo/Documents/openwifi/driver/ad9361/ad9361.c
+source_/home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361.o := /home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361.c
 
-deps_/home/leo/Documents/openwifi/driver/ad9361/ad9361.o := \
+deps_/home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361.o := \
     $(wildcard include/config/2.h) \
     $(wildcard include/config/1.h) \
     $(wildcard include/config/2/settling/delay.h) \
@@ -925,12 +925,12 @@ deps_/home/leo/Documents/openwifi/driver/ad9361/ad9361.o := \
   arch/arm/include/generated/asm/clkdev.h \
   include/asm-generic/clkdev.h \
   include/linux/clk-provider.h \
-  /home/leo/Documents/openwifi/driver/ad9361/ad9361.h \
+  /home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361.h \
     $(wildcard include/config/ad9361/ext/band/control.h) \
-  /home/leo/Documents/openwifi/driver/ad9361/ad9361_regs.h \
+  /home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361_regs.h \
     $(wildcard include/config/1/dflt.h) \
-  /home/leo/Documents/openwifi/driver/ad9361/ad9361_private.h \
+  /home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361_private.h \
 
-/home/leo/Documents/openwifi/driver/ad9361/ad9361.o: $(deps_/home/leo/Documents/openwifi/driver/ad9361/ad9361.o)
+/home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361.o: $(deps_/home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361.o)
 
-$(deps_/home/leo/Documents/openwifi/driver/ad9361/ad9361.o):
+$(deps_/home/leo/Documents/workarea/JIT/openwifi/driver/ad9361/ad9361.o):

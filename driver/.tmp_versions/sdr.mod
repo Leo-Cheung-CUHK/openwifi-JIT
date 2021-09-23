@@ -1,3 +1,3 @@
-/home/leo/Documents/openwifi/driver/sdr.ko
-/home/leo/Documents/openwifi/driver/sdr.o
+/home/leo/Documents/workarea/JIT/openwifi/driver/sdr.ko
+/home/leo/Documents/workarea/JIT/openwifi/driver/sdr.o
 

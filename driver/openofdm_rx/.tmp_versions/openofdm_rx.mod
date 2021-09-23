@@ -1,3 +1,3 @@
-/home/leo/Documents/openwifi/driver/openofdm_rx/openofdm_rx.ko
-/home/leo/Documents/openwifi/driver/openofdm_rx/openofdm_rx.o
+/home/leo/Documents/workarea/JIT/openwifi/driver/openofdm_rx/openofdm_rx.ko
+/home/leo/Documents/workarea/JIT/openwifi/driver/openofdm_rx/openofdm_rx.o
 

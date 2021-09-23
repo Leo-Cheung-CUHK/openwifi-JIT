@@ -1,0 +1,32 @@
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+*.log
+*.temp
+/vendor
+
+# adi folder
+/adi-linux-64
+/adi-linux
+
+# openwifi-hw folder
+/openwifi-hw
+
+# driver complier files
+*.ko
+*.o
+*.o.d
+*.ko.cmd
+*.o.cmd
+*.ko.cmd
+*.tmp_versions
+
+
+#vs code
+/.vscode
+
