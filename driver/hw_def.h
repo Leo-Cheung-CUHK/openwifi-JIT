@@ -32,6 +32,8 @@ const char *tx_intf_compatible_str = "sdr,tx_intf";
 #define TX_INTF_REG_INTERRUPT_SEL_ADDR             (14*4)
 #define TX_INTF_REG_ADC_FIFO_DEPTH_ADDR            (15*4)
 #define TX_INTF_REG_ANT_SEL_ADDR                   (16*4)
+#define TX_INTF_REG_TSF_TO_PL_HIGH_ADDR			   (17*4) 
+#define TX_INTF_REG_TSF_TO_PL_LOW_ADDR			   (18*4) 
 #define TX_INTF_REG_S_AXIS_FIFO_NO_ROOM_ADDR       (21*4)
 #define TX_INTF_REG_PKT_INFO_ADDR                  (22*4)
 #define TX_INTF_REG_QUEUE_FIFO_DATA_COUNT_ADDR     (24*4)
@@ -77,6 +79,7 @@ struct tx_intf_driver_api {
 	u32 (*TX_INTF_REG_ADC_FIFO_DEPTH_read)(void);
 	u32 (*TX_INTF_REG_BB_GAIN_read)(void);
 	u32 (*TX_INTF_REG_ANT_SEL_read)(void);
+	u64 (*TX_INTF_REG_TSF_TO_PL_read)(void);
 	u32 (*TX_INTF_REG_S_AXIS_FIFO_NO_ROOM_read)(void);
 	u32 (*TX_INTF_REG_PKT_INFO_read)(void);
 	u32 (*TX_INTF_REG_QUEUE_FIFO_DATA_COUNT_read)(void);
@@ -98,6 +101,11 @@ struct tx_intf_driver_api {
 	void (*TX_INTF_REG_ADC_FIFO_DEPTH_write)(u32 value);
 	void (*TX_INTF_REG_BB_GAIN_write)(u32 value);
 	void (*TX_INTF_REG_ANT_SEL_write)(u32 value);
+
+	void (*TX_INTF_REG_TSF_TO_PL_LOW_write)(u32 value);
+	void (*TX_INTF_REG_TSF_TO_PL_HIGH_write)(u32 value);
+	void (*TX_INTF_REG_TSF_TO_PL_write)(u32 high_value, u32 low_value);
+
 	void (*TX_INTF_REG_S_AXIS_FIFO_NO_ROOM_write)(u32 value);
 	void (*TX_INTF_REG_PKT_INFO_write)(u32 value);
 };

@@ -18,7 +18,7 @@ fi
 
 set -ex
 
-HDF_FILE=../openwifi-hw/boards/$BOARD_NAME/sdk/system_top_hw_platform_0/system.hdf
+HDF_FILE=./boards/$BOARD_NAME/sdk/system_top_hw_platform_0/system.hdf
 UBOOT_FILE=./boards/$BOARD_NAME/u-boot.elf
 BUILD_DIR=./boards/$BOARD_NAME/build_boot_bin
 OUTPUT_DIR=./boards/$BOARD_NAME/output_boot_bin

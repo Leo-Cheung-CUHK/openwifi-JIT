@@ -228,7 +228,6 @@ static inline u32 XPU_REG_TSF_RUNTIME_VAL_HIGH_read(void){
 	return reg_read(XPU_REG_TSF_RUNTIME_VAL_HIGH_ADDR);
 }
 
-
 static inline void XPU_REG_TSF_LOAD_VAL_LOW_write(u32 value){
 	reg_write(XPU_REG_TSF_LOAD_VAL_LOW_ADDR, value);
 }

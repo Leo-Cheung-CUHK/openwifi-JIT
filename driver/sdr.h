@@ -30,7 +30,7 @@ struct tdma_node {
 
     double RTT_LOG[100];
 
-	int  scheduled_packet;
+	int  scheduled_beacon;
 	int  received_beacon_packet;
 	int  received_response_packet;
 	int  sent_request_packet;
@@ -57,6 +57,13 @@ struct tdma_node {
 	u64 HW_CYC;
 	u64 SW_CYC;
 	u64 TDMA_CYC;
+	u64 init_CYC;
+	u64 lst_beacon_tsf;
+	u64 Current_beacon_tsf;
+	u64 Current_tx_tsf;
+	u64 slot_time;
+	u64 overhead_time;
+	u64 slot_index;
 
 };
 

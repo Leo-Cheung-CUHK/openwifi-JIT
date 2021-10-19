@@ -40,3 +40,4 @@ driver/openofdm_rx/.tmp_versions
 driver/openofdm_tx/.tmp_versions
 driver/rx_intf/.tmp_versions
 driver/tx_intf/.tmp_versions
+kernel_boot/boards

@@ -75,42 +75,6 @@ static int test_mode = 0; // 0 normal; 1 rx test
 static struct hrtimer timer;
 static struct hrtimer timer1;
 
-
-static int print_elapsed_beacon_time(bool reset, int type, bool print_flag)
-{
-     static struct timespec start;
-     struct timespec curr;
-     static int first_call = 1;
-     int secs, nsecs;
-
-     if (first_call) {
-          first_call = 0;
-		  getrawmonotonic(&start);
-     }
-     getrawmonotonic(&curr);
-     secs = curr.tv_sec - start.tv_sec;
-     nsecs = curr.tv_nsec - start.tv_nsec;
-     if (nsecs < 0) {
-         secs--;
-         nsecs += 1000000000;
-     }
-	 if (reset)
-	 {
-	    start.tv_sec = curr.tv_sec;
-        start.tv_nsec = curr.tv_nsec;	
-	 }
-	 if (print_flag)
-	 {
-	 	if  (type == 0)
-    		printk("1, Enter Beacon Gen function: %d.%09d: ", secs, nsecs);
-	 	else if (type == 1)
-		 	printk("2, Beacon Generated %d.%09d: ",secs, nsecs);
-     	else if (type == 2)
-	    	printk("3, Send Beacon to FPGA %d.%09d: ", secs, nsecs);
-	 }
-	return nsecs;
-}
-
 static int print_elapsed_time(bool reset, int type, bool print_flag)
 {
      static struct timespec start;
@@ -137,14 +101,9 @@ static int print_elapsed_time(bool reset, int type, bool print_flag)
 	 if (print_flag)
 	 {
 	 	if  (type == 0)
-    		printk("send out the request %d.%09d: ",secs, nsecs);
+    		printk("trigger a beacon %d.%09d: ",secs, nsecs);
 	 	else if (type == 1)
-		 	printk("receive the request %d.%09d: ",secs, nsecs);
-     	else if (type == 2)
-	    	printk("send out the response %d.%09d: ", secs, nsecs);
-		else if (type == 3)
-			printk("receive the response %d.%09d: ", secs, nsecs);
-
+		 	printk("send out a beacon %d.%09d: ",secs, nsecs);
 	 }
 	return nsecs;
 }
@@ -175,8 +134,8 @@ static void log_elapsed_time(bool first_call)
 static struct tdma_node tdma_node = {.beacon_tsf=0, .current_tsf=0, .clock_offset=0, \
 .write_beacon_tsf=0, .read_beacon_tsf=0, .receive_beacon_tsf=0, \
 .write_response_tsf=0, .read_response_tsf=0, .receive_response_tsf=0, .detect_response_sp_tsf=0, .detect_response_lp_tsf=0,  .detect_beacon_sp_tsf=0, .detect_beacon_lp_tsf=0, .sig_stb_tsf=0, \
-.pdata_tim=NULL, .threshold=30,.step=0,.JIT=false, .is_AP=false,.first=false,.second=false,.scheduled_packet = 0,.received_beacon_packet = 0,.received_response_packet=0,.sent_request_packet=0,.AP_response=false,.Delta_T=0, \
-.HW_CYC = 20480000-1, .SW_CYC = 102400000, .TDMA_CYC = 102400000}; //9600000  1920000-1  960000    20480000-1
+.pdata_tim=NULL, .threshold=30,.step=0,.JIT=false, .is_AP=false,.first=false,.second=false,.scheduled_beacon = 0,.received_beacon_packet = 0,.received_response_packet=0,.sent_request_packet=0,.AP_response=false,.Delta_T=0, \
+.TDMA_CYC = 10000000,.SW_CYC = 10000000, .HW_CYC = 2000000,  .lst_beacon_tsf=0, .Current_beacon_tsf=0, .Current_tx_tsf=0, .overhead_time=10000, .slot_time = 100000, .slot_index=0}; //9600000  1920000-1  960000    20480000-1
 
 MODULE_AUTHOR("Xianjun Jiao");
 MODULE_DESCRIPTION("SDR driver");
@@ -340,61 +299,15 @@ u64 reverse64(u64 d) {
 	return(tmp1.a);
 }
 
-static u64 get_write_beacon_tsf(void)
+static void set_tsf(u64 tsf)
 {
-	u32 tsft_low, tsft_high;
-
-	tsft_low = xpu_api->XPU_REG_WRITE_BEACON_VAL_LOW_read();
-	tsft_high = xpu_api->XPU_REG_WRITE_BEACON_VAL_HIGH_read();
-	return( ( (u64)tsft_low ) | ( ((u64)tsft_high)<<32 ) );
+	u32 tsft_high = ((tsf >> 32)&0xffffffff);
+	u32 tsft_low  = (tsf&0xffffffff);
+	xpu_api->XPU_REG_TSF_LOAD_VAL_write(tsft_high,tsft_low);
+	//printk("%s openwifi_set_tsf: %08x%08x\n", sdr_compatible_str,tsft_high,tsft_low);
 }
 
-static u64 get_read_beacon_tsf(void)
-{
-	u32 tsft_low, tsft_high;
-
-	tsft_low = xpu_api->XPU_REG_READ_BEACON_VAL_LOW_read();
-	tsft_high = xpu_api->XPU_REG_READ_BEACON_VAL_HIGH_read();
-	return( ( (u64)tsft_low ) | ( ((u64)tsft_high)<<32 ) );
-}
-
-static u64 get_receive_beacon_tsf(void)
-{
-	u32 tsft_low, tsft_high;
-
-	tsft_low = xpu_api->XPU_REG_RECEIVE_BEACON_VAL_LOW_read();
-	tsft_high = xpu_api->XPU_REG_RECEIVE_BEACON_VAL_HIGH_read();
-	return( ( (u64)tsft_low ) | ( ((u64)tsft_high)<<32 ) );
-}
-
-static u64 get_write_response_tsf(void)
-{
-	u32 tsft_low, tsft_high;
-
-	tsft_low = xpu_api->XPU_REG_WRITE_RESPONSE_VAL_LOW_read();
-	tsft_high = xpu_api->XPU_REG_WRITE_RESPONSE_VAL_HIGH_read();
-	return( ( (u64)tsft_low ) | ( ((u64)tsft_high)<<32 ) );
-}
-
-static u64 get_read_response_tsf(void)
-{
-	u32 tsft_low, tsft_high;
-
-	tsft_low = xpu_api->XPU_REG_READ_RESPONSE_VAL_LOW_read();
-	tsft_high = xpu_api->XPU_REG_READ_RESPONSE_VAL_HIGH_read();
-	return( ( (u64)tsft_low ) | ( ((u64)tsft_high)<<32 ) );
-}
-
-static u64 get_receive_response_tsf(void)
-{
-	u32 tsft_low, tsft_high;
-
-	tsft_low = xpu_api->XPU_REG_RECEIVE_RESPONSE_VAL_LOW_read();
-	tsft_high = xpu_api->XPU_REG_RECEIVE_RESPONSE_VAL_HIGH_read();
-	return( ( (u64)tsft_low ) | ( ((u64)tsft_high)<<32 ) );
-}
-
-static u64 get_current_tsf(void)
+static u64 openwifi_get_tsf_simp(void)
 {
 	u32 tsft_low, tsft_high;
 
@@ -403,48 +316,11 @@ static u64 get_current_tsf(void)
 	return( ( (u64)tsft_low ) | ( ((u64)tsft_high)<<32 ) );
 }
 
-static u64 get_tsf_cyctime(void)
-{
-	u32 tsft_low, tsft_high;
-
-	tsft_low = xpu_api->XPU_REG_TSF_CYCTIME_VAL_LOW_read();
-	tsft_high = xpu_api->XPU_REG_TSF_CYCTIME_VAL_HIGH_read();
-	return( ( (u64)tsft_low ) | ( ((u64)tsft_high)<<32 ) );
-}
-
-static u64 get_short_preamble_detected_tsf(void)
-{
-	u32 tsft_low, tsft_high;
-
-	tsft_low =  xpu_api->XPU_REG_SHORT_PREAMBLE_DETECTED_VAL_LOW_read();
-	tsft_high = xpu_api->XPU_REG_SHORT_PREAMBLE_DETECTED_VAL_HIGH_read();
-	return( ( (u64)tsft_low ) | ( ((u64)tsft_high)<<32 ) );
-}
-
-static u64 get_long_preamble_detected_tsf(void)
-{
-	u32 tsft_low, tsft_high;
-
-	tsft_low =  xpu_api->XPU_REG_LONG_PREAMBLE_DETECTED_VAL_LOW_read();
-	tsft_high = xpu_api->XPU_REG_LONG_PREAMBLE_DETECTED_VAL_HIGH_read();
-	return( ( (u64)tsft_low ) | ( ((u64)tsft_high)<<32 ) );
-}
-
-static u64 get_xpu_legacy_sig_stb_tsf(void)
-{
-	u32 tsft_low, tsft_high;
-
-	tsft_low =  xpu_api->XPU_LEGACY_SIG_STB_VAL_LOW_read();
-	tsft_high = xpu_api->XPU_LEGACY_SIG_STB_VAL_HIGH_read();
-	return( ( (u64)tsft_low ) | ( ((u64)tsft_high)<<32 ) );
-}
-
-static void set_tsf(u64 tsf)
+static void openwifi_set_tx_tsf(u64 tsf)
 {
 	u32 tsft_high = ((tsf >> 32)&0xffffffff);
 	u32 tsft_low  = (tsf&0xffffffff);
-	xpu_api->XPU_REG_TSF_LOAD_VAL_write(tsft_high,tsft_low);
-	//printk("%s openwifi_set_tsf: %08x%08x\n", sdr_compatible_str,tsft_high,tsft_low);
+	tx_intf_api->TX_INTF_REG_TSF_TO_PL_write(tsft_high,tsft_low);
 }
 
 static void set_fifo_depth(u32 depth)
@@ -597,28 +473,23 @@ static void openwifi_tx(struct ieee80211_hw *dev,
 	struct ieee80211_tx_info *info = IEEE80211_SKB_CB(skb);
 	struct ieee80211_hdr *hdr = (struct ieee80211_hdr *)skb->data;
 	struct openwifi_ring *ring;
+	struct ieee80211_mgmt *mgmt;
+    struct ieee80211_vif *vif;
+	struct openwifi_vif *vif_priv;
+
 	dma_addr_t dma_mapping_addr;
 	unsigned int prio;
+
+	u64 FPGA_tsf;
 	u32 num_dma_symbol, len_mac_pdu, num_dma_byte, len_phy_packet, num_byte_pad;
 	u32 rate_signal_value,rate_hw_value,ack_flag;
 	u32 pkt_need_ack, addr1_low32=0, addr2_low32=0, addr3_low32=0, queue_idx=2, dma_reg, cts_reg;//, openofdm_state_history;
 	u16 addr1_high16=0, addr2_high16=0, addr3_high16=0, sc=0, cts_duration=0, cts_rate_hw_value = 0, cts_rate_signal_value=0, sifs, ack_duration=0, traffic_pkt_duration;
-	u8 fc_flag,fc_type,fc_subtype,retry_limit_raw,*dma_buf,retry_limit_hw_value,rc_flags;
+	u8 fc_type,fc_subtype,retry_limit_raw,*dma_buf,retry_limit_hw_value,rc_flags;
 	bool use_rts_cts, use_cts_protect, addr_flag, cts_use_traffic_rate=false, force_use_cts_protect=false;
 	__le16 frame_control,duration_id;
 	u32 dma_fifo_no_room_flag, hw_queue_len;
 	enum dma_status status;
-	// static bool led_status=0;
-	// struct gpio_led_data *led_dat = cdev_to_gpio_led_data(priv->led[3]);
-
-	// if ( (priv->phy_tx_sn&7) ==0 ) {
-	// 	openofdm_state_history = openofdm_rx_api->OPENOFDM_RX_REG_STATE_HISTORY_read();
-	// 	if (openofdm_state_history!=openofdm_state_history_old){
-	// 		led_status = (~led_status);
-	// 		openofdm_state_history_old = openofdm_state_history;
-	// 		gpiod_set_value(led_dat->gpiod, led_status);
-	// 	}
-	// }
 
 	if (test_mode==1){
 		printk("%s openwifi_tx: WARNING test_mode==1\n", sdr_compatible_str);
@@ -638,22 +509,6 @@ static void openwifi_tx(struct ieee80211_hw *dev,
 	prio = skb_get_queue_mapping(skb);
 	addr1_low32  = *((u32*)(hdr->addr1+2));
 	ring = &(priv->tx_ring[prio]);
-
-	// -------------- DO your idea here! Map Linux/SW "prio" to hardware "queue_idx" -----------
-	/*if (priv->slice_idx == 0xFFFFFFFF) {// use Linux default prio setting, if there isn't any slice config
-		queue_idx = prio;
-	} else {// customized prio to queue_idx mapping
-		//if (fc_type==2 && fc_subtype==0 && (!addr_flag)) { // for unicast data packet only
-		// check current packet belonging to which slice/hw-queue
-			for (i=0; i<MAX_NUM_HW_QUEUE; i++) {
-				if ( priv->dest_mac_addr_queue_map[i] == addr1_low32 ) {
-					break;
-				}
-			}
-		//}
-		queue_idx = (i>=MAX_NUM_HW_QUEUE?2:i); // if no address is hit, use FPGA queue 2. becuase the queue 2 is the longest.
-	}*/
-	// -------------------- end of Map Linux/SW "prio" to hardware "queue_idx" ------------------
 
 	// check whether the packet is bigger than DMA buffer size
 	num_dma_byte = (num_dma_symbol<<TX_INTF_NUM_BYTE_PER_DMA_SYMBOL_IN_BITS);
@@ -683,30 +538,48 @@ static void openwifi_tx(struct ieee80211_hw *dev,
 	fc_type = ((frame_control)>>2)&3;
 	fc_subtype = ((frame_control)>>4)&0xf;
 
-    if (fc_type==0&&fc_subtype==8)
-	{
-		queue_idx = 0;
+	// in this version, we have only one packet buffer
+    queue_idx = 0; 
+
+    if (tdma_node.is_AP == true){  // This is a beacon that is transmistted periodically
+		if ( fc_type==0 && fc_subtype==8){
+			mgmt = (struct ieee80211_mgmt *)skb->data;
+			tdma_node.Current_beacon_tsf = mgmt->u.beacon.timestamp;
+			tdma_node.Current_tx_tsf = tdma_node.Current_beacon_tsf + tdma_node.slot_time;
+			openwifi_set_tx_tsf(tdma_node.Current_beacon_tsf);
+			tdma_node.slot_index = 0;
+			//printk("openwifi_tx: (Beacon) lst_beacon_tsf %16llx \n",tdma_node.Current_beacon_tsf);	
+		}
+		else
+		{
+			tdma_node.slot_index = tdma_node.slot_index + 1;  
+			if (tdma_node.Current_tx_tsf <= openwifi_get_tsf_simp())
+			{
+				tdma_node.slot_index = tdma_node.slot_index + div_u64(openwifi_get_tsf_simp() - tdma_node.Current_tx_tsf , tdma_node.slot_time) + 1;
+				tdma_node.Current_tx_tsf = tdma_node.Current_tx_tsf + tdma_node.slot_index * tdma_node.slot_time;
+				printk("openwifi_tx: updated and will be transmitted on %lld -th time slot in the %d -th superframe \n", tdma_node.slot_index, tdma_node.scheduled_beacon);	
+			}
+			else
+			{
+				//tdma_node.Current_tx_tsf = tdma_node.Current_tx_tsf + 50000;
+				printk("openwifi_tx: will be transmitted on %lld -th time slot \n", tdma_node.slot_index);	
+			}
+			openwifi_set_tx_tsf(tdma_node.Current_tx_tsf);	
+			tdma_node.Current_tx_tsf = tdma_node.Current_tx_tsf + tdma_node.slot_time;
+		}
 	}
-	else if (fc_type==2) 
-	{
-		queue_idx = 1;
-	}
-	else 
-	{
-		queue_idx = 2;
+	else{
+		tdma_node.Current_tx_tsf = openwifi_get_tsf_simp() + 10000;
+		openwifi_set_tx_tsf(tdma_node.Current_tx_tsf);	
+		printk("openwifi_tx: (Other packets) tx_tsf %16llx \n", tdma_node.Current_tx_tsf);	
 	}
 
-	fc_flag = ( fc_type==2 || fc_type==0 || (fc_type==1 && (fc_subtype==8 || fc_subtype==9 || fc_subtype==10) ) );
 	//if it is broadcasting or multicasting addr
 	addr_flag = ( (addr1_low32==0 && addr1_high16==0) || 
 	              (addr1_low32==0xFFFFFFFF && addr1_high16==0xFFFF) ||
 				  (addr1_high16==0x3333) ||
 				  (addr1_high16==0x0001 && hdr->addr1[2]==0x5E)  );
-	//if ( fc_flag && ( !addr_flag ) && (!ack_flag) ) { // unicast data frame
-	//	pkt_need_ack = 1; //FPGA need to wait ACK after this pkt sent
-	//} else {
-	//	pkt_need_ack = 0;
-	//}
+
 	pkt_need_ack = 0;
 	// get Linux rate (MCS) setting
 	rate_hw_value = ieee80211_get_tx_rate(dev, info)->hw_value;
@@ -735,19 +608,24 @@ static void openwifi_tx(struct ieee80211_hw *dev,
 		cts_duration = traffic_pkt_duration + sifs + pkt_need_ack*(sifs+ack_duration);
 	}
 
-	if ( ((!addr_flag) && (priv->drv_tx_reg_val[DRV_TX_REG_IDX_PRINT_CFG]&2)) || (priv->drv_tx_reg_val[DRV_TX_REG_IDX_PRINT_CFG]&3) )
+	//if ( ((!addr_flag) && (priv->drv_tx_reg_val[DRV_TX_REG_IDX_PRINT_CFG]&2)) || (priv->drv_tx_reg_val[DRV_TX_REG_IDX_PRINT_CFG]&3) )
+	if (tdma_node.is_AP == true){
+		if  (!(fc_type == 0 && fc_subtype == 8))
+			printk("%s openwifi_tx: %4dbytes %2dM FC%04x fc_type%d,fc_subtype%d DI%04x addr1/2/3:%04x%08x/%04x%08x/%04x%08x SC%04x flag%08x retr%d ack%d prio%d q%d wr%d rd%d\n", sdr_compatible_str,
+			len_mac_pdu, wifi_rate_all[rate_hw_value],frame_control,fc_type,fc_subtype, duration_id, 
+			reverse16(addr1_high16), reverse32(addr1_low32), reverse16(addr2_high16), reverse32(addr2_low32), reverse16(addr3_high16), reverse32(addr3_low32),
+			sc, info->flags, retry_limit_raw, pkt_need_ack, prio, queue_idx,
+			// use_rts_cts,use_cts_protect|force_use_cts_protect,wifi_rate_all[cts_rate_hw_value],cts_duration,
+			ring->bd_wr_idx,ring->bd_rd_idx);
+	}
+	else{
 		printk("%s openwifi_tx: %4dbytes %2dM FC%04x fc_type%d,fc_subtype%d DI%04x addr1/2/3:%04x%08x/%04x%08x/%04x%08x SC%04x flag%08x retr%d ack%d prio%d q%d wr%d rd%d\n", sdr_compatible_str,
 			len_mac_pdu, wifi_rate_all[rate_hw_value],frame_control,fc_type,fc_subtype, duration_id, 
 			reverse16(addr1_high16), reverse32(addr1_low32), reverse16(addr2_high16), reverse32(addr2_low32), reverse16(addr3_high16), reverse32(addr3_low32),
 			sc, info->flags, retry_limit_raw, pkt_need_ack, prio, queue_idx,
 			// use_rts_cts,use_cts_protect|force_use_cts_protect,wifi_rate_all[cts_rate_hw_value],cts_duration,
 			ring->bd_wr_idx,ring->bd_rd_idx);
-
-		// printk("%s openwifi_tx: rate&try: %d %d %03x; %d %d %03x; %d %d %03x; %d %d %03x\n", sdr_compatible_str,
-		// 	info->status.rates[0].idx,info->status.rates[0].count,info->status.rates[0].flags,
-		// 	info->status.rates[1].idx,info->status.rates[1].count,info->status.rates[1].flags,
-		// 	info->status.rates[2].idx,info->status.rates[2].count,info->status.rates[2].flags,
-		// 	info->status.rates[3].idx,info->status.rates[3].count,info->status.rates[3].flags);
+	}
 
 // this is 11b stuff
 //	if (info->flags&IEEE80211_TX_RC_USE_SHORT_PREAMBLE)
@@ -760,22 +638,6 @@ static void openwifi_tx(struct ieee80211_hw *dev,
 		hdr->seq_ctrl |= cpu_to_le16(priv->seqno);
 	}
 	// -----------end of preprocess some info from header and skb----------------
-
-	// /* HW will perform RTS-CTS when only RTS flags is set.
-	//  * HW will perform CTS-to-self when both RTS and CTS flags are set.
-	//  * RTS rate and RTS duration will be used also for CTS-to-self.
-	//  */
-	// if (rc_flags & IEEE80211_TX_RC_USE_RTS_CTS) {
-	// 	tx_flags |= ieee80211_get_rts_cts_rate(dev, info)->hw_value << 19;
-	// 	rts_duration = ieee80211_rts_duration(dev, priv->vif[0], // assume all vif have the same config
-	// 					len_mac_pdu, info);
-	// 	printk("%s openwifi_tx: rc_flags & IEEE80211_TX_RC_USE_RTS_CTS\n", sdr_compatible_str);
-	// } else if (rc_flags & IEEE80211_TX_RC_USE_CTS_PROTECT) {
-	// 	tx_flags |= ieee80211_get_rts_cts_rate(dev, info)->hw_value << 19;
-	// 	rts_duration = ieee80211_ctstoself_duration(dev, priv->vif[0], // assume all vif have the same config
-	// 					len_mac_pdu, info);
-	// 	printk("%s openwifi_tx: rc_flags & IEEE80211_TX_RC_USE_CTS_PROTECT\n", sdr_compatible_str);
-	// }
 
 	// when skb does not have enough headroom, skb_push will cause kernel panic. headroom needs to be extended if necessary
 	if (skb_headroom(skb)<LEN_PHY_HEADER) {
@@ -857,9 +719,9 @@ static void openwifi_tx(struct ieee80211_hw *dev,
 
 	// sg_init_table(&tx_sg, 1); // only need to be initialized once in openwifi_start
 	sg_dma_address( &(priv->tx_sg) ) = dma_mapping_addr;
-	sg_dma_len( &(priv->tx_sg) ) = num_dma_byte;
-	
-	tx_intf_api->TX_INTF_REG_CTS_TOSELF_CONFIG_write(cts_reg);
+	sg_dma_len( &(priv->tx_sg) ) 	 = num_dma_byte;
+
+	tx_intf_api->TX_INTF_REG_CTS_TOSELF_CONFIG_write(cts_reg);  //write to slv_reg4
 	
 	// This is for FPGA data FIFO, indicating which queue this packet will be stored into. 
 	// Once the FPGA read a new indication, it will set the S_AXIS_TREADY to 1, asking for the data from ARM. --
@@ -917,13 +779,11 @@ static irqreturn_t openwifi_tx_interrupt(int irq, void *dev_id)
 	struct ieee80211_tx_info *info;
 	u32 reg_val, hw_queue_len, prio, queue_idx, dma_fifo_no_room_flag, loop_count=0;//, i;
 	u8 tx_result_report;
-	u64 T_JIT, T_MAC;
 	// u16 prio_rd_idx_store[64]={0};
 	struct ieee80211_vif *vif;
 	struct openwifi_vif *vif_priv;
 	int num_buffed_packet;
 	bool flag = false;
-	u64 tmp_step = 0;
 
 	vif = priv->vif[0]; // obtain the driver's private area pointer
 	vif_priv = (struct openwifi_vif *)&vif->drv_priv;
@@ -981,96 +841,24 @@ static irqreturn_t openwifi_tx_interrupt(int irq, void *dev_id)
 			hw_queue_len = tx_intf_api->TX_INTF_REG_QUEUE_FIFO_DATA_COUNT_read();        //Register 24 TX_INTF_REG_QUEUE_FIFO_DATA_COUNT_ADDR
 			num_buffed_packet = (0+((hw_queue_len>>(queue_idx*8))&0xFF));
 
-			//printk("(Leo) TX interrupt queue %d hw queue len %d, TSF %llu\n", queue_idx, num_buffed_packet, get_current_tsf());
-
-    		if (tdma_node.is_AP == true && fc_type==0 && fc_subtype==8)
+    		if (tdma_node.is_AP == true)
 			{
-				T_JIT  = get_write_beacon_tsf(); 
-				T_MAC  = get_read_beacon_tsf();
-				tdma_node.scheduled_packet = tdma_node.scheduled_packet + 1;
-
-				if (tdma_node.JIT == false)
-				{
-					//// we need to re-check the last T_MAC
-					tdma_node.Delta_T = tdma_node.HW_CYC - T_JIT;       
-					tdma_node.Delta_T = div_u64(tdma_node.Delta_T,200); // convert to 1MHZ
-					if (tdma_node.scheduled_packet % 100 == 0)
-					{
-						//print_elapsed_time(false,0,true);
-						printk("beacon TX interrupt  T_JIT %llu T_MAC %llu T_CYC %llu Delta_T %llu Buffered packet %d \n", T_JIT, T_MAC, tdma_node.HW_CYC, tdma_node.Delta_T,num_buffed_packet);
-					}
+				if(fc_type==0 && fc_subtype==8){
+					//tdma_node.scheduled_beacon = tdma_node.scheduled_beacon + 1;
+					//printk("openwifi_tx_interrupt: fc_type%d fc_subtype%d in the %d-th superframe on %lld -th time slot \n", fc_type, fc_subtype, tdma_node.scheduled_beacon, tdma_node.slot_index);
 				}
-				else if (tdma_node.JIT == true) // we will adjust the schedule of beacon after sending out two beacon
-				{
-					//printk("beacon TX interrupt  T_JIT %llu T_MAC %llu T_CYC %llu \n", T_JIT, T_MAC, tdma_node.HW_CYC);
-					if (tdma_node.scheduled_packet > 10 && tdma_node.scheduled_packet % 2 == 1)
-					{
-						if (num_buffed_packet == 0 )
-						{
-							tdma_node.Delta_T = T_MAC - T_JIT ;       
-							tdma_node.Delta_T = div_u64(tdma_node.Delta_T,200); // convert to 1MHZ
-							if (tdma_node.Delta_T > tdma_node.threshold)
-							{
-								tmp_step = mul_u64_u32_div((tdma_node.Delta_T - tdma_node.threshold),1,10)*1000;
-								tdma_node.step =  0 + tmp_step;
-								if (tdma_node.scheduled_packet % 100 == 1)
-								{
-									//printk("Delta_T %llu %llu step %d SW cycle %llu Buff_Len %d\n", tdma_node.Delta_T, tdma_node.Delta_T*200, tdma_node.step, div_u64((tdma_node.SW_CYC + tdma_node.step),5), num_buffed_packet);
-									//print_elapsed_time(false,0,true);
-								}
-							}
-							else if (tdma_node.Delta_T < tdma_node.threshold)
-							{
-								tmp_step = mul_u64_u32_div((tdma_node.threshold - tdma_node.Delta_T),9,10)*1000;
-								tdma_node.step =  0 - tmp_step;
-								if (tdma_node.scheduled_packet % 100 == 1)
-								{
-									//print_elapsed_time(false,0,true);
-									//printk("Delta_T %llu %llu -step %d SW cycle %llu Buff_Len %d\n", tdma_node.Delta_T, tdma_node.Delta_T*200, tdma_node.step,div_u64((tdma_node.SW_CYC + tdma_node.step),5), num_buffed_packet);
-								}
-							}
-						}
-						else
-						{
-							tdma_node.Delta_T = T_JIT; 
-							tdma_node.Delta_T = div_u64(tdma_node.Delta_T,200); // convert to 1MHZ
-
-							tmp_step = mul_u64_u32_div((tdma_node.Delta_T + tdma_node.threshold),9,10)*1000;
-							tdma_node.step = tdma_node.TDMA_CYC - tmp_step;
-							if (tdma_node.scheduled_packet % 100 == 1)
-							{
-								//print_elapsed_time(false,0,true);
-								//printk("Delta_T %llu (miss a chance )- step %d SW cycle %llu Buff_Len %d \n", tdma_node.Delta_T, tdma_node.step, div_u64((tdma_node.SW_CYC + tdma_node.step),5), num_buffed_packet);
-							}
-						}
-
-					}
-					else
-					{
-						tdma_node.step = 0;
-					}
-				}
+				else
+					printk("openwifi_tx_interrupt: fc_type%d fc_subtype %d on %lld -th time slot in the %d-th superframe \n", fc_type, fc_subtype, tdma_node.slot_index, tdma_node.scheduled_beacon);
 			}
-			else if ( (fc_type==2) & (tdma_node.is_AP == false))
+			else
 			{
-				print_elapsed_time(false,2,true);
-
-				tdma_node.scheduled_packet = tdma_node.scheduled_packet + 1;
-				tdma_node.read_response_tsf  = get_read_response_tsf();
-				tdma_node.write_response_tsf = get_write_response_tsf();
-				printk("Data TX interrupt : STA Writes and Sends Request Message at %llu and %llu Buff_Len %d \n",tdma_node.write_response_tsf, tdma_node.read_response_tsf,num_buffed_packet);
-				printk("Data TX interrupt : Processing delay is %llu and Extra waiting delay is %llu \n",tdma_node.write_response_tsf, tdma_node.read_response_tsf - tdma_node.write_response_tsf);
+				printk("openwifi_tx_interrupt: fc_type%d fc_subtype%d \n", fc_type, fc_subtype);
 			}
+			
 			tx_result_report = (reg_val&0x1F);
 			if ( !(info->flags & IEEE80211_TX_CTL_NO_ACK) ) {
                 if ((tx_result_report&0x10)==0 || priv->drv_xpu_reg_val[0])
 					info->flags |= IEEE80211_TX_STAT_ACK;
-
-				// printk("%s openwifi_tx_interrupt: rate&try: %d %d %03x; %d %d %03x; %d %d %03x; %d %d %03x\n", sdr_compatible_str,
-				// 	info->status.rates[0].idx,info->status.rates[0].count,info->status.rates[0].flags,
-				// 	info->status.rates[1].idx,info->status.rates[1].count,info->status.rates[1].flags,
-				// 	info->status.rates[2].idx,info->status.rates[2].count,info->status.rates[2].flags,
-				// 	info->status.rates[3].idx,info->status.rates[3].count,info->status.rates[3].flags);
 			}
 
 			info->status.rates[0].count = (tx_result_report&0xF) + 1; //according to our test, the 1st rate is the most important. we only do retry on the 1st rate
@@ -1188,11 +976,11 @@ static irqreturn_t openwifi_rx_interrupt(int irq, void *dev_id)
 			if (len>=28)
 				sc = hdr->seq_ctrl;
 
-			//if ( addr1_low32!=0xffffffff || addr1_high16!=0xffff )
-			//printk("%s openwifi_rx_interrupt:%4dbytes %2dM FC%04x fc_type%d fc_subtype%d DI%04x addr1/2/3:%04x%08x/%04x%08x/%04x%08x SC%04x fcs%d buf_idx%d %ddBm\n", sdr_compatible_str,
-				//len, wifi_rate_table[rate_idx], hdr->frame_control,  hdr->duration_id, 
-				//reverse16(addr1_high16), reverse32(addr1_low32), reverse16(addr2_high16), reverse32(addr2_low32), reverse16(addr3_high16), reverse32(addr3_low32), 
-				//sc, fcs_ok, target_buf_idx_old, signal);
+			// if ( addr1_low32!=0xffffffff || addr1_high16!=0xffff )
+			// printk("%s openwifi_rx_interrupt:%4dbytes %2dM FC%04x DI%04x addr1/2/3:%04x%08x/%04x%08x/%04x%08x SC%04x fcs%d buf_idx%d %ddBm\n", sdr_compatible_str,
+			// 	len, wifi_rate_table[rate_idx], hdr->frame_control,  hdr->duration_id, 
+			// 	reverse16(addr1_high16), reverse32(addr1_low32), reverse16(addr2_high16), reverse32(addr2_low32), reverse16(addr3_high16), reverse32(addr3_low32), 
+			// 	sc, fcs_ok, target_buf_idx_old, signal);
 		}
 		
 		// priv->phy_rx_sn_hw_old = phy_rx_sn_hw;
@@ -1203,8 +991,6 @@ static irqreturn_t openwifi_rx_interrupt(int irq, void *dev_id)
 				hdr = (struct ieee80211_hdr *)(pdata_tmp+16);
 				fc_type = ((hdr->frame_control)>>2)&3;
 				fc_subtype = ((hdr->frame_control)>>4)&0xf;
-
-				//printk("openwifi_rx_interrupt: fc_type%d fc_subtype%d \n", fc_type, fc_subtype );
 
 				rx_status.antenna = 0;
 				// def in ieee80211_rate openwifi_rates 0~11. 0~3 11b(1M~11M), 4~11 11a/g(6M~54M)
@@ -1220,77 +1006,62 @@ static irqreturn_t openwifi_rx_interrupt(int irq, void *dev_id)
 				rx_status.bw = RATE_INFO_BW_20;
 
 				addr2_high16 = *((u16*)(hdr->addr2));
-	            // STA Actions
-	            if ((fc_type == 0 && fc_subtype == 8) && fcs_ok && (reverse16(addr2_high16) == 0x6655)) // check whether it is a Beacon
-                {
-					tdma_node.received_beacon_packet = tdma_node.received_beacon_packet + 1;
-					tmp_ts = get_tsf_cyctime();
-					tdma_node.detect_beacon_sp_tsf = get_short_preamble_detected_tsf();
-					tdma_node.detect_beacon_lp_tsf = get_long_preamble_detected_tsf();
-					tdma_node.sig_stb_tsf          = get_xpu_legacy_sig_stb_tsf();
 
-					if (tmp_ts >= tdma_node.receive_beacon_tsf)
-						printk("beacon RX interrupt (Late) : Detects lp at %llu decodes SIG at %llu Beacon received at %llu // %llu \n", tdma_node.detect_beacon_lp_tsf, tdma_node.sig_stb_tsf, tmp_ts - tdma_node.receive_beacon_tsf,tmp_ts);
-					else
-						printk("beacon RX interrupt (Early): Detects lp at %llu decodes SIG at %llu Beacon received at %llu // %llu \n", tdma_node.detect_beacon_lp_tsf, tdma_node.sig_stb_tsf, tdma_node.receive_beacon_tsf -tmp_ts,tmp_ts);
-					tdma_node.receive_beacon_tsf = tmp_ts;
-
-					//if (tdma_node.pdata_tim == NULL) // only copy the openwifi beacon
-					//{
-					tdma_node.pdata_tim = skb_copy(skb,GFP_ATOMIC);//allocate a network buffer			
-					//}
-
-					if (tdma_node.received_beacon_packet % 1 == 0)		
+				if (tdma_node.is_AP == true)
+				{
+					if((fc_type == 2)  && (fcs_ok) && (reverse16(addr2_high16) == 0x6655))
 					{
-						// read the tsf from beacon
-						mgmt = (struct ieee80211_mgmt *)skb->data;
-						tdma_node.beacon_tsf  = mgmt->u.beacon.timestamp;
-						//tdma_node.clock_offset = (tdma_node.beacon_tsf  - tdma_node.read_response_tsf)/2;
-						tdma_node.clock_offset = (tdma_node.beacon_tsf  - tdma_node.read_response_tsf - (tdma_node.clock_offset - (tmp_ts - tdma_node.sig_stb_tsf)))/2;
+						//tdma_node.received_response_packet = tdma_node.received_response_packet + 1;
+						//if (tdma_node.pdata_tim == NULL) // only copy the openwifi beacon
+						//{
+						//tdma_node.pdata_tim = skb_copy(skb,GFP_ATOMIC);//allocate a network buffer			
+						//}
 
+						//printk("RX interrupt: AP Detects lp at %llu decodes SIG at %llu Receives Response Message at %llu \n", tdma_node.detect_response_lp_tsf, tdma_node.sig_stb_tsf, tdma_node.receive_response_tsf);
+
+						//xpu_api->XPU_REG_SLICE_COUNT_START_write((1<<25)|120000);
+						//xpu_api->XPU_REG_SLICE_COUNT_END_write((1<<25)|120000); 
+
+						//hrtimer_start(&vif_priv->my_hrtimer1,ktime_set(0,1),HRTIMER_MODE_REL);
+					}
+					printk("openwifi_rx_interrupt: fc_type%d fc_subtype %d addr1/2/3:%04x%08x/%04x%08x/%04x%08x  in the %d-th superframe\n", fc_type, fc_subtype, reverse16(addr1_high16), reverse32(addr1_low32), reverse16(addr2_high16), reverse32(addr2_low32), reverse16(addr3_high16), reverse32(addr3_low32),tdma_node.scheduled_beacon);
+				}
+				else
+				{
+					// STA Actions
+					if ((fc_type == 0 && fc_subtype == 8) && fcs_ok && (reverse16(addr2_high16) == 0x6655)) // check whether it is a Beacon
+					{
+						tdma_node.received_beacon_packet = tdma_node.received_beacon_packet + 1;
+
+						mgmt = (struct ieee80211_mgmt *)skb->data;
+						tdma_node.lst_beacon_tsf = mgmt->u.beacon.timestamp;
+
+						//set_tsf(tdma_node.lst_beacon_tsf);	
+						//printk("RX interrupt: Receive Beacon from AP, its timestampe is %llx and update tsf to %llx\n", tdma_node.lst_beacon_tsf, openwifi_get_tsf_simp());
+
+						//tdma_node.pdata_tim = skb_copy(skb,GFP_ATOMIC);//allocate a network buffer	
+
+						// read the tsf from beacon
+
+						//printk("RX interrupt: Receive Beacon from AP and update tsf to %llx\n", tdma_node.lst_beacon_tsf);
+
+						//tdma_node.clock_offset = (tdma_node.beacon_tsf  - tdma_node.read_response_tsf)/2;
+						//tdma_node.clock_offset = (tdma_node.beacon_tsf  - tdma_node.read_response_tsf - (tdma_node.clock_offset - (tmp_ts - tdma_node.sig_stb_tsf)))/2;
 						//printk("RX interrupt: Estimated all delay %llu\n", tdma_node.clock_offset);
 						//printk("beacon RX interrupt: Estimated propagation delay %llu / %llu\n", tdma_node.clock_offset - (tmp_ts - tdma_node.detect_beacon_sp_tsf),  tdma_node.clock_offset - (tmp_ts - tdma_node.detect_beacon_lp_tsf));
-
 						//set_tsf(tdma_node.clock_offset);
-						set_tsf(tdma_node.clock_offset + (tdma_node.clock_offset - (tmp_ts - tdma_node.sig_stb_tsf)));
-
-						xpu_api->XPU_REG_SLICE_COUNT_START_write((1<<25)|60000-tdma_node.clock_offset);
-						xpu_api->XPU_REG_SLICE_COUNT_END_write((1<<25)|60000-tdma_node.clock_offset); 
+						//set_tsf(tdma_node.clock_offset + (tdma_node.clock_offset - (tmp_ts - tdma_node.sig_stb_tsf)));
+						//xpu_api->XPU_REG_SLICE_COUNT_START_write((1<<25)|60000-tdma_node.clock_offset);
+						//xpu_api->XPU_REG_SLICE_COUNT_END_write((1<<25)|60000-tdma_node.clock_offset); 
+						//hrtimer_start(&vif_priv->my_hrtimer1,ktime_set(0,1),HRTIMER_MODE_REL);
+						//tdma_node.sent_request_packet = tdma_node.sent_request_packet + 1;
 					}
-					if (tdma_node.received_beacon_packet % 1 == 0)		
+					else
 					{
-						print_elapsed_time(true,1,false);		
-						hrtimer_start(&vif_priv->my_hrtimer1,ktime_set(0,1),HRTIMER_MODE_REL);
-						tdma_node.sent_request_packet = tdma_node.sent_request_packet + 1;
+						printk("openwifi_rx_interrupt: fc_type%d fc_subtype %d addr1/2/3:%04x%08x/%04x%08x/%04x%08x\n", fc_type, fc_subtype, reverse16(addr1_high16), reverse32(addr1_low32), reverse16(addr2_high16), reverse32(addr2_low32), reverse16(addr3_high16), reverse32(addr3_low32));
 					}
-				}
-				else if((fc_type == 2)  && (fcs_ok) && (tdma_node.is_AP == true)&& (reverse16(addr2_high16) == 0x6655))
-				{
-					tdma_node.received_response_packet = tdma_node.received_response_packet + 1;
-
-					tdma_node.receive_response_tsf   = get_receive_response_tsf();
-					tdma_node.detect_response_sp_tsf = get_short_preamble_detected_tsf();
-					tdma_node.detect_response_lp_tsf = get_long_preamble_detected_tsf();
-					tdma_node.sig_stb_tsf            = get_xpu_legacy_sig_stb_tsf();
-
-					//if (tdma_node.pdata_tim == NULL) // only copy the openwifi beacon
-					//{
-					tdma_node.pdata_tim = skb_copy(skb,GFP_ATOMIC);//allocate a network buffer			
-					//}
-
-					//printk("RX interrupt: AP Detects lp at %llu decodes SIG at %llu Receives Response Message at %llu \n", tdma_node.detect_response_lp_tsf, tdma_node.sig_stb_tsf, tdma_node.receive_response_tsf);
-
-					xpu_api->XPU_REG_SLICE_COUNT_START_write((1<<25)|120000);
-					xpu_api->XPU_REG_SLICE_COUNT_END_write((1<<25)|120000); 
-
-					if (tdma_node.received_response_packet % 100 == 0)
-					{
-						print_elapsed_time(false,3,true);		
-					}
-
-					hrtimer_start(&vif_priv->my_hrtimer1,ktime_set(0,1),HRTIMER_MODE_REL);
-					//hrtimer_start(&vif_priv->my_hrtimer1,ktime_set(0,3000000),HRTIMER_MODE_REL);
-				}
+					
+				}	            
 				memcpy(IEEE80211_SKB_RXCB(skb), &rx_status, sizeof(rx_status)); // put rx_status into skb->cb, from now on skb->cb is not dma_dsts any more.
 				ieee80211_rx_irqsafe(dev, skb); // call mac80211 function
 			} else
@@ -1392,27 +1163,6 @@ static int openwifi_start(struct ieee80211_hw *dev)
 	//xpu_api->XPU_REG_BB_RF_DELAY_write(51); // fine tuned value at 0.005us. old: dac-->ant port: 0.6us, 57 taps fir at 40MHz: 1.425us; round trip: 2*(0.6+1.425)=4.05us; 4.05*10=41
 	xpu_api->XPU_REG_BB_RF_DELAY_write(49);//add .5us for slightly longer fir
 	xpu_api->XPU_REG_MAC_ADDR_write(priv->mac_addr);
-
-	// setup time schedule of 4 slices (In 200MhZ)
-	// slice 0
-	xpu_api->XPU_REG_SLICE_COUNT_TOTAL_write(tdma_node.HW_CYC); // 
-	xpu_api->XPU_REG_SLICE_COUNT_START_write(tdma_node.HW_CYC); //start 
-	xpu_api->XPU_REG_SLICE_COUNT_END_write(tdma_node.HW_CYC); //end 
-
-	// slice 1
-	xpu_api->XPU_REG_SLICE_COUNT_TOTAL_write((1<<25)|(tdma_node.HW_CYC)); // 
-	xpu_api->XPU_REG_SLICE_COUNT_START_write((1<<25)|(0)); //start 
-	xpu_api->XPU_REG_SLICE_COUNT_END_write((1<<25)|(tdma_node.HW_CYC)); //end 
-
-	// slice 2
-	xpu_api->XPU_REG_SLICE_COUNT_TOTAL_write((2<<25)|(tdma_node.HW_CYC)); // 
-	xpu_api->XPU_REG_SLICE_COUNT_START_write((2<<25)|(0)); //start 
-	xpu_api->XPU_REG_SLICE_COUNT_END_write((2<<25)|(tdma_node.HW_CYC)); //end 
-
-	// slice 3
-	xpu_api->XPU_REG_SLICE_COUNT_TOTAL_write((3<<25)|(tdma_node.HW_CYC)); // 
-	xpu_api->XPU_REG_SLICE_COUNT_START_write((3<<25)|(0)); //start 
-	xpu_api->XPU_REG_SLICE_COUNT_END_write((3<<25)|(tdma_node.HW_CYC)); //end 
 
 	//Disable zero initially
 	xpu_api->XPU_REG_SRC_SEL_write(1<<4);
@@ -1605,39 +1355,39 @@ static enum hrtimer_restart openwifi_beacon_work(struct hrtimer *timer)
 		container_of((void *)vif_priv, struct ieee80211_vif, drv_priv);
 	struct ieee80211_hw *dev = vif_priv->dev;
 	struct openwifi_priv *priv = dev->priv;
-
 	struct ieee80211_mgmt *mgmt;
 	struct sk_buff *skb;
 	struct ieee80211_hdr *hdr;
 
-    print_elapsed_beacon_time(true,0,true);
 	/* don't overflow the tx ring */
 	if (ieee80211_queue_stopped(dev, 0))
 		goto resched;
 
 	/* grab a fresh beacon */
 	skb = ieee80211_beacon_get(dev, vif);
-    print_elapsed_beacon_time(false,1,true);
 
 	if (!skb)
 		goto resched;
 
-	mgmt = (struct ieee80211_mgmt *)skb->data;
-	mgmt->u.beacon.timestamp = cpu_to_le64(tdma_node.sig_stb_tsf); 
+	// Initialize the local TSF 
+	if (tdma_node.scheduled_beacon == 0)
+		tdma_node.lst_beacon_tsf = openwifi_get_tsf_simp()+10000;
 
-	print_elapsed_time(true,0,false);
+	mgmt = (struct ieee80211_mgmt *)skb->data;
+	mgmt->u.beacon.timestamp = cpu_to_le64(tdma_node.lst_beacon_tsf); 
 
 	/* TODO: use actual beacon queue */
 	skb_set_queue_mapping(skb, 0);
 	openwifi_tx(dev, NULL, skb);
-    print_elapsed_beacon_time(false,2,true);
+	tdma_node.scheduled_beacon = tdma_node.scheduled_beacon + 1;
 
 resched:
 	/*
 	* schedule next beacon
 	* TODO: use hardware support for beacon timing
 	*/
-	hrtimer_forward_now(timer, ktime_set(0,tdma_node.SW_CYC + tdma_node.step)); //   9600000 9552000 9648000
+	hrtimer_forward_now(timer, ktime_set(0,tdma_node.SW_CYC));
+	tdma_node.lst_beacon_tsf = tdma_node.lst_beacon_tsf + tdma_node.HW_CYC;	
 
 	return HRTIMER_RESTART;  	
 }
@@ -1651,7 +1401,6 @@ static enum hrtimer_restart openwifi_message_work(struct hrtimer *timer)
 	struct ieee80211_hw *dev = vif_priv->dev;
 	struct openwifi_priv *priv = dev->priv;
 
-	struct ieee80211_mgmt *mgmt;
 	struct sk_buff *skb;
 	struct ieee80211_hdr *hdr;
 
@@ -1821,7 +1570,6 @@ static void openwifi_bss_info_changed(struct ieee80211_hw *dev,
 		if (vif_priv->enable_beacon)
 			if (tdma_node.is_AP == false){
 				tdma_node.is_AP = true;
-				//Enable beacon
 				xpu_api->XPU_REG_SRC_SEL_write(0<<4);
 				hrtimer_start(&vif_priv->my_hrtimer,ktime_set(3,0),HRTIMER_MODE_REL);
 			}

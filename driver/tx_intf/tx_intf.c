@@ -184,6 +184,19 @@ static inline void TX_INTF_REG_ANT_SEL_write(u32 value){
 	reg_write(TX_INTF_REG_ANT_SEL_ADDR, value);
 }
 
+static inline void TX_INTF_REG_TSF_TO_PL_LOW_write(u32 value){ 
+	reg_write(TX_INTF_REG_TSF_TO_PL_LOW_ADDR, value);
+}
+
+static inline void TX_INTF_REG_TSF_TO_PL_HIGH_write(u32 value){
+	reg_write(TX_INTF_REG_TSF_TO_PL_HIGH_ADDR, value);
+}
+
+static inline void TX_INTF_REG_TSF_TO_PL_write(u32 high_value, u32 low_value){ 
+	TX_INTF_REG_TSF_TO_PL_LOW_write(low_value);
+	TX_INTF_REG_TSF_TO_PL_HIGH_write(high_value);
+}
+
 static inline void TX_INTF_REG_S_AXIS_FIFO_NO_ROOM_write(u32 value){
 	reg_write(TX_INTF_REG_S_AXIS_FIFO_NO_ROOM_ADDR, value);
 }
@@ -372,6 +385,11 @@ static int dev_probe(struct platform_device *pdev)
 	tx_intf_api->TX_INTF_REG_ADC_FIFO_DEPTH_write=TX_INTF_REG_ADC_FIFO_DEPTH_write;
 	tx_intf_api->TX_INTF_REG_BB_GAIN_write=TX_INTF_REG_BB_GAIN_write;
 	tx_intf_api->TX_INTF_REG_ANT_SEL_write=TX_INTF_REG_ANT_SEL_write;
+
+	tx_intf_api->TX_INTF_REG_TSF_TO_PL_LOW_write=TX_INTF_REG_TSF_TO_PL_LOW_write;
+	tx_intf_api->TX_INTF_REG_TSF_TO_PL_HIGH_write=TX_INTF_REG_TSF_TO_PL_HIGH_write;
+	tx_intf_api->TX_INTF_REG_TSF_TO_PL_write=TX_INTF_REG_TSF_TO_PL_write;
+
 	tx_intf_api->TX_INTF_REG_S_AXIS_FIFO_NO_ROOM_write=TX_INTF_REG_S_AXIS_FIFO_NO_ROOM_write;
 	tx_intf_api->TX_INTF_REG_PKT_INFO_write=TX_INTF_REG_PKT_INFO_write;
 
