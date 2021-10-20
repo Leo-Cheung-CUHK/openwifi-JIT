@@ -32,39 +32,46 @@ struct tdma_node {
 
 	int  scheduled_beacon;
 	int  received_beacon_packet;
-	int  received_response_packet;
+	int  scheduled_syn_packet;
+	int  received_syn_packet;
 	int  sent_request_packet;
 
 	u64 current_tsf;
     u64 beacon_tsf;  
 
     struct sk_buff *pdata_tim;
-	u64 write_beacon_tsf; 
-	u64 read_beacon_tsf; 
-    u64 receive_beacon_tsf; 
-	u64 write_response_tsf;
-	u64 read_response_tsf;
-	u64 receive_response_tsf; 
 
-	u64 detect_beacon_sp_tsf;
-	u64 detect_beacon_lp_tsf;
-	u64 detect_response_sp_tsf;
-	u64 detect_response_lp_tsf;
-	u64 sig_stb_tsf;
-
-	u64 clock_offset;
 	u64 Delta_T;
 	u64 HW_CYC;
 	u64 SW_CYC;
-	u64 TDMA_CYC;
+	u64 TDMA_CYC; 
 	u64 init_CYC;
-	u64 lst_beacon_tsf;
 	u64 Current_beacon_tsf;
 	u64 Current_tx_tsf;
 	u64 slot_time;
 	u64 overhead_time;
 	u64 slot_index;
 
+	// PTP synchronization
+	u64 log_tx_beacon_tsf;
+	u64 log_rx_beacon_tsf;
+	u64 log_tx_sta_syn_tsf;
+	u64 log_rx_sta_syn_tsf;
+
+	u64 lst_tx_beacon_tsf;
+	u64 lst_rx_beacon_tsf;
+	u64 lst_tx_sta_syn_tsf;
+	u64 lst_rx_sta_syn_tsf;
+
+	u64 ptp_offset;
+	bool SYN_START_FLAG;
+	bool SYN_FIN_FLAG;
+
+	// TDMA info
+	u64 frame_index;
+
+	// For demo
+	bool demo_print;
 };
 
 // -------------------for leds--------------------------------
