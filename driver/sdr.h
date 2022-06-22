@@ -15,42 +15,9 @@
 // Our appended information format would be like this:
 // |AP_tsf (8-byte)| Received TSF(i-th)(8-byte)|index i (2-byte)|
 struct tdma_node {
-	bool is_AP;
-
-    /// time-trigger application
-	int tx_delay;
-	int previous_tx_delay;
-	u64 step;
-	u64 threshold;
-	bool JIT;
-	bool first;
-	bool second;
-	bool reschedule_flag;
-	bool AP_response;
-
-    double RTT_LOG[100];
-
-	int  scheduled_beacon;
-	int  received_beacon_packet;
-	int  scheduled_syn_packet;
-	int  received_syn_packet;
-	int  sent_request_packet;
-
-	u64 current_tsf;
-    u64 beacon_tsf;  
-
     struct sk_buff *pdata_tim;
-
-	u64 Delta_T;
-	u64 HW_CYC;
-	u64 SW_CYC;
-	u64 TDMA_CYC; 
-	u64 init_CYC;
-	u64 Current_beacon_tsf;
-	u64 Current_tx_tsf;
-	u64 slot_time;
-	u64 overhead_time;
-	u64 slot_index;
+	int received_beacon_packet;
+	u64 frame_index;
 
 	// PTP synchronization
 	u64 log_tx_beacon_tsf;
@@ -58,20 +25,54 @@ struct tdma_node {
 	u64 log_tx_sta_syn_tsf;
 	u64 log_rx_sta_syn_tsf;
 
-	u64 lst_tx_beacon_tsf;
-	u64 lst_rx_beacon_tsf;
-	u64 lst_tx_sta_syn_tsf;
-	u64 lst_rx_sta_syn_tsf;
+	u64 last_tx_beacon_tsf;
+	u64 last_rx_beacon_tsf;
+	u64 last_tx_sta_syn_tsf;
+	u64 last_rx_sta_syn_tsf;
 
 	u64 ptp_offset;
-	bool SYN_START_FLAG;
-	bool SYN_FIN_FLAG;
+	u64 sync_frame_index;
+	u64 sync_frame_num;
+
+	bool is_AP;    // *
+	u64 STA_index; // *
+
+	int app_data_port_number;   // *
+	int app_manage_port_number; // *
+
+	u64 HW_frame_duration; // *
+	u64 SW_frame_duration; // * 
+	u64 slot_duration;
+
+	u64 session_0_ratio; // *
+	u64 session_1_ratio; // *
+	u64 session_2_ratio; // *
 
 	// TDMA info
-	u64 frame_index;
+	u64 frame_begining_time;
 
-	// For demo
-	bool demo_print;
+	// For testing 
+	// static time-slot allocation 
+	int STA_session1_slots[20]; // *
+	int STA_session1_Nslots;   // *
+	int STA_session1_index; 
+	u64 STA_session1_last_tsf;
+
+	int STA_session2_slots[10]; // *
+	int STA_session2_Nslots;   // *
+	int STA_session2_index;
+	u64 STA_session2_last_tsf;
+
+	int AP_session1_slots[20];  // *
+	int AP_session1_Nslots;    // *
+	int AP_session1_index;
+	u64 AP_session1_last_tsf;
+
+	int AP_session2_slots[10];  // *
+	int AP_session2_Nslots;    // *
+	int AP_session2_index;
+	u64 AP_session2_last_tsf;
+
 };
 
 // -------------------for leds--------------------------------
@@ -120,6 +121,7 @@ struct openwifi_vif {
 	struct ieee80211_hw *dev;
 	struct hrtimer my_hrtimer;
 	struct hrtimer my_hrtimer1;
+	struct hrtimer my_hrtimer2;
 
 	int idx; // this vif's idx on the dev
 

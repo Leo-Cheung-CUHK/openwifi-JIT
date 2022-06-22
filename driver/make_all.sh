@@ -69,7 +69,7 @@ make KDIR=$LINUX_KERNEL_SRC_DIR ARCH=$ARCH CROSS_COMPILE=$CROSS_COMPILE
 cd $OPENWIFI_DIR/driver/xilinx_dma
 ./make_xilinx_dma.sh $OPENWIFI_DIR $XILINX_DIR $ARCH_OPTION
 
-cd $OPENWIFI_DIR/driver/real-time
+cd $OPENWIFI_DIR/driver/TDMA_driver/misc_module
 make KDIR=$LINUX_KERNEL_SRC_DIR ARCH=$ARCH CROSS_COMPILE=$CROSS_COMPILE
 
 cd $home_dir

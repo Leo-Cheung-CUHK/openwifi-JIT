@@ -1,3 +1,7 @@
+
+PROG=sdr
+rmmod $PROG
+
 killall hostapd
 killall webfsd
 

@@ -1,0 +1,1 @@
+cmd_/home/leo/Documents/workarea/JIT/openwifi/driver/TDMA_driver/misc_module/misc.mod := { echo  /home/leo/Documents/workarea/JIT/openwifi/driver/TDMA_driver/misc_module/misc.o;  echo; } > /home/leo/Documents/workarea/JIT/openwifi/driver/TDMA_driver/misc_module/misc.mod

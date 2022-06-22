@@ -1,0 +1,1 @@
+cmd_/home/yangqun/temp/misc_module_old/misc_module_2/misc2.mod := { echo  /home/yangqun/temp/misc_module_old/misc_module_2/misc2.o;  echo; } > /home/yangqun/temp/misc_module_old/misc_module_2/misc2.mod
