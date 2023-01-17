@@ -1,5 +1,5 @@
 # JIT-SW
-This repository includes Linux driver and software. [JIT-HW](https://github.com/Leo-Cheung-CUHK/JIT-HW) repository has the FPGA design. This repository is based on the original [Openwifi repository](https://github.com/open-sdr/openwifi). This readme only describes the new features provided in JIT-SW. To see more detail about the original design of openwifi-HW, please check the README_Openwifi.md.
+This repository includes Linux driver and software. [openwifi-HW](https://github.com/Leo-Cheung-CUHK/openwifi-hw) repository has the FPGA design. This repository is based on the original [Openwifi repository](https://github.com/open-sdr/openwifi). This readme only describes the new features provided in JIT-SW. To see more detail about the original design of openwifi-HW, please check the README_Openwifi.md.
 
 # New Feature 
 ## Hybrid TDMA/CSMA Channel Access Mechanism
@@ -21,6 +21,63 @@ Whenever sending a packet from driver to hardware, a timestamp is needed to be g
 
 # PTP synchronziation mechanism
 Time synchronization is needed to calibrate the timestamp that is assoicated to a packet. In the JIT network, precise-time-protocol synchronization mechanism is deployed. Details of the basic concept can be found in this [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9480604). 
+
+# Usgae
+After running "./sdk_update.sh $BOARD_NAME $OPENWIFI_DIR" as in README of [openwifi-HW](https://github.com/Leo-Cheung-CUHK/openwifi-hw), then:
+
+* In Linux:
+```
+To compile hardware
+./compile_hardware.sh 
+
+To compile driver
+./compile_driver.sh 
+
+To update to device 
+./update_to_local.sh 
+```
+
+* In Any device:
+```
+cd openwifi/
+chmod 744 update_image.sh setup.sh connect.sh
+```
+TO update hardware image
+```
+./update_image.sh
+```
+then reboot device.
+
+* In AP:
+```
+cd openwifi/
+./setup.sh
+```
+TO run TDMA app server
+```
+python3 UDP_echo_server.py --port 10000
+```
+TO run TDMA management server (update TDMA scheduling)
+```
+python3 TDMA_server.py 
+```
+
+* In STA:
+```
+cd openwifi/
+./connect.sh
+dhclient sdr0
+```
+
+TO run TDMA app client
+```
+python3 UDP_echo_client.py --port 10000
+```
+
+TO connect to TDMA management server (update TDMA scheduling)
+```
+python3 TDMA_client.py
+```
 
 # JIT Paper
 This is the source code of the paper ["A Just-In-Time Networking Framework for Minimizing Request-Response Latency of Wireless Time-Sensitive Applications"](https://arxiv.org/pdf/2109.03032.pdf).
