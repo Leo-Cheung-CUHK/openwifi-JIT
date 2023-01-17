@@ -22,7 +22,7 @@ Whenever sending a packet from driver to hardware, a timestamp is needed to be g
 # PTP synchronziation mechanism
 Time synchronization is needed to calibrate the timestamp that is assoicated to a packet. In the JIT network, precise-time-protocol synchronization mechanism is deployed. Details of the basic concept can be found in this [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9480604). 
 
-# Usgae
+# Usage
 After running "./sdk_update.sh $BOARD_NAME $OPENWIFI_DIR" as in README of [openwifi-HW](https://github.com/Leo-Cheung-CUHK/openwifi-hw), then:
 
 * In Linux:
