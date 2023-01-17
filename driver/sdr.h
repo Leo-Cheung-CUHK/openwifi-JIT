@@ -4,7 +4,7 @@
 
 #define BEACON_EXT_SIZE 8  // Size of vendor extension in beacon frame
 #define BEACON_FCS_SIZE 1
-#define BEACON_GEN_SIZE_5G 51
+#define BEACON_GEN_SIZE_5G 75
 #define BEACON_GEN_SIZE_2G 78
 #define BEACON_INT 
 
@@ -53,22 +53,22 @@ struct tdma_node {
 
 	// For testing 
 	// static time-slot allocation 
-	int STA_session1_slots[20]; // *
+	int STA_session1_slots[6]; // *
 	int STA_session1_Nslots;   // *
 	int STA_session1_index; 
 	u64 STA_session1_last_tsf;
 
-	int STA_session2_slots[10]; // *
+	int STA_session2_slots[4]; // *
 	int STA_session2_Nslots;   // *
 	int STA_session2_index;
 	u64 STA_session2_last_tsf;
 
-	int AP_session1_slots[20];  // *
+	int AP_session1_slots[6];  // *
 	int AP_session1_Nslots;    // *
 	int AP_session1_index;
 	u64 AP_session1_last_tsf;
 
-	int AP_session2_slots[10];  // *
+	int AP_session2_slots[4];  // *
 	int AP_session2_Nslots;    // *
 	int AP_session2_index;
 	u64 AP_session2_last_tsf;

@@ -4,14 +4,11 @@ import socket
 import os
 
 HOST = '192.168.13.1'
-PORT = 10001
+PORT = 9999
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((HOST, PORT))
 
-outdata = ('Hello, Server!')
-s.send(outdata.encode())
-    
 indata = s.recv(1024)
 print('My ID is ' + indata.decode())
 
@@ -32,20 +29,20 @@ if len(indata) == 0: # connection closed
     s.close()
     print('server closed connection.')
 
-binary_vec = [0]*30
+binary_vec = [0]*10
 
 index = 0
 index_1 = 0
 
 for binary_index in range (0,len(binary_vec)):
-    if binary_index < 20:
+    if binary_index < 6:
         if (index < len(STAResource)):
             if (binary_index == STAResource[index]):
                 binary_vec[binary_index] = 1
                 index = index + 1
     else:
         if (index_1 < len(STAResource1)):
-            if (binary_index == STAResource1[index_1]+20):
+            if (binary_index == STAResource1[index_1]+6):
                 binary_vec[binary_index] = 1
                 index_1 = index_1 + 1
 binary_vec.reverse()
@@ -60,25 +57,25 @@ print("My assigned time slots")
 
 binary_vec.reverse()
 for i in range(len(binary_vec)):
-    if i <= 19:
+    if i < 6:
         if i==0:
             print("Session 1: ")
-        print("| ",end =" ")
+        print("| ",end ="")
         if binary_vec[i] == 1:
             print("* |", end ="")
         else:
             print("_ |", end ="")
-        if i==19:
+        if i== 5:
             print("|")
     else:
-        if i == 20:
+        if i == 6:
             print("Session 2: ")
         print("| ",end =" ")
         if binary_vec[i] == 1:
             print("* |", end ="")
         else:
             print("_ |", end ="")
-        if i==29:
+        if i==9:
             print("|")
 
 os.system("./userapp /dev/my_misc 1 "+ str(0)+" "+str(integer_out))

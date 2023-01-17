@@ -19,7 +19,7 @@ STAsResource1 = {}
 
 print('Welcome')
 print('Start to set up this TDMA system!')
-print('We have 30 slots in total. 20 slots for session 1 and 10 slots for session 2')
+print('We have 10 slots in total. 6 slots for session 1 and 4 slots for session 2')
 
 print('For AP')
 
@@ -33,20 +33,20 @@ numbers = list(map(int, s.split()))
 print(numbers)
 APResource1 = numbers
 
-binary_vec = [0]*30
+binary_vec = [0]*10
 
 index = 0
 index_1 = 0
 
 for binary_index in range (0,len(binary_vec)):
-    if binary_index < 20:
+    if binary_index < 6:
         if (index < len(APResource)):
             if (binary_index == APResource[index]):
                 binary_vec[binary_index] = 1
                 index = index + 1
     else:
         if (index_1 < len(APResource1)):
-            if (binary_index == APResource1[index_1]+20):
+            if (binary_index == APResource1[index_1]+6):
                 binary_vec[binary_index] = 1
                 index_1 = index_1 + 1
 binary_vec.reverse()
@@ -69,10 +69,10 @@ for i in range(len(binary_vec)):
             print("* |", end ="")
         else:
             print("_ |", end ="")
-        if i==19:
+        if i== 5:
             print("|")
     else:
-        if i == 20:
+        if i == 6:
             print("Session 2: ")
         print("| ",end =" ")
         if binary_vec[i] == 1:
@@ -80,7 +80,7 @@ for i in range(len(binary_vec)):
         else:
             print("_ |", end ="")
 
-        if i==29:
+        if i==9:
             print("|")
 
 os.system("./userapp /dev/my_misc 1 "+ str(0)+" "+str(integer_out))
@@ -103,7 +103,7 @@ for node_index in range(0,nodesNumMax):
 
 # HOST = get_ip_address('sdr0')
 HOST = '192.168.13.1'
-PORT = 10001
+PORT = 9999
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -120,8 +120,6 @@ while True:
     # add this node to dict
     this_node_ID = randrange(nodesNumMax)
     nodesInfo[str(this_node_ID)] = str(addr[0])
-
-    indata = conn.recv(1024)
 
     outdata = str(this_node_ID)
     conn.send(outdata.encode())

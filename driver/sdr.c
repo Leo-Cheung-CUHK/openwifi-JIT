@@ -78,7 +78,10 @@ typedef struct strcChange
 #pragma  pack(pop)
 
 static STRU_CHANGE Res_Alloc_Vec;
+static STRU_CHANGE TX_Infor_Vec;
+ 
 extern STRU_CHANGE restrive_from_misc(void);
+extern void restrive_from_wifi_driver(STRU_CHANGE);
 
 // driver API of component driver
 extern struct tx_intf_driver_api *tx_intf_api;
@@ -106,21 +109,20 @@ static struct tdma_node Tdma_Node = {.pdata_tim=NULL, .received_beacon_packet = 
 
 
 .SW_frame_duration = 20000000, .HW_frame_duration = 4000000, .slot_duration = 100000,\
-.session_0_ratio = 2000000, .session_1_ratio = 1000000, .session_2_ratio = 1000000,\
+.session_0_ratio = 600000, .session_1_ratio = 400000, .session_2_ratio = 3000000,\
 .frame_begining_time = 0, \
 
+.STA_session1_Nslots=2, .STA_session1_index = 0, .STA_session1_last_tsf = 0,\
+.STA_session1_slots[0] = 3, .STA_session1_slots[1] = 4, \
 
-.STA_session1_Nslots=20, .STA_session1_index = 0, .STA_session1_last_tsf = 0,\
-.STA_session1_slots[0] = 10, .STA_session1_slots[1] = 11, .STA_session1_slots[2] = 12, .STA_session1_slots[3] = 13,\
+.STA_session2_Nslots=2, .STA_session2_index = 0, .STA_session2_last_tsf = 0,\
+.STA_session2_slots[0] = 2, .STA_session2_slots[1] = 3, \
 
-.STA_session2_Nslots=10, .STA_session2_index = 0, .STA_session2_last_tsf = 0,\
-.STA_session2_slots[0] = 4, .STA_session2_slots[1] = 5, \
+.AP_session1_Nslots=2, .AP_session1_index = 0, .AP_session1_last_tsf = 0,\
+.AP_session1_slots[0] = 1, .AP_session1_slots[1] = 2,\
 
-.AP_session1_Nslots=20, .AP_session1_index = 0, .AP_session1_last_tsf = 0,\
-.AP_session1_slots[0] = 1, .AP_session1_slots[1] = 2, .AP_session1_slots[2] = 3, .AP_session1_slots[3] = 4,\
-
-.AP_session2_Nslots=10,.AP_session2_index = 0, .AP_session2_last_tsf = 0,\
-.AP_session2_slots[0]=0, .AP_session2_slots[1]=1,.AP_session2_slots[2]=2, .AP_session2_slots[3]=3};
+.AP_session2_Nslots=2,.AP_session2_index = 0, .AP_session2_last_tsf = 0,\
+.AP_session2_slots[0]=0, .AP_session2_slots[1]=1};
 
 MODULE_AUTHOR("Lihao ZHANG");
 MODULE_DESCRIPTION("SDR driver");
@@ -388,7 +390,7 @@ static u64 calculate_tx_timestamp(u32 tx_queue)
 				slot_index = Tdma_Node.AP_session1_slots[Tdma_Node.AP_session1_index];			
 				timestamp  = Tdma_Node.frame_begining_time + mul_u64_u32_div(Tdma_Node.slot_duration, slot_index, 1); 	
 
-				printk(" openwifi_tx calculate_tx_timestamp: (Session 0 init) slot_index: %lld, timestamp: %lld\n", slot_index, timestamp);			
+				//printk(" openwifi_tx calculate_tx_timestamp: (Session 0 init) slot_index: %lld, timestamp: %lld\n", slot_index, timestamp);			
 			}
 			else
 			{
@@ -400,7 +402,7 @@ static u64 calculate_tx_timestamp(u32 tx_queue)
 					pre_slot_index = Tdma_Node.AP_session1_slots[Tdma_Node.AP_session1_index-1];
 					timestamp  = Tdma_Node.AP_session1_last_tsf + mul_u64_u32_div(Tdma_Node.slot_duration, (slot_index - pre_slot_index), 1);
 
-					printk(" openwifi_tx calculate_tx_timestamp: (Session 0) slot_index: %lld, previous slot_index: %lld, timestamp: %lld, %d-th slot, Nslots: %d\n", slot_index, pre_slot_index, timestamp, Tdma_Node.AP_session1_index, Tdma_Node.AP_session1_Nslots);			
+					//printk(" openwifi_tx calculate_tx_timestamp: (Session 0) slot_index: %lld, previous slot_index: %lld, timestamp: %lld, %d-th slot, Nslots: %d\n", slot_index, pre_slot_index, timestamp, Tdma_Node.AP_session1_index, Tdma_Node.AP_session1_Nslots);			
 				}
 				else
 				{
@@ -410,7 +412,7 @@ static u64 calculate_tx_timestamp(u32 tx_queue)
 
 					timestamp  = Tdma_Node.AP_session1_last_tsf + Tdma_Node.HW_frame_duration -  mul_u64_u32_div(Tdma_Node.slot_duration, (pre_slot_index - slot_index), 1);
 
-					printk(" openwifi_tx calculate_tx_timestamp: (Session 0 wrap around) slot_index: %lld, previous slot_index: %lld, timestamp: %lld\n", slot_index, pre_slot_index, timestamp);			
+					//printk(" openwifi_tx calculate_tx_timestamp: (Session 0 wrap around) slot_index: %lld, previous slot_index: %lld, timestamp: %lld\n", slot_index, pre_slot_index, timestamp);			
 				}
 			}
 			Tdma_Node.AP_session1_last_tsf = timestamp;
@@ -466,7 +468,7 @@ static u64 calculate_tx_timestamp(u32 tx_queue)
 				slot_index = Tdma_Node.STA_session1_slots[Tdma_Node.STA_session1_index];			
 				timestamp  = Tdma_Node.frame_begining_time + mul_u64_u32_div(Tdma_Node.slot_duration, slot_index, 1);
 
-				printk(" openwifi_tx calculate_tx_timestamp: (Session 0 init) slot_index: %lld, timestamp: %lld\n", slot_index, timestamp);			
+				//printk(" openwifi_tx calculate_tx_timestamp: (Session 0 init) slot_index: %lld, timestamp: %lld\n", slot_index, timestamp);			
 			}
 			else
 			{
@@ -478,7 +480,7 @@ static u64 calculate_tx_timestamp(u32 tx_queue)
 					pre_slot_index = Tdma_Node.STA_session1_slots[Tdma_Node.STA_session1_index-1];
 					timestamp  = Tdma_Node.STA_session1_last_tsf + mul_u64_u32_div(Tdma_Node.slot_duration, (slot_index - pre_slot_index), 1);
 
-					printk(" openwifi_tx calculate_tx_timestamp: (Session 0) slot_index: %lld, previous slot_index: %lld, timestamp: %lld, %d-th slot, Nslots: %d\n", slot_index, pre_slot_index, timestamp, Tdma_Node.STA_session1_index, Tdma_Node.STA_session1_Nslots);			
+					//printk(" openwifi_tx calculate_tx_timestamp: (Session 0) slot_index: %lld, previous slot_index: %lld, timestamp: %lld, %d-th slot, Nslots: %d\n", slot_index, pre_slot_index, timestamp, Tdma_Node.STA_session1_index, Tdma_Node.STA_session1_Nslots);			
 				}
 				else
 				{
@@ -488,7 +490,7 @@ static u64 calculate_tx_timestamp(u32 tx_queue)
 
 					timestamp  = Tdma_Node.STA_session1_last_tsf + Tdma_Node.HW_frame_duration - mul_u64_u32_div(Tdma_Node.slot_duration, (pre_slot_index - slot_index), 1);
 
-					printk(" openwifi_tx calculate_tx_timestamp: (Session 0 wrap around) slot_index: %lld, previous slot_index: %lld, timestamp: %lld\n", slot_index, pre_slot_index, timestamp);			
+					//printk(" openwifi_tx calculate_tx_timestamp: (Session 0 wrap around) slot_index: %lld, previous slot_index: %lld, timestamp: %lld\n", slot_index, pre_slot_index, timestamp);			
 				}
 			}
 			Tdma_Node.STA_session1_last_tsf = timestamp;	
@@ -560,9 +562,9 @@ static u32 calculate_tx_queue(struct sk_buff *skb)   // parse SKB, returned resu
 		dport = htons((unsigned short int) tcp_header->dest);   //dport now has the dest port
 
 		printk(" TCP ports: source: %d, dest: %d .\n", sport, dport);
-		if (dport == Tdma_Node.app_data_port_number)
+		if ((sport == Tdma_Node.app_data_port_number) || (dport == Tdma_Node.app_data_port_number))
 			queue_index = 0;
-		else if (dport == Tdma_Node.app_manage_port_number)
+		else if ((sport == Tdma_Node.app_manage_port_number) || (dport == Tdma_Node.app_manage_port_number))
 			queue_index = 1;
 		else
 			queue_index = 2;
@@ -575,9 +577,9 @@ static u32 calculate_tx_queue(struct sk_buff *skb)   // parse SKB, returned resu
 		dport = htons((unsigned short int) udp_header->dest);   //dport now has the dest port
 
 		printk(" UDP ports: source: %d, dest: %d .\n", sport, dport);
-		if (dport == Tdma_Node.app_data_port_number)
+		if ((sport == Tdma_Node.app_data_port_number) || (dport == Tdma_Node.app_data_port_number))
 			queue_index = 0;
-		else if (dport == Tdma_Node.app_manage_port_number)
+		else if ((sport == Tdma_Node.app_manage_port_number) || (dport == Tdma_Node.app_manage_port_number))
 			queue_index = 1;
 		else
 			queue_index = 2;
@@ -769,8 +771,10 @@ static void openwifi_tx(struct ieee80211_hw *dev,
 	u32 dma_fifo_no_room_flag, hw_queue_len;
 	enum dma_status status;
 
-	u64 tx_timestamp;
+	u64 tx_timestamp, init_timestamp, slack_timestamp;
 	bool is_beacon, is_PTP_frame;
+
+	init_timestamp = openwifi_get_tsf_simp();
 
 	is_beacon = false;
 	is_PTP_frame = false;
@@ -918,6 +922,15 @@ static void openwifi_tx(struct ieee80211_hw *dev,
 		}
 		else
 			openwifi_set_tx_tsf(tx_timestamp + 20);	
+	}
+
+	if (queue_idx == 0 && is_beacon == false)
+	{
+		slack_timestamp = tx_timestamp - init_timestamp;
+
+		TX_Infor_Vec.user_ID  = Res_Alloc_Vec.user_ID;
+		TX_Infor_Vec.allo_vec = slack_timestamp;
+		restrive_from_wifi_driver(TX_Infor_Vec);
 	}
 
 	//if it is broadcasting or multicasting addr
@@ -1215,7 +1228,10 @@ static irqreturn_t openwifi_tx_interrupt(int irq, void *dev_id)
 
 			ieee80211_tx_status_irqsafe(dev, skb);
 			loop_count++;
-			// printk("%s openwifi_tx_interrupt: loop %d prio %d rd %d\n", sdr_compatible_str, loop_count, prio, ring->bd_rd_idx);
+			if ( (fc_type != 0) && ( fc_subtype != 8))
+			{
+				printk("%s openwifi_tx_interrupt: fc_type %d fc_subtype %d loop %d prio %d rd %d\n", sdr_compatible_str, fc_type, fc_subtype, loop_count, prio, ring->bd_rd_idx);
+			}
 
 		} else
 		{

@@ -14,12 +14,19 @@ typedef struct strcChange
 
 static int open_state;
 static STRU_CHANGE strChangeData1;
+static STRU_CHANGE timeSlack;
 
 static STRU_CHANGE restrive_from_misc(void)
 {
     return strChangeData1;
 }
 EXPORT_SYMBOL(restrive_from_misc);
+
+static void restrive_from_wifi_driver(STRU_CHANGE time_slack)
+{
+	timeSlack = time_slack;
+}
+EXPORT_SYMBOL(restrive_from_wifi_driver);
 
 static int misc_open(struct inode *inode, struct file *file)
 {
@@ -49,12 +56,13 @@ static ssize_t misc_read(struct file *filp, char * buffer, size_t count, loff_t 
 	int retvalue;
 	unsigned char databuf[10];
 	//STRU_CHANGE strChangeData1;
-	strChangeData1.user_ID = 0x01;
-    strChangeData1.allo_vec = 0x07060504;
+	// timeSlack.user_ID = 0x01;
+    // timeSlack.allo_vec = 0x07060504;
     	
-    	memcpy(databuf, &strChangeData1, sizeof(strChangeData1));
-    	retvalue = copy_to_user(buffer, databuf, count);
-    	if(retvalue < 0) {
+    memcpy(databuf, &timeSlack, sizeof(timeSlack));
+    retvalue = copy_to_user(buffer, databuf, count);
+
+    if(retvalue < 0) {
 		printk("kernel read failed!\r\n");
 		return -EFAULT;
 	}

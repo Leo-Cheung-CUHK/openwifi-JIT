@@ -1,2 +1,3 @@
 0x00f016fa	func1	/home/leo/Documents/workarea/JIT/openwifi/driver/TDMA_driver/misc_module/misc	EXPORT_SYMBOL
+0x30549fbf	restrive_from_wifi_driver	/home/leo/Documents/workarea/JIT/openwifi/driver/TDMA_driver/misc_module/misc	EXPORT_SYMBOL
 0xb1a2b9ea	restrive_from_misc	/home/leo/Documents/workarea/JIT/openwifi/driver/TDMA_driver/misc_module/misc	EXPORT_SYMBOL
