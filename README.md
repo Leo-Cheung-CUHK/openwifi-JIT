@@ -80,8 +80,16 @@ python3 TDMA_client.py
 ```
 
 # JIT Paper
-This is the source code of the paper ["A Just-In-Time Networking Framework for Minimizing Request-Response Latency of Wireless Time-Sensitive Applications"](https://arxiv.org/pdf/2109.03032.pdf).
+This is the source code of the paper ["A Just-In-Time Networking Framework for Minimizing Request-Response Latency of Wireless Time-Sensitive Applications"](https://ieeexplore.ieee.org/abstract/document/9984846).
 
 Please cite our publication if you intened to use this repo.
 
-@article{zhang2021just, title={A Just-In-Time Networking Framework for Minimizing Request-Response Latency of Wireless Time-Sensitive Applications}, author={Zhang, Lihao and Liew, Soung Chang and Chen, He}, journal={arXiv preprint arXiv:2109.03032}, year={2021} }
+@ARTICLE{9984846,
+  author={Zhang, Lihao and Liew, Soung Chang and Chen, He},
+  journal={IEEE Internet of Things Journal}, 
+  title={A Just-In-Time Networking Framework for Minimizing Request-Response Latency of Wireless Time-Sensitive Applications}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/JIOT.2022.3229125}}
